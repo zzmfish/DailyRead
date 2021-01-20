@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "statically-configure-a-firewall-to-let-omg-dds-traffic-through"
 ---
 
