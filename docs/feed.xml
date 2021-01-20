@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-01-20T21:16:49+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战</title><link href="https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98.html" rel="alternate" type="text/html" title="PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战" /><published>2021-01-20T00:00:00+08:00</published><updated>2021-01-20T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB:%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98.html">&lt;h2 id=&quot;ponyai技术解读自动驾驶中轨迹规划的探索和挑战&quot;&gt;PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-01-20T21:29:58+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战</title><link href="https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98.html" rel="alternate" type="text/html" title="PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战" /><published>2021-01-20T00:00:00+08:00</published><updated>2021-01-20T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB:%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98.html">&lt;p&gt;2021年1月20日 星期三&lt;/p&gt;
+
+&lt;h2 id=&quot;ponyai技术解读自动驾驶中轨迹规划的探索和挑战&quot;&gt;PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战&lt;/h2&gt;
 
 &lt;h4 id=&quot;轨迹规划基本介绍&quot;&gt;轨迹规划基本介绍&lt;/h4&gt;
 
@@ -131,7 +133,9 @@
 
 &lt;p&gt;4、&lt;strong&gt;横纵向协调配合&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/cJNQNDrNyttV9a8UK2SkfQ&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战</summary></entry><entry><title type="html">英特尔FMCW激光雷达</title><link href="https://zzmfish.github.io/DailyRead/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE.html" rel="alternate" type="text/html" title="英特尔FMCW激光雷达" /><published>2021-01-20T00:00:00+08:00</published><updated>2021-01-20T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE.html">&lt;h2 id=&quot;英特尔mobileye最新发布的fmcw激光雷达有何过人之处&quot;&gt;英特尔Mobileye最新发布的FMCW激光雷达有何过人之处&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/cJNQNDrNyttV9a8UK2SkfQ&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">2021年1月20日 星期三</summary></entry><entry><title type="html">英特尔FMCW激光雷达</title><link href="https://zzmfish.github.io/DailyRead/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE.html" rel="alternate" type="text/html" title="英特尔FMCW激光雷达" /><published>2021-01-20T00:00:00+08:00</published><updated>2021-01-20T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE.html">&lt;p&gt;2021年1月20日 星期三&lt;/p&gt;
+
+&lt;h2 id=&quot;英特尔mobileye最新发布的fmcw激光雷达有何过人之处&quot;&gt;英特尔Mobileye最新发布的FMCW激光雷达有何过人之处&lt;/h2&gt;
 
 &lt;h4 id=&quot;激光雷达原理&quot;&gt;激光雷达原理&lt;/h4&gt;
 
@@ -243,7 +247,7 @@
   &lt;li&gt;成熟度&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/i2U34MvbPFpcxk4xSwKGFQ&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">英特尔Mobileye最新发布的FMCW激光雷达有何过人之处</summary></entry><entry><title type="html">四元数,DDS端口,自律的人</title><link href="https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html" rel="alternate" type="text/html" title="四元数,DDS端口,自律的人" /><published>2021-01-19T00:00:00+08:00</published><updated>2021-01-19T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html">&lt;p&gt;2021年1月19日 星期二&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/i2U34MvbPFpcxk4xSwKGFQ&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">2021年1月20日 星期三</summary></entry><entry><title type="html">四元数,DDS端口,自律的人</title><link href="https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html" rel="alternate" type="text/html" title="四元数,DDS端口,自律的人" /><published>2021-01-19T00:00:00+08:00</published><updated>2021-01-19T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html">&lt;p&gt;2021年1月19日 星期二&lt;/p&gt;
 
 &lt;h2 id=&quot;欧拉角四元数旋转矩阵推导及相互关系&quot;&gt;欧拉角、四元数、旋转矩阵推导及相互关系&lt;/h2&gt;
 
@@ -623,9 +627,7 @@ PG  (participant_id_gain)   = 2
 
 &lt;p&gt;俄国家杜马议员茹拉夫列夫谴责这是在新冠疫情大流行期间&lt;strong&gt;西方制药公司的商业战引发的可怕后果&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;p&gt;俄直投基金称曾通过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;推特&lt;/code&gt;分享俄&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“卫星-V”疫苗&lt;/code&gt;的所有信息，但他们的账户却被平台&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;限制用户访问&lt;/code&gt;。&lt;/p&gt;</content><author><name></name></author><summary type="html">2021年1月17日 星期日 拼多多漩涡背后：数字码农，从未逃出残酷的原始社会</summary></entry><entry><title type="html">何小鹏卖的是车吗</title><link href="https://zzmfish.github.io/DailyRead/2021/01/16/%E4%BD%95%E5%B0%8F%E9%B9%8F%E5%8D%96%E7%9A%84%E6%98%AF%E8%BD%A6%E5%90%97.html" rel="alternate" type="text/html" title="何小鹏卖的是车吗" /><published>2021-01-16T00:00:00+08:00</published><updated>2021-01-16T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/16/%E4%BD%95%E5%B0%8F%E9%B9%8F%E5%8D%96%E7%9A%84%E6%98%AF%E8%BD%A6%E5%90%97</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/16/%E4%BD%95%E5%B0%8F%E9%B9%8F%E5%8D%96%E7%9A%84%E6%98%AF%E8%BD%A6%E5%90%97.html">&lt;h1 id=&quot;1116何小鹏卖的是车吗&quot;&gt;1116.何小鹏卖的是车吗&lt;/h1&gt;
-
-&lt;p&gt;2021年1月16日&lt;/p&gt;
+&lt;p&gt;俄直投基金称曾通过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;推特&lt;/code&gt;分享俄&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“卫星-V”疫苗&lt;/code&gt;的所有信息，但他们的账户却被平台&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;限制用户访问&lt;/code&gt;。&lt;/p&gt;</content><author><name></name></author><summary type="html">2021年1月17日 星期日 拼多多漩涡背后：数字码农，从未逃出残酷的原始社会</summary></entry><entry><title type="html">何小鹏卖的是车吗</title><link href="https://zzmfish.github.io/DailyRead/2021/01/16/%E4%BD%95%E5%B0%8F%E9%B9%8F%E5%8D%96%E7%9A%84%E6%98%AF%E8%BD%A6%E5%90%97.html" rel="alternate" type="text/html" title="何小鹏卖的是车吗" /><published>2021-01-16T00:00:00+08:00</published><updated>2021-01-16T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/16/%E4%BD%95%E5%B0%8F%E9%B9%8F%E5%8D%96%E7%9A%84%E6%98%AF%E8%BD%A6%E5%90%97</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/16/%E4%BD%95%E5%B0%8F%E9%B9%8F%E5%8D%96%E7%9A%84%E6%98%AF%E8%BD%A6%E5%90%97.html">&lt;p&gt;2021年1月16日&lt;/p&gt;
 
 &lt;h2 id=&quot;何小鹏卖的是车吗&quot;&gt;何小鹏卖的是车吗？&lt;/h2&gt;
 
@@ -667,109 +669,7 @@ PG  (participant_id_gain)   = 2
 
 &lt;p&gt;&lt;strong&gt;每一次攀登、点亮科技树上未知的一部分，都代表着我们未来的生活，又多了成百上千中可能性&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/GrbCvM8KgyFGUad8PARyHw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">1116.何小鹏卖的是车吗</summary></entry><entry><title type="html">statically-configure-a-firewall-to-let-omg-dds-traffic-through</title><link href="https://zzmfish.github.io/DailyRead/2021/01/15/statically-configure-a-firewall-to-let-omg-dds-traffic-through.html" rel="alternate" type="text/html" title="statically-configure-a-firewall-to-let-omg-dds-traffic-through" /><published>2021-01-15T00:00:00+08:00</published><updated>2021-01-15T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/15/statically-configure-a-firewall-to-let-omg-dds-traffic-through</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/15/statically-configure-a-firewall-to-let-omg-dds-traffic-through.html">&lt;h1 id=&quot;statically-configure-a-firewall-to-let-omg-dds-traffic-through&quot;&gt;Statically configure a Firewall to let OMG DDS Traffic through&lt;/h1&gt;
-
-&lt;p&gt;There are various strategies that can be used to have DDS applications communicate between each other &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;despite&lt;/code&gt; the fact that one or more of these applications are protected by a firewall.&lt;/p&gt;
-
-&lt;p&gt;尽管应用程序可能被防火墙隔离，还是有多种策略可以让DDS应用程序彼此通讯。&lt;/p&gt;
-
-&lt;p&gt;This HOWTO focuses in the situation where there is a desire to use static configuration (i.e. manually open specific ports or multicast addresses in the firewall) and the applications are protected with Firewalls but are not behind Network Address Translators (NATs). In other words the IP of one computer is reachable from the other directly (assuming the Firewall forwards the traffic).&lt;/p&gt;
-
-&lt;h2 id=&quot;background-ports-used-by-dds-discovery&quot;&gt;Background: Ports used by DDS Discovery&lt;/h2&gt;
-
-&lt;p&gt;The ports (and multicast addresses) used by DDS implementations (such as RTI Connext DDS) are specified by the &lt;a href=&quot;http://www.omg.org/spec/DDS-RTPS/&quot;&gt;OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS)&lt;/a&gt;.By default, each DomainParticipant opens 4 UDP/IP ports: Two of those ports are multicast ports which are shared among all domain participants in the same DomainId. The other two are unicast ports which are different for each participant within a computer. The multicast IP address used for discovery is 239.255.0.1 by default consistent which the DDS-RTPS specification.&lt;/p&gt;
-
-&lt;p&gt;The ports used are given by a formula that depends on the DDS domainId and the number of participants that are already running on the same operating system instance (computer or virtual machines):&lt;/p&gt;
-
-&lt;p&gt;Multicast Ports (common to all applications on a domainId):&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryMulticastPort  =   PB + DG * domainId + d0
-UserMulticastPort    =   PB + DG * domainId + d2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Unicast Ports (different for each participant running on a single operating system instance. Computer or VM):&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryUnicastPort    =   PB + DG * domainId + d1 + PG * participantId
-UserUnicastPort         =   PB + DG * domainId + d3 + PG * participantId
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;These formulas are depend on two variables: domainId and participantId&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;domainId      - Is the DDS domainId
-participantId - Is an integer starting at 0 that enumerates each participant 
-                that runs on a given operating system instance (computer 
-                or virtual machine). 
-                The first participant will be 0, the second 1, etc.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The formulas are parameterized by the constants d0, d1, d2, d3, PB, DG, and PG which are all defined in the OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS) as follows:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;d0  (builtin_multicast_port_offset)    = 0
-d2  (user_multicast_port_offset)       = 1 
-d1  (builtin_unicast_port_offset)      = 10
-d3  (user_unicast_port_offset)         = 11
-PB  (port_base)             = 7400
-DG ( domain_id_gain)        = 250
-PG  (participant_id_gain)   = 2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;For example, assuming you are running in domainId=0 (the default), if you have two participants running in the computer, then the ports used will be:&lt;/p&gt;
-
-&lt;p&gt;All applications:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryMulticastPort  = 7400
-UserMulticastPort       = 7401
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;First application:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryUnicastPort    = 7410
-UserUnicastPort         = 7411
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Second application:&lt;/p&gt;
-
-&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryUnicastPort    = 7412
-UserUnicastPort         = 7413
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;So if the maximum number of participants that will be running on the computer is 2, you need to open the following ports in the firewall: 7400, 7401, 7410, 7411, 7412, 7413 You can download this &lt;a href=&quot;http://community.rti.com/filedepot?cid=11&amp;amp;fid=14&quot;&gt;Spreadsheet UDP Ports Used by OMG DDS&lt;/a&gt; to compute which ports will be open for a specific domainId and participantId.&lt;/p&gt;
-
-&lt;p&gt;It should be noted that the above formulas are for the default setup which complies with the OMG DDS Interoperability Wire Protocol. In addition to this RTI Connext DDS allows integrators to change the port mappings to fit specific deployment scenario. This is done using the WireProtocolQosPolicy within the DomainParticipantQos&lt;/p&gt;
-
-&lt;p&gt;Specifically the member rtps_well_known_ports within the &lt;a href=&quot;http://community.rti.com/rti-doc/500/ndds.5.0.0/doc/html/api_cpp/structDDS__WireProtocolQosPolicy.html&quot;&gt;WireProtocolQosPolicy&lt;/a&gt; allows an application to override the default settings for all the above constants. Note that if this Qos Policy is changed, then it must be done consistently on all the DomainParticipants within the DDS Domain or else they will not discover each other.&lt;/p&gt;
-
-&lt;h2 id=&quot;opening-firewall-ports&quot;&gt;Opening firewall ports&lt;/h2&gt;
-
-&lt;p&gt;If your firewall configuration supports opening multicast addresses for given ports as well as opening ports without specifying a particular IP where to redirect the packets received on that port then taking advanatge of this feature is often the simplest thing to do.&lt;/p&gt;
-
-&lt;p&gt;First use the &lt;a href=&quot;http://community.rti.com/filedepot?cid=11&amp;amp;fid=14&quot;&gt;Spreadsheet UDP Ports Used by OMG DDS&lt;/a&gt; to determine which ports you need to open based on the domainId (or domainIds) that will be communicating across the firewall and the maximum number of participants that you will ever have running on a a single computer on that domain Id. If you are unsure of this number just use the maximum of 120 participants (participantId 0-119).&lt;/p&gt;
-
-&lt;p&gt;For example if we will be communicating on domainId=0 and we want to open ports for any number of participants per computer (up to the maximum), then we would open the UDP range 7400-7649 (both included). 7400 is the lowest UDP port used when participantId=0 and 7649 is the highest one used when participantId=119&lt;/p&gt;
-
-&lt;p&gt;If we wanted the same only for domainId=10, then we would open UDP ports 9900-10149.&lt;/p&gt;
-
-&lt;p&gt;In addition to the above you also need to configure the firewall to forward multicast packets on the multicast address 239.255.0.1 for the multicast ports in the domainId that you plan to use. For example if you are using domainId=0, you need to configure that multicast address to be open on UDP ports 7400 and 7401. If yiu are using domainId=10 it would be UDP ports 9900 amd 9901.&lt;/p&gt;
-
-&lt;h2 id=&quot;setting-port-forwarding-rules-in-the-firewall-or-firewalls-that-do-not-support-multicast&quot;&gt;Setting port-forwarding rules in the firewall or firewalls that do not support multicast&lt;/h2&gt;
-
-&lt;p&gt;Some firewalls do not allow ports to simply be open such that packets can reach any computer behind the firewall. Rather they only allow ports to be forwarded where all IP packets reaching the firewall on that port are forwarded to a specific IP address (and port number) behind the firewall. Other firewalls cannot be configured to forward multicast IP packets.&lt;/p&gt;
-
-&lt;p&gt;If you have this kind of firewall and you are planning to run DDS on more than one computer behind the firewall then you face a problem. The packets forwarded by the firewall on a particular port can only go to one destination so it would not be possible to reach all the computers behind the firewall.&lt;/p&gt;
-
-&lt;p&gt;The solution to this scenario is to deploy a RTI DDS Routing Service behind the Firewall. The RTI DDS Routing Service acts as proxy for all the computers that run DDS behind the firewall. The Firewall is configured to forward all traffic on the DDS ports to the RTI DDS Routing Service and this application will then relay it to their intended destinations.&lt;/p&gt;
-
-&lt;p&gt;The RTI DDS Routing Service can be configured to automatically relay all traffic between two domains, or to do it only for certain DDS Topics, or packets with specific content on a Topic, giving you additional control over which data flows in and out of the Firewall via DDS.&lt;/p&gt;
-
-&lt;p&gt;The RTI DDS Routing Service will have two DomainParticipants each with its own domainId. One domainId is used to communicate with the applications outside the firewall and the other with the applications inside. Since all the DDS traffic from the firewall is forwarded to the Participant in the RTI DDS Routing Service that is using the domainId chosen for the “outside-the-firewall” configuration you only need to forward the ports that domainId.&lt;/p&gt;
-
-&lt;p&gt;For example, assume we choose domainId=0 to be our “outside the firewall” domain and domainId=1 for the applications behind the firewall. Then we just need to forward the ports to a single participant running on domainId=0 (the one inside RTI DDS Routing Service) so this only necessitates opening ports 7400-7411 (both included).&lt;/p&gt;
-
-&lt;p&gt;The above assumes you will only one instance of the RTI DDS Routing Service, which is the normal case. If you wanted to run multiple instances on the same computer, for example to a redundant scenario or a load-balancing scenario, then you would have t take that into consideration when computing the range of ports that should be forwarded.&lt;/p&gt;
-
-&lt;h2 id=&quot;reaching-applications-behing-a-firewall-with-a-nat&quot;&gt;Reaching applications behing a firewall with a NAT&lt;/h2&gt;
-
-&lt;p&gt;If the firewall also has a Network Address Translators (NATs), then the IP addresses of any computer inside the firewall are not directly reachable outside the firewall. This scenario is also supported using the RTI DDS Routing Service but the setup will be explained in a separate HOWTO.&lt;/p&gt;</content><author><name></name></author><summary type="html">Statically configure a Firewall to let OMG DDS Traffic through</summary></entry><entry><title type="html">地球加速自转</title><link href="https://zzmfish.github.io/DailyRead/2021/01/14/%E5%9C%B0%E7%90%83%E5%8A%A0%E9%80%9F%E8%87%AA%E8%BD%AC.html" rel="alternate" type="text/html" title="地球加速自转" /><published>2021-01-14T00:00:00+08:00</published><updated>2021-01-14T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/14/%E5%9C%B0%E7%90%83%E5%8A%A0%E9%80%9F%E8%87%AA%E8%BD%AC</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/14/%E5%9C%B0%E7%90%83%E5%8A%A0%E9%80%9F%E8%87%AA%E8%BD%AC.html">&lt;h1 id=&quot;0114地球加速自转&quot;&gt;0114.地球加速自转&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/GrbCvM8KgyFGUad8PARyHw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">2021年1月16日</summary></entry><entry><title type="html">地球加速自转</title><link href="https://zzmfish.github.io/DailyRead/2021/01/14/%E5%9C%B0%E7%90%83%E5%8A%A0%E9%80%9F%E8%87%AA%E8%BD%AC.html" rel="alternate" type="text/html" title="地球加速自转" /><published>2021-01-14T00:00:00+08:00</published><updated>2021-01-14T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/14/%E5%9C%B0%E7%90%83%E5%8A%A0%E9%80%9F%E8%87%AA%E8%BD%AC</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/14/%E5%9C%B0%E7%90%83%E5%8A%A0%E9%80%9F%E8%87%AA%E8%BD%AC.html">&lt;h1 id=&quot;0114地球加速自转&quot;&gt;0114.地球加速自转&lt;/h1&gt;
 
 &lt;p&gt;2021年1月14日 星期四&lt;/p&gt;
 
