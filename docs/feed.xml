@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-01-20T17:06:33+08:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">英特尔fmcw激光雷达</title><link href="/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE.html" rel="alternate" type="text/html" title="英特尔fmcw激光雷达" /><published>2021-01-20T00:00:00+08:00</published><updated>2021-01-20T00:00:00+08:00</updated><id>/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE</id><content type="html" xml:base="/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE.html">&lt;h2 id=&quot;英特尔mobileye最新发布的fmcw激光雷达有何过人之处&quot;&gt;英特尔Mobileye最新发布的FMCW激光雷达有何过人之处&lt;/h2&gt;
+
+&lt;h4 id=&quot;激光雷达原理&quot;&gt;激光雷达原理&lt;/h4&gt;
+
+&lt;h6 id=&quot;拍频原理&quot;&gt;拍频原理&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;信号发生器发出频率随时间呈&lt;strong&gt;三角波&lt;/strong&gt;变化的信号给发射机&lt;/li&gt;
+  &lt;li&gt;接收机接收这个频率呈三角状变化的信号&lt;/li&gt;
+  &lt;li&gt;通过对两个信号的拍频测量就可以得到距离信息&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/sz_mmbiz_png/2icOarNW84W54R7HLJXyFRFzjnC8ARWppM1W6sksgddL7EQ60gOUpXKrYDZNguf2AtxZIq1xawHt2NAtzMs9NGg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;激光雷达性能指标&quot;&gt;激光雷达性能指标&lt;/h4&gt;
+
+&lt;h6 id=&quot;距离分辨力&quot;&gt;距离分辨力&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;单次测量中可区分的目标间最小距离&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;由&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;光源调制带宽&lt;/code&gt;决定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;角分辨力&quot;&gt;角分辨力&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;单次探测中把距离R相同但是相对角度不同的目标区分开的能力&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;根据高斯光束的瑞利判据，光束发散角θ受到发射端准直器的孔径d与光载波波长λ的影响，满足θ=1.27λ/d&lt;/li&gt;
+  &lt;li&gt;可区分的径向距离SA可表示为SA≥2R⋅sin(θ/2)&lt;/li&gt;
+  &lt;li&gt;常用方法是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;增加天线孔径d&lt;/code&gt;以减小光束发散角&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;距离测量准确度&quot;&gt;距离测量准确度&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;测得的距离分布的均值与真实距离之间的差距&lt;/li&gt;
+  &lt;li&gt;主要受到光源频率调制的线性度和测量系统校准的影响&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;角测量准确度&quot;&gt;角测量准确度&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;受发射端扫描器件的角度准确度影响&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;距离测量与角测量结果的精度&quot;&gt;距离测量与角测量结果的精度&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;对同一目标测量结果的一致性程度&lt;/li&gt;
+  &lt;li&gt;受到光源的各参数稳定度和角扫描重复性与最小步长的影响&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;测量速率&quot;&gt;测量速率&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;获得一个探测数据的时间的倒数&lt;/li&gt;
+  &lt;li&gt;主要受限于调制信号重复速率&lt;/li&gt;
+  &lt;li&gt;高重复速率和长可探测距离不可兼得&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;调试技术&quot;&gt;调试技术&lt;/h4&gt;
+
+&lt;h6 id=&quot;内调制技术&quot;&gt;内调制技术&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;调制过程与激光振荡建立同时进行的调制&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;做成芯片是目前业内主要研发方向&lt;/li&gt;
+  &lt;li&gt;半导体激光器本身的结电容限制了激光器的响应速率以及腔内光场建立时间的存在，使得可调谐范围、调谐速率、输出线宽等参数较难进一步提高&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;外调制技术&quot;&gt;外调制技术&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;在激光振荡建立之后，在激光射出的光路上使用调制器对光场参数进行调&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;声光调制&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;工作带宽相对较窄&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;电光调制&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;体积庞大，难以芯片化&lt;/li&gt;
+      &lt;li&gt;主要用在非车载领域&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;fmcw激光雷达的优势&quot;&gt;FMCW激光雷达的优势&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;信噪比高&lt;/li&gt;
+  &lt;li&gt;功耗低&lt;/li&gt;
+  &lt;li&gt;与距离物体远近不直接相关
+    &lt;ul&gt;
+      &lt;li&gt;ToF激光雷达越远测距准确度越低&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;与物体运动速度不直接相关
+    &lt;ul&gt;
+      &lt;li&gt;相对运动越快，ToF测距准确度越差，甚至出现物体畸变&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;fmcw激光雷达的缺点&quot;&gt;FMCW激光雷达的缺点&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;成本高&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;旁瓣干扰&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;轻微延迟&lt;/li&gt;
+  &lt;li&gt;成熟度&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/i2U34MvbPFpcxk4xSwKGFQ&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">英特尔Mobileye最新发布的FMCW激光雷达有何过人之处</summary></entry><entry><title type="html">四元数,dds端口,自律的人</title><link href="/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html" rel="alternate" type="text/html" title="四元数,dds端口,自律的人" /><published>2021-01-19T00:00:00+08:00</published><updated>2021-01-19T00:00:00+08:00</updated><id>/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA</id><content type="html" xml:base="/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html">&lt;p&gt;2021年1月19日 星期二&lt;/p&gt;
+
+&lt;h2 id=&quot;欧拉角四元数旋转矩阵推导及相互关系&quot;&gt;欧拉角、四元数、旋转矩阵推导及相互关系&lt;/h2&gt;
+
+&lt;h4 id=&quot;旋转与旋转矩阵&quot;&gt;旋转与旋转矩阵&lt;/h4&gt;
+
+&lt;h6 id=&quot;2d旋转&quot;&gt;2D旋转&lt;/h6&gt;
+
+&lt;p&gt;与右手系旋转方向相同的为&lt;strong&gt;旋转正方向&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;二维平面内旋转&lt;/p&gt;
+
+\[\left(
+    \begin{matrix}
+    	x&apos; \\
+    	y&apos;
+    \end{matrix}
+\right)
+=
+\left(
+    \begin{matrix}
+    	cosα &amp;amp; −sinα\\
+    	sinα &amp;amp; cosα
+    \end{matrix}
+\right)
+\left(
+    \begin{matrix}
+    	x \\
+    	y
+    \end{matrix}
+\right)\]
+
+&lt;h6 id=&quot;3d旋转&quot;&gt;3D旋转&lt;/h6&gt;
+
+&lt;p&gt;绕Z轴旋转α角
+\(\left(
+    \begin{matrix}
+    	x&apos; \\
+    	y&apos; \\
+    	z
+    \end{matrix}
+\right)
+=
+\left(
+    \begin{matrix}
+    	cosα &amp;amp; −sinα &amp;amp; 0\\
+    	sinα &amp;amp; cosα &amp;amp; 0 \\
+    	0 &amp;amp; 0 &amp;amp; 1
+    \end{matrix}
+\right)
+\left(
+    \begin{matrix}
+    	x \\
+    	y \\
+    	z
+    \end{matrix}
+\right)\)&lt;/p&gt;
+
+&lt;p&gt;旋转矩阵
+\(R_z(α)=
+\left(
+    \begin{matrix}
+    	cosα &amp;amp; −sinα &amp;amp; 0\\
+    	sinα &amp;amp; cosα &amp;amp; 0 \\
+    	0 &amp;amp; 0 &amp;amp; 1
+    \end{matrix}
+\right)\)
+绕X轴的旋转矩阵&lt;/p&gt;
+
+\[R_x(α)=
+\left(
+    \begin{matrix}
+    	1 &amp;amp; 0 &amp;amp; 0\\
+    	0 &amp;amp; cosα &amp;amp; -sinα \\
+    	0 &amp;amp; sinα &amp;amp; cosα
+    \end{matrix}
+\right)\]
+
+&lt;p&gt;绕Y轴的旋转矩阵
+\(R_y(α)=
+\left(
+    \begin{matrix}
+    	cosα &amp;amp; 0 &amp;amp; sinα\\
+    	0 &amp;amp; 1 &amp;amp; 0 \\
+    	-sinα &amp;amp; 0 &amp;amp; cosα
+    \end{matrix}
+\right)\)&lt;/p&gt;
+
+&lt;h4 id=&quot;欧拉角&quot;&gt;欧拉角&lt;/h4&gt;
+
+&lt;p&gt;欧拉角用于描述&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;某个物体在坐标系中的姿态&lt;/code&gt;。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;翻滚&lt;/strong&gt;（Roll）绕X轴&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;俯仰&lt;/strong&gt;（Pitch）绕Y轴&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;偏航&lt;/strong&gt;（Yaw）绕Z轴&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;有两种旋转方式，旋转矩阵是一样的：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;绕固定（参考）坐标轴旋&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;绕自身坐标轴旋转&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;四元数&quot;&gt;四元数&lt;/h4&gt;
+
+&lt;p&gt;\(q=q_0+q_1 i+q_2 j + q_3 k\)
+或
+\(q=w+x i+y j + z k\)&lt;/p&gt;
+
+&lt;h4 id=&quot;相互转换&quot;&gt;相互转换&lt;/h4&gt;
+
+&lt;h6 id=&quot;四元数转旋转矩阵&quot;&gt;四元数转旋转矩阵&lt;/h6&gt;
+&lt;h6 id=&quot;旋转矩阵转四元数&quot;&gt;旋转矩阵转四元数&lt;/h6&gt;
+&lt;h6 id=&quot;欧拉角转旋转矩阵&quot;&gt;欧拉角转旋转矩阵&lt;/h6&gt;
+
+\[R=R_z(α)R_y(β)R_x(γ)=
+\left(
+    \begin{matrix}
+    	cosαcosβ &amp;amp; cosαsinβsinγ−sinαcosγ &amp;amp; cosαsinβcosγ+sinαsinγ\\
+    	sinαcosβ &amp;amp; cosαcosγ+sinαsinβsinγ &amp;amp; sinαsinβcosγ−sinγcosα \\
+    	−sinβ &amp;amp; cosβsinγ &amp;amp; cosβcosγ
+    \end{matrix}
+\right)\]
+
+&lt;h6 id=&quot;旋转矩阵转欧拉角&quot;&gt;旋转矩阵转欧拉角&lt;/h6&gt;
+&lt;h6 id=&quot;欧拉角转四元素&quot;&gt;欧拉角转四元素&lt;/h6&gt;
+&lt;h6 id=&quot;四元数转欧拉角&quot;&gt;四元数转欧拉角&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://quaternions.online/&quot;&gt;这个网站&lt;/a&gt;可以动态展示四元数与欧拉角的对应关系&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://zhaoxuhui.top/blog/2018/03/13/RelationBetweenQ4&amp;amp;R&amp;amp;Euler.html&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dds端口&quot;&gt;DDS端口&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The ports (and multicast addresses) used by DDS implementations (such as RTI Connext DDS) are specified by the &lt;a href=&quot;http://www.omg.org/spec/DDS-RTPS/&quot;&gt;OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS)&lt;/a&gt;.By default, each DomainParticipant opens 4 UDP/IP ports: Two of those ports are multicast ports which are shared among all domain participants in the same DomainId. The other two are unicast ports which are different for each participant within a computer. The multicast IP address used for discovery is 239.255.0.1 by default consistent which the DDS-RTPS specification.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;默认情况下，每个DomainParticipant打开4个UDP/IP端口&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;2个组播端口&lt;/strong&gt;：同一个domainId下所有participants共享&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2个单播端口&lt;/strong&gt;：每个participant都不同&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;用作发现的&lt;strong&gt;组播IP&lt;/strong&gt;地：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;239.255.0.1&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The ports used are given by a formula that depends on the DDS domainId and the number of participants that are already running on the same operating system instance (computer or virtual machines):&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;端口分配依赖&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DmainId&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;participant数量&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Multicast Ports (common to all applications on a domainId):&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryMulticastPort  =   PB + DG * domainId + d0
+UserMulticastPort	=   PB + DG * domainId + d2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  &lt;p&gt;Unicast Ports (different for each participant running on a single operating system instance. Computer or VM):&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryUnicastPort    =   PB + DG * domainId + d1 + PG * participantId
+UserUnicastPort         =   PB + DG * domainId + d3 + PG * participantId
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  &lt;p&gt;These formulas are depend on two variables: domainId and participantId&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;domainId      - Is the DDS domainId
+participantId - Is an integer starting at 0 that enumerates each participant 
+                that runs on a given operating system instance (computer 
+                or virtual machine). 
+                The first participant will be 0, the second 1, etc.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+  &lt;p&gt;The formulas are parameterized by the constants d0, d1, d2, d3, PB, DG, and PG which are all defined in the OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS) as follows:&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;d0  (builtin_multicast_port_offset)    = 0
+d2  (user_multicast_port_offset)       = 1 
+d1  (builtin_unicast_port_offset)      = 10
+d3  (user_unicast_port_offset)         = 11
+PB  (port_base)             = 7400
+DG ( domain_id_gain)        = 250
+PG  (participant_id_gain)   = 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;公式中使用的常数是DDS协议编译的默认值。&lt;/p&gt;
+
+&lt;p&gt;可以通过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DomainParticipantQos&lt;/code&gt;里面的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WireProtocolQosPolicy&lt;/code&gt;改变端口映射。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://community.rti.com/content/forum-topic/statically-configure-firewall-let-omg-dds-traffic-through&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;一个人高度自律的3种迹象&quot;&gt;一个人高度自律的3种迹象&lt;/h2&gt;
+
+&lt;p&gt;一个人高度自律的3种迹象：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;读不喜欢但有价值的书&lt;/strong&gt;，才能实现认知突围。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;做不容易但正确的事&lt;/strong&gt;，才能不断提升自己。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;远离消耗自己的朋友&lt;/strong&gt;，才能融入高质量的朋友圈。&lt;/p&gt;
+
+&lt;p&gt;沉浸在舒适区，容易变得消极颓废。高度自律的人，才能获得真正的自由。&lt;/p&gt;
+
+&lt;p&gt;愿我们都能不断修炼自己，最终活成自己喜欢的模样。&lt;/p&gt;
+
+&lt;p&gt;美好一天从“自律”开始！&lt;/p&gt;</content><author><name></name></author><summary type="html">2021年1月19日 星期二</summary></entry><entry><title type="html">Mobileye Rem地图</title><link href="/2021/01/18/Mobileye-REM%E5%9C%B0%E5%9B%BE.html" rel="alternate" type="text/html" title="Mobileye Rem地图" /><published>2021-01-18T00:00:00+08:00</published><updated>2021-01-18T00:00:00+08:00</updated><id>/2021/01/18/Mobileye-REM%E5%9C%B0%E5%9B%BE</id><content type="html" xml:base="/2021/01/18/Mobileye-REM%E5%9C%B0%E5%9B%BE.html">&lt;p&gt;2021年1月18日 星期一&lt;/p&gt;
+
+&lt;h2 id=&quot;mobileye-rem地图如何解决高精地图落地难点&quot;&gt;Mobileye REM地图如何解决高精地图落地难点？&lt;/h2&gt;
+
+&lt;h4 id=&quot;高精地图的挑战&quot;&gt;高精地图的挑战&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;规模化&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2025年之后，自动驾驶会在消费者层面全面落地，Scale是一个无法规避的问题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;鲜度&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;理想情况下，地图是在实时更新的&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;精度&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;车载系统(OnBoard System)检测的车辆和行人需要与高精地图(High Definiation Map)实现厘米级精度的匹配&lt;/p&gt;
+
+&lt;h4 id=&quot;通用高精地图制作方法的缺陷&quot;&gt;通用高精地图制作方法的缺陷&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;全局坐标系下厘米级精度不是必需的&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;语义层数据生产难以自动化&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;没有车道线&lt;/li&gt;
+  &lt;li&gt;转向规则&lt;/li&gt;
+  &lt;li&gt;红绿灯&lt;/li&gt;
+  &lt;li&gt;Stop/Yield Point&lt;/li&gt;
+  &lt;li&gt;道路几何、限速、文化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;mobileye如何解决这些问题&quot;&gt;Mobileye如何解决这些问题&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;从成百上千辆车获取&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;检测信息并传送&lt;/code&gt;到云端&lt;/li&gt;
+  &lt;li&gt;将每辆车的数据进行&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Alignment处理&lt;/code&gt;，生成高精度的地图数据&lt;/li&gt;
+  &lt;li&gt;生成地图的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;语义数据&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_png/hcvXjXPVObrRE1hMbFh68bv3ZqljkL13gHVusTvAia4GyEZMQAVAdf7AKrA9iaWslGOfGkgSzGALqZIXTicGMTRAQ/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;harvesting&quot;&gt;Harvesting&lt;/h5&gt;
+
+&lt;p&gt;车辆检测&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;landmarks&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lane marks&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;driving path&lt;/code&gt;等语义信息。&lt;/p&gt;
+
+&lt;p&gt;成百上千的过路车辆会让检测结果越来越好。&lt;/p&gt;
+
+&lt;h5 id=&quot;alignment&quot;&gt;Alignment&lt;/h5&gt;
+
+&lt;p&gt;检测每个RSD中每个元素的6D Pose，然后&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;对齐相同位置的元素&lt;/code&gt;，得到&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;厘米度精度&lt;/code&gt;的driving path等信息。&lt;/p&gt;
+
+&lt;p&gt;每个车辆检测的道路元素位置都存在噪声，不能只依靠简单的求均值，而是依靠&lt;strong&gt;几何运算&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h5 id=&quot;modeling--semantics&quot;&gt;Modeling &amp;amp; Semantics&lt;/h5&gt;
+
+&lt;p&gt;使用&lt;strong&gt;神经网络&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;为什么语义理解离不开众包&quot;&gt;为什么语义理解离不开众包&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;可以在没有Lane Marking的道路上获取Driving Path&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;众包数据提供了复杂场景下的所有可通行路径&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;获得红绿灯与车道的关联关系、Yield Sign的Stop Point、Crosswalk与红绿灯的关联关系等&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;到没有Traffic Sign情况下各个道路的路权优先级&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;路口其它司机的停车位置&lt;/li&gt;
+  &lt;li&gt;在无保护左转的场景下车辆的Stop Point&lt;/li&gt;
+  &lt;li&gt;获得各个道路Common Speed的唯一高效的方法&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;总结&quot;&gt;总结&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mobileye与超过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6家汽车制造厂商&lt;/code&gt;合作&lt;/li&gt;
+  &lt;li&gt;每天覆盖&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;800万公里&lt;/code&gt;的路网更新&lt;/li&gt;
+  &lt;li&gt;预计到2024年，每天覆盖的路网会达到&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10亿公里&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/P-InX0BuLp1UIkuSFAyUBA&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">2021年1月18日 星期一</summary></entry><entry><title type="html">拼多多漩涡,脘病毒,瑞辉疫苗死亡事件</title><link href="/2021/01/17/%E6%8B%BC%E5%A4%9A%E5%A4%9A%E6%BC%A9%E6%B6%A1,%E8%84%98%E7%97%85%E6%AF%92,%E7%91%9E%E8%BE%89%E7%96%AB%E8%8B%97%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6.html" rel="alternate" type="text/html" title="拼多多漩涡,脘病毒,瑞辉疫苗死亡事件" /><published>2021-01-17T00:00:00+08:00</published><updated>2021-01-17T00:00:00+08:00</updated><id>/2021/01/17/%E6%8B%BC%E5%A4%9A%E5%A4%9A%E6%BC%A9%E6%B6%A1,%E8%84%98%E7%97%85%E6%AF%92,%E7%91%9E%E8%BE%89%E7%96%AB%E8%8B%97%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6</id><content type="html" xml:base="/2021/01/17/%E6%8B%BC%E5%A4%9A%E5%A4%9A%E6%BC%A9%E6%B6%A1,%E8%84%98%E7%97%85%E6%AF%92,%E7%91%9E%E8%BE%89%E7%96%AB%E8%8B%97%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6.html">&lt;p&gt;2021年1月17日 星期日&lt;/p&gt;
+&lt;h2 id=&quot;拼多多漩涡背后数字码农从未逃出残酷的原始社会&quot;&gt;拼多多漩涡背后：数字码农，从未逃出残酷的原始社会&lt;/h2&gt;
+
+&lt;h4 id=&quot;漩涡中心的拼多多&quot;&gt;漩涡中心的拼多多&lt;/h4&gt;
+
+&lt;p&gt;2020年&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;12月29日凌晨1点30分&lt;/code&gt;，年仅&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;23岁&lt;/code&gt;的拼多多女孩张某霏，在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;新疆&lt;/code&gt;下班回家的路上昏倒，最终抢救无效离世。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;拼多多知乎官方帐号&lt;/code&gt;给出的回复足以让所有人心凉：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;你看底层的人民，哪一个不是用命换钱&lt;/strong&gt;，我一直不认为是资本的问题，而是这个社会的问题，这是一个用命拼的时代。你可以选择安逸的日子，但你就要选择安逸带来的后果，人是可以控制自己努力的，我们都可以。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1月7日&lt;/code&gt;，拼多多年轻的工程师&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;王太虚&lt;/code&gt;，目睹了一位男同事被送上了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;救护车&lt;/code&gt;。他顺手拍下了一张图，并匿名发在了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;脉脉&lt;/code&gt;上。第二天，他被公司发现并且&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;辞退&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1月9日中午&lt;/code&gt;，拼多多员工&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;谭某&lt;/code&gt;从&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;长沙27楼的家中&lt;/code&gt;跳楼自杀，当场离世。&lt;/p&gt;
+
+&lt;p&gt;谭某部门执行“&lt;strong&gt;两班倒&lt;/strong&gt;”轮班制度：
+值早班，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;早7点—晚11点&lt;/code&gt;工作；值晚班，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;晚7点—次日早7点，次日下午3点必须打卡上班&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h4 id=&quot;互联网巨头的丛林法则&quot;&gt;互联网巨头的“丛林法则”&lt;/h4&gt;
+
+&lt;p&gt;以&lt;strong&gt;多多买菜&lt;/strong&gt;为例，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;供应链&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;物流&lt;/code&gt;是核心。拼多多来要在短期内追上&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;快递巨头&lt;/code&gt;十几年打造出来的物流能力是不可能的。所以最好的办法就是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;烧钱&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;强力地推&lt;/code&gt;。这样一种模式注定了员工必须&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;疯狂加班&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2018年7月&lt;/code&gt;，成立不到三年的拼多多就以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;240亿美金&lt;/code&gt;的市值，在美国成功上市，如今市值已经超过了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2000亿美金&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;创始人&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;黄峥&lt;/code&gt;身家&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;586亿美元&lt;/code&gt;，成为了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;中国第二大富豪&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;当平台发展为&lt;strong&gt;垄断巨头&lt;/strong&gt;，&lt;strong&gt;资本的本质&lt;/strong&gt;便暴露无遗。&lt;/p&gt;
+
+&lt;p&gt;对商家，不断&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;涨租收税&lt;/code&gt;；对外卖小哥等员工，不断&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;压榨&lt;/code&gt;，追求&lt;em&gt;极致的速度与效率&lt;/em&gt;；对消费者，通过大&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;数据杀熟&lt;/code&gt;，&lt;em&gt;同一家店、同一份东西，熟客永远比新客贵&lt;/em&gt;。&lt;/p&gt;
+
+&lt;h4 id=&quot;垄断时代&quot;&gt;垄断时代&lt;/h4&gt;
+
+&lt;p&gt;互联网经济的&lt;strong&gt;人口红利&lt;/strong&gt;，已经被瓜分完了。互联网企业也被迫走入你死我活的角斗场。&lt;/p&gt;
+
+&lt;p&gt;“万维网之父”&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;蒂姆·伯纳斯·李&lt;/code&gt;在2019年说到：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;互联网已背离初衷，丧失了最初的精神，变得越来越闭塞与不平等，信息孤岛与商业垄断横生。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;尾声&quot;&gt;尾声&lt;/h4&gt;
+
+&lt;p&gt;等待着这些打工人的，是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;狼性精神&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;996福报论&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;35岁中年危机&lt;/code&gt;……他们不得不参与这场注定会输的游戏，在剥削与自我剥削中，不断&lt;strong&gt;内卷&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;在信奉&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;效率规则&lt;/code&gt;的社会里，杀人的是效率的绳索，是资本的钩子。也许正如《资本万骨冢》里那句话所说——&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;远离了原始社会的人类，或许从来没有逃出人吃人的小部落。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;食人部落与笑死病哺乳动物为什么不能同类相食朊病毒告诉你答案&quot;&gt;食人部落与“笑死病”：哺乳动物为什么不能同类相食？朊病毒告诉你答案&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;病毒&lt;/strong&gt;是由一个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;核酸分子（DNA或RNA）&lt;/code&gt;与&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;蛋白质&lt;/code&gt;构成的非细胞形态的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;类生物&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;朊病毒&lt;/strong&gt;的意思就是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;蛋白质病毒&lt;/code&gt;。它并不是严格意义上的病毒，现在普遍称之为“&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;朊毒体&lt;/code&gt;”。&lt;/p&gt;
+
+&lt;p&gt;朊病毒可以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;自我复制&lt;/code&gt;，有极强的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;抗性&lt;/code&gt;，&lt;em&gt;紫外线照射、电离辐射、高温、各种生化试剂、人体内的胃酸、蛋白酶都无法破坏它的结构&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;疯牛病&lt;/strong&gt;学名叫做“&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;牛海绵状脑病（BSE）&lt;/code&gt;”，就是由朊病毒引起的，它是一种牛的神经系统传染性疾病。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20世纪末&lt;/code&gt;，一些国家将其它动物的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;肉骨粉&lt;/code&gt;加入牛饲料中。而这些肉和骨头的来源，可能就包含得了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;疯牛病&lt;/code&gt;死去的动物。当朊病毒与牛体内的正常蛋白接触时，会以一种人类目前无法理解的方式&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;诱导正常蛋白质转化为朊病毒蛋白&lt;/code&gt;。朊病毒越来越多，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;脑组织&lt;/code&gt;被破坏，形成&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;海绵空泡样&lt;/code&gt;改变。&lt;/p&gt;
+
+&lt;p&gt;人会得一种和疯牛病很相似的&lt;strong&gt;变异克雅氏病&lt;/strong&gt;。病人会在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;12～18 个月&lt;/code&gt;内死亡。变异克雅氏病可能和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;疯牛病感染&lt;/code&gt;有关，传播途径主要是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;消化道传播&lt;/code&gt;，比如进食受疯牛病感染的牛肉。&lt;/p&gt;
+
+&lt;p&gt;在太平洋西南部的岛国&lt;strong&gt;巴布亚新几内亚&lt;/strong&gt;的&lt;strong&gt;福尔部落&lt;/strong&gt;有着&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;生食已故亲人遗体&lt;/code&gt;的习俗，包括脑部。有人叫他们“&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;食人部落&lt;/code&gt;”。早在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1905年&lt;/code&gt;被科学家研究的人类朊病毒疾病“&lt;strong&gt;库鲁病&lt;/strong&gt;”，就诞生于这个部落。因为患者最终在哈哈大笑中死去，所以又叫“&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;笑死病&lt;/code&gt;”。废除吃死尸的习俗之后，潜伏期漫长的库鲁症终于逐渐消失。&lt;/p&gt;
+
+&lt;p&gt;同类相食的行为不会凭空产生朊病毒。朊病毒通常会&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;随着宿主的死亡而终结&lt;/code&gt;。同类相食使朊病毒&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;从死体重新进入活体&lt;/code&gt;，于是开始了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;新一轮复制&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;辉瑞疫苗频现接种者死亡事件西方主流媒体为何集体沉默&quot;&gt;辉瑞疫苗频现接种者死亡事件，西方主流媒体为何集体沉默？&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;挪威&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2.5万&lt;/code&gt;人注射了辉瑞疫苗，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;23人&lt;/code&gt;死亡。
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;德国&lt;/code&gt;有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10人&lt;/code&gt;死亡。
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;法国&lt;/code&gt;有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1人&lt;/code&gt;死亡。&lt;/p&gt;
+
+&lt;p&gt;辉瑞疫苗属于&lt;strong&gt;mRNA疫苗&lt;/strong&gt;，以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;治疗性&lt;/code&gt;为主。如果病人已经感染了新冠病毒或有其他疾病，疫苗产生的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;异性蛋白质&lt;/code&gt;可能引起&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;过敏反应&lt;/code&gt;甚至其他副作用，也有可能&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;加重本身基础性疾病&lt;/code&gt;的病情。&lt;/p&gt;
+
+&lt;p&gt;国产疫苗目前主要是&lt;strong&gt;灭活疫苗&lt;/strong&gt;，广泛作为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;预防性疫苗&lt;/code&gt;使用，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;安全性&lt;/code&gt;要好很多。&lt;/p&gt;
+
+&lt;p&gt;俄国家杜马议员茹拉夫列夫谴责这是在新冠疫情大流行期间&lt;strong&gt;西方制药公司的商业战引发的可怕后果&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;俄直投基金称曾通过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;推特&lt;/code&gt;分享俄&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“卫星-V”疫苗&lt;/code&gt;的所有信息，但他们的账户却被平台&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;限制用户访问&lt;/code&gt;。&lt;/p&gt;</content><author><name></name></author><summary type="html">2021年1月17日 星期日 拼多多漩涡背后：数字码农，从未逃出残酷的原始社会</summary></entry><entry><title type="html">何小鹏卖的是车吗</title><link href="/2021/01/16/%E4%BD%95%E5%B0%8F%E9%B9%8F%E5%8D%96%E7%9A%84%E6%98%AF%E8%BD%A6%E5%90%97.html" rel="alternate" type="text/html" title="何小鹏卖的是车吗" /><published>2021-01-16T00:00:00+08:00</published><updated>2021-01-16T00:00:00+08:00</updated><id>/2021/01/16/%E4%BD%95%E5%B0%8F%E9%B9%8F%E5%8D%96%E7%9A%84%E6%98%AF%E8%BD%A6%E5%90%97</id><content type="html" xml:base="/2021/01/16/%E4%BD%95%E5%B0%8F%E9%B9%8F%E5%8D%96%E7%9A%84%E6%98%AF%E8%BD%A6%E5%90%97.html">&lt;h1 id=&quot;1116何小鹏卖的是车吗&quot;&gt;1116.何小鹏卖的是车吗&lt;/h1&gt;
+
+&lt;p&gt;2021年1月16日&lt;/p&gt;
+
+&lt;h2 id=&quot;何小鹏卖的是车吗&quot;&gt;何小鹏卖的是车吗？&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;蔚来&lt;/code&gt;卖的并不单纯是汽车，而更像是卖各种&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;圈子&lt;/code&gt;门票的“商会”，只不过它的门票不是纸，而是一台台定位于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;高端品牌的纯电动车&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;苹果最大的价值，在于它的产品几乎都非常好用，而这好用的基础，则来源于一个封闭又庞大的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;苹果软件生态系统&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;雷军最想做的是打造一套成功的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;小米软件生态&lt;/code&gt;。但小米最近的一份财报（2020Q3）中显示单季营收&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;721.6亿元&lt;/code&gt;，互联网服务收入占比仅&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8%&lt;/code&gt;。它并没有摆脱自己&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;硬件公司&lt;/code&gt;的身份。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;亨利福特&lt;/code&gt;开启了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;流水线生产&lt;/code&gt;，才让汽车的成本迅速降低，让工人们都能开上了车。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;丰田&lt;/code&gt;发明了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;精益生产&lt;/code&gt;的方式，成功在不太影响产能的情况下，迅猛的提升了产品质量。&lt;/p&gt;
+
+&lt;p&gt;汽车竞争的本质中的一大部分，一直是_生产方式、生产效率、生产质量_上的竞争。&lt;/p&gt;
+
+&lt;p&gt;对于中国来说，从传统燃油车转变为新能源车的最根本需求，一是&lt;strong&gt;能源安全&lt;/strong&gt;，二是&lt;strong&gt;产业升级&lt;/strong&gt;，而&lt;strong&gt;智能汽车&lt;/strong&gt;则是_汽车电动化后的伴随着的大转变_。&lt;/p&gt;
+
+&lt;p&gt;电池成本在这几年里以大约&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;15%&lt;/code&gt;的速度在逐年下降。&lt;/p&gt;
+
+&lt;p&gt;搭载了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;更多半导体&lt;/code&gt;的新能源汽车，会迅速卷入到&lt;strong&gt;摩尔定律&lt;/strong&gt;的发展大潮之中。&lt;/p&gt;
+
+&lt;p&gt;新能源的造车竞争很快就会转变成为一场没有止境的&lt;strong&gt;硬件竞赛&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;先有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;硬件生产成本的大幅下降&lt;/code&gt;，才能有软件公司凭借足够的算力，开展出全新的生态业务。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;硬件的发展，会受到需求的制约。没有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;足够的需求&lt;/code&gt;，硬件的成本就无法降下来。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个&lt;strong&gt;死循环&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;唯二打破死循环的方法，一个_等待整个市场的转变_。&lt;/p&gt;
+
+&lt;p&gt;第二个办法，那就是自己搞。用何小鹏自己的话说，叫一直在&lt;strong&gt;点亮人类科技树上的各种分叉&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;所以这就是为什么何小鹏领导下的小鹏汽车做了五花八门，令人眼花缭乱的各种事情，但追根到底何小鹏这个人，自始至终一直在做一件事情，那就是_永远在为新科技、新硬件做准备的路上_。&lt;/p&gt;
+
+&lt;p&gt;定位低于P7的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;小鹏P5&lt;/code&gt;，却更早使用上&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;激光雷达&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;飞行汽车&lt;/code&gt;是小鹏汽车提前点亮了科技树上的“飞行”，试图去&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;真正改变人类未来的出行方式&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;每一次攀登、点亮科技树上未知的一部分，都代表着我们未来的生活，又多了成百上千中可能性&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/GrbCvM8KgyFGUad8PARyHw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">1116.何小鹏卖的是车吗</summary></entry><entry><title type="html">Statically Configure A Firewall To Let Omg Dds Traffic Through</title><link href="/2021/01/15/statically-configure-a-firewall-to-let-omg-dds-traffic-through.html" rel="alternate" type="text/html" title="Statically Configure A Firewall To Let Omg Dds Traffic Through" /><published>2021-01-15T00:00:00+08:00</published><updated>2021-01-15T00:00:00+08:00</updated><id>/2021/01/15/statically-configure-a-firewall-to-let-omg-dds-traffic-through</id><content type="html" xml:base="/2021/01/15/statically-configure-a-firewall-to-let-omg-dds-traffic-through.html">&lt;h1 id=&quot;statically-configure-a-firewall-to-let-omg-dds-traffic-through&quot;&gt;Statically configure a Firewall to let OMG DDS Traffic through&lt;/h1&gt;
+
+&lt;p&gt;There are various strategies that can be used to have DDS applications communicate between each other &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;despite&lt;/code&gt; the fact that one or more of these applications are protected by a firewall.&lt;/p&gt;
+
+&lt;p&gt;尽管应用程序可能被防火墙隔离，还是有多种策略可以让DDS应用程序彼此通讯。&lt;/p&gt;
+
+&lt;p&gt;This HOWTO focuses in the situation where there is a desire to use static configuration (i.e. manually open specific ports or multicast addresses in the firewall) and the applications are protected with Firewalls but are not behind Network Address Translators (NATs). In other words the IP of one computer is reachable from the other directly (assuming the Firewall forwards the traffic).&lt;/p&gt;
+
+&lt;h2 id=&quot;background-ports-used-by-dds-discovery&quot;&gt;Background: Ports used by DDS Discovery&lt;/h2&gt;
+
+&lt;p&gt;The ports (and multicast addresses) used by DDS implementations (such as RTI Connext DDS) are specified by the &lt;a href=&quot;http://www.omg.org/spec/DDS-RTPS/&quot;&gt;OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS)&lt;/a&gt;.By default, each DomainParticipant opens 4 UDP/IP ports: Two of those ports are multicast ports which are shared among all domain participants in the same DomainId. The other two are unicast ports which are different for each participant within a computer. The multicast IP address used for discovery is 239.255.0.1 by default consistent which the DDS-RTPS specification.&lt;/p&gt;
+
+&lt;p&gt;The ports used are given by a formula that depends on the DDS domainId and the number of participants that are already running on the same operating system instance (computer or virtual machines):&lt;/p&gt;
+
+&lt;p&gt;Multicast Ports (common to all applications on a domainId):&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryMulticastPort  =   PB + DG * domainId + d0
+UserMulticastPort    =   PB + DG * domainId + d2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Unicast Ports (different for each participant running on a single operating system instance. Computer or VM):&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryUnicastPort    =   PB + DG * domainId + d1 + PG * participantId
+UserUnicastPort         =   PB + DG * domainId + d3 + PG * participantId
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;These formulas are depend on two variables: domainId and participantId&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;domainId      - Is the DDS domainId
+participantId - Is an integer starting at 0 that enumerates each participant 
+                that runs on a given operating system instance (computer 
+                or virtual machine). 
+                The first participant will be 0, the second 1, etc.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The formulas are parameterized by the constants d0, d1, d2, d3, PB, DG, and PG which are all defined in the OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS) as follows:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;d0  (builtin_multicast_port_offset)    = 0
+d2  (user_multicast_port_offset)       = 1 
+d1  (builtin_unicast_port_offset)      = 10
+d3  (user_unicast_port_offset)         = 11
+PB  (port_base)             = 7400
+DG ( domain_id_gain)        = 250
+PG  (participant_id_gain)   = 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For example, assuming you are running in domainId=0 (the default), if you have two participants running in the computer, then the ports used will be:&lt;/p&gt;
+
+&lt;p&gt;All applications:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryMulticastPort  = 7400
+UserMulticastPort       = 7401
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;First application:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryUnicastPort    = 7410
+UserUnicastPort         = 7411
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Second application:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryUnicastPort    = 7412
+UserUnicastPort         = 7413
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So if the maximum number of participants that will be running on the computer is 2, you need to open the following ports in the firewall: 7400, 7401, 7410, 7411, 7412, 7413 You can download this &lt;a href=&quot;http://community.rti.com/filedepot?cid=11&amp;amp;fid=14&quot;&gt;Spreadsheet UDP Ports Used by OMG DDS&lt;/a&gt; to compute which ports will be open for a specific domainId and participantId.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that the above formulas are for the default setup which complies with the OMG DDS Interoperability Wire Protocol. In addition to this RTI Connext DDS allows integrators to change the port mappings to fit specific deployment scenario. This is done using the WireProtocolQosPolicy within the DomainParticipantQos&lt;/p&gt;
+
+&lt;p&gt;Specifically the member rtps_well_known_ports within the &lt;a href=&quot;http://community.rti.com/rti-doc/500/ndds.5.0.0/doc/html/api_cpp/structDDS__WireProtocolQosPolicy.html&quot;&gt;WireProtocolQosPolicy&lt;/a&gt; allows an application to override the default settings for all the above constants. Note that if this Qos Policy is changed, then it must be done consistently on all the DomainParticipants within the DDS Domain or else they will not discover each other.&lt;/p&gt;
+
+&lt;h2 id=&quot;opening-firewall-ports&quot;&gt;Opening firewall ports&lt;/h2&gt;
+
+&lt;p&gt;If your firewall configuration supports opening multicast addresses for given ports as well as opening ports without specifying a particular IP where to redirect the packets received on that port then taking advanatge of this feature is often the simplest thing to do.&lt;/p&gt;
+
+&lt;p&gt;First use the &lt;a href=&quot;http://community.rti.com/filedepot?cid=11&amp;amp;fid=14&quot;&gt;Spreadsheet UDP Ports Used by OMG DDS&lt;/a&gt; to determine which ports you need to open based on the domainId (or domainIds) that will be communicating across the firewall and the maximum number of participants that you will ever have running on a a single computer on that domain Id. If you are unsure of this number just use the maximum of 120 participants (participantId 0-119).&lt;/p&gt;
+
+&lt;p&gt;For example if we will be communicating on domainId=0 and we want to open ports for any number of participants per computer (up to the maximum), then we would open the UDP range 7400-7649 (both included). 7400 is the lowest UDP port used when participantId=0 and 7649 is the highest one used when participantId=119&lt;/p&gt;
+
+&lt;p&gt;If we wanted the same only for domainId=10, then we would open UDP ports 9900-10149.&lt;/p&gt;
+
+&lt;p&gt;In addition to the above you also need to configure the firewall to forward multicast packets on the multicast address 239.255.0.1 for the multicast ports in the domainId that you plan to use. For example if you are using domainId=0, you need to configure that multicast address to be open on UDP ports 7400 and 7401. If yiu are using domainId=10 it would be UDP ports 9900 amd 9901.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-port-forwarding-rules-in-the-firewall-or-firewalls-that-do-not-support-multicast&quot;&gt;Setting port-forwarding rules in the firewall or firewalls that do not support multicast&lt;/h2&gt;
+
+&lt;p&gt;Some firewalls do not allow ports to simply be open such that packets can reach any computer behind the firewall. Rather they only allow ports to be forwarded where all IP packets reaching the firewall on that port are forwarded to a specific IP address (and port number) behind the firewall. Other firewalls cannot be configured to forward multicast IP packets.&lt;/p&gt;
+
+&lt;p&gt;If you have this kind of firewall and you are planning to run DDS on more than one computer behind the firewall then you face a problem. The packets forwarded by the firewall on a particular port can only go to one destination so it would not be possible to reach all the computers behind the firewall.&lt;/p&gt;
+
+&lt;p&gt;The solution to this scenario is to deploy a RTI DDS Routing Service behind the Firewall. The RTI DDS Routing Service acts as proxy for all the computers that run DDS behind the firewall. The Firewall is configured to forward all traffic on the DDS ports to the RTI DDS Routing Service and this application will then relay it to their intended destinations.&lt;/p&gt;
+
+&lt;p&gt;The RTI DDS Routing Service can be configured to automatically relay all traffic between two domains, or to do it only for certain DDS Topics, or packets with specific content on a Topic, giving you additional control over which data flows in and out of the Firewall via DDS.&lt;/p&gt;
+
+&lt;p&gt;The RTI DDS Routing Service will have two DomainParticipants each with its own domainId. One domainId is used to communicate with the applications outside the firewall and the other with the applications inside. Since all the DDS traffic from the firewall is forwarded to the Participant in the RTI DDS Routing Service that is using the domainId chosen for the “outside-the-firewall” configuration you only need to forward the ports that domainId.&lt;/p&gt;
+
+&lt;p&gt;For example, assume we choose domainId=0 to be our “outside the firewall” domain and domainId=1 for the applications behind the firewall. Then we just need to forward the ports to a single participant running on domainId=0 (the one inside RTI DDS Routing Service) so this only necessitates opening ports 7400-7411 (both included).&lt;/p&gt;
+
+&lt;p&gt;The above assumes you will only one instance of the RTI DDS Routing Service, which is the normal case. If you wanted to run multiple instances on the same computer, for example to a redundant scenario or a load-balancing scenario, then you would have t take that into consideration when computing the range of ports that should be forwarded.&lt;/p&gt;
+
+&lt;h2 id=&quot;reaching-applications-behing-a-firewall-with-a-nat&quot;&gt;Reaching applications behing a firewall with a NAT&lt;/h2&gt;
+
+&lt;p&gt;If the firewall also has a Network Address Translators (NATs), then the IP addresses of any computer inside the firewall are not directly reachable outside the firewall. This scenario is also supported using the RTI DDS Routing Service but the setup will be explained in a separate HOWTO.&lt;/p&gt;</content><author><name></name></author><summary type="html">Statically configure a Firewall to let OMG DDS Traffic through</summary></entry><entry><title type="html">地球加速自转</title><link href="/2021/01/14/%E5%9C%B0%E7%90%83%E5%8A%A0%E9%80%9F%E8%87%AA%E8%BD%AC.html" rel="alternate" type="text/html" title="地球加速自转" /><published>2021-01-14T00:00:00+08:00</published><updated>2021-01-14T00:00:00+08:00</updated><id>/2021/01/14/%E5%9C%B0%E7%90%83%E5%8A%A0%E9%80%9F%E8%87%AA%E8%BD%AC</id><content type="html" xml:base="/2021/01/14/%E5%9C%B0%E7%90%83%E5%8A%A0%E9%80%9F%E8%87%AA%E8%BD%AC.html">&lt;h1 id=&quot;0114地球加速自转&quot;&gt;0114.地球加速自转&lt;/h1&gt;
+
+&lt;p&gt;2021年1月14日 星期四&lt;/p&gt;
+
+&lt;h2 id=&quot;减速50年地球如今却开始加速自转&quot;&gt;减速50年，地球如今却开始加速自转！&lt;/h2&gt;
+
+&lt;p&gt;上世纪以来，人们发现_地球的自转速度一直在减慢_，这可能是因为月球的&lt;strong&gt;潮汐作用&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;最近科学家首次发现_地球的自转开始加快_。这可能与&lt;strong&gt;全球变暖&lt;/strong&gt;有关，因为_融化的冰川可能会扰乱地球原始的质量分布或地质的运动_。&lt;/p&gt;
+
+&lt;p&gt;天文学家用距离地球相当远的其他恒星测得的一天的时长叫做“&lt;strong&gt;恒星日&lt;/strong&gt;”。恒星日是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;23小时56分4秒&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;原子钟&lt;/strong&gt;是一种以原子&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;共振频率&lt;/code&gt;标准来计算并保持时间准确的时钟，&lt;strong&gt;它&lt;/strong&gt;是目前世界上&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;准确度最高&lt;/code&gt;的钟表。原子钟的误差大约是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;每一亿年增加/减少1秒&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;科学家预测今年地球的自转速度可能会更快，平均一天的持续时间预计将比86400秒少&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.05毫秒&lt;/code&gt;，个别天数可能会少|1.5毫秒`。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;卫星&lt;/code&gt;和其他通信设备通常基于太阳和恒星的位置，因此恒星日与地球原子钟的同步十分关键。&lt;/p&gt;
+
+&lt;p&gt;当恒星日与原子钟的偏差超过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.9秒&lt;/code&gt;时，科学家就会_调整原子钟的时间_，给它增加或减少&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1秒&lt;/code&gt;。&lt;/p&gt;</content><author><name></name></author><summary type="html">0114.地球加速自转</summary></entry><entry><title type="html">钟南山话太极,蔚来et7,快乐工作</title><link href="/2021/01/13/%E9%92%9F%E5%8D%97%E5%B1%B1%E8%AF%9D%E5%A4%AA%E6%9E%81,%E8%94%9A%E6%9D%A5ET7,%E5%BF%AB%E4%B9%90%E5%B7%A5%E4%BD%9C.html" rel="alternate" type="text/html" title="钟南山话太极,蔚来et7,快乐工作" /><published>2021-01-13T00:00:00+08:00</published><updated>2021-01-13T00:00:00+08:00</updated><id>/2021/01/13/%E9%92%9F%E5%8D%97%E5%B1%B1%E8%AF%9D%E5%A4%AA%E6%9E%81,%E8%94%9A%E6%9D%A5ET7,%E5%BF%AB%E4%B9%90%E5%B7%A5%E4%BD%9C</id><content type="html" xml:base="/2021/01/13/%E9%92%9F%E5%8D%97%E5%B1%B1%E8%AF%9D%E5%A4%AA%E6%9E%81,%E8%94%9A%E6%9D%A5ET7,%E5%BF%AB%E4%B9%90%E5%B7%A5%E4%BD%9C.html">&lt;p&gt;2021年1月13日 星期三&lt;/p&gt;
+
+&lt;h2 id=&quot;钟南山为什么如此推崇太极拳&quot;&gt;钟南山为什么如此推崇太极拳？&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;慢阻肺&lt;/strong&gt; 的全称是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;慢性阻塞性肺疾病&lt;/code&gt;，是一种常见的，反复发作的，以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;持续气流受限&lt;/code&gt;为特征的慢性呼吸系统疾病，通常见于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;长期吸烟&lt;/code&gt;的人。慢阻肺发病的原因之一就是体内的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;二氧化碳潴留&lt;/code&gt;，无法呼出。&lt;/p&gt;
+
+&lt;p&gt;太极拳因为&lt;strong&gt;思想清净&lt;/strong&gt;，动作&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;缓慢、柔和、放松&lt;/code&gt;，消耗的机体能量很少，因而体内产生的二氧化碳就少。&lt;/p&gt;
+
+&lt;p&gt;太极拳因为要进行深长细匀的&lt;strong&gt;腹式呼吸&lt;/strong&gt;，因而呼吸功能得到有效的锻炼，吸入更多新鲜的氧气，潴留的二氧化碳得以排出。&lt;/p&gt;
+
+&lt;p&gt;最后就是打太极拳要求&lt;strong&gt;落地生根&lt;/strong&gt;，经常有半蹲的姿势，对&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;下肢&lt;/code&gt;也是非常好的锻炼。&lt;/p&gt;
+
+&lt;h2 id=&quot;蔚来et7&quot;&gt;蔚来ET7&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11&lt;/code&gt; 个  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;800 万&lt;/code&gt;像素高清摄像头&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; 个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Innovution&lt;/code&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1550nm&lt;/code&gt;波长 、等效&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;300线&lt;/code&gt;的&lt;strong&gt;固态激光雷达&lt;/strong&gt;、测距离&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;500 米&lt;/code&gt;，最高辨率为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.06°x0.06°&lt;/code&gt;，水平 FOV 视角达到了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;120°&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; 个毫米波雷达&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;12&lt;/code&gt; 个超声波雷达&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; 个高精度定位单元&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; 个车路协同感知&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; 个增强主驾感知&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1016&lt;/code&gt; TOPS算力来源于四块&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;英伟达 Drive Orin&lt;/code&gt; 自动驾驶芯片&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;150 kWh&lt;/code&gt; &lt;strong&gt;固态电池&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;百公里 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.9 秒&lt;/code&gt;，前&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;180kW&lt;/code&gt; 的&lt;strong&gt;永磁电机&lt;/strong&gt;，后&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;300kW&lt;/code&gt; 的&lt;strong&gt;异步电机&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;累死你的不是工作而是不快乐的工作&quot;&gt;累死你的不是工作，而是不快乐的工作&lt;/h2&gt;
+
+&lt;h3 id=&quot;工作是快乐之源&quot;&gt;工作是快乐之源&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;心流&lt;/strong&gt;是指一种将&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;个体注意力完全投注在某活动上&lt;/code&gt;的感觉，心流产生时同时会有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;高度的兴奋及充实感&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;心流的体验，发生在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;工作时（54%）&lt;/code&gt;的机率，大大高于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;休闲时（18%）&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;让工作快乐的四个条件&quot;&gt;让工作快乐的四个条件&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;意义感&lt;/strong&gt;是指工作内容要&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;符合自己的价值观&lt;/code&gt;，工作不只是挣钱，还感受到特别的意义。&lt;/p&gt;
+
+&lt;p&gt;学会把自己做的事嫁接到一个伟大的目标上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;成就感&lt;/strong&gt;是指一个人做一件事时的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;心理满足感&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;当&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;难度略高于技能10%到20％&lt;/code&gt;的时候，最容易有成就感。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;成长&lt;/strong&gt;是每个人最基本的动机之一，成长不仅可以获得满足感，还让自己&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;对未来充满信心&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;让员工有成长感，一定要注意&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;及时的正面反馈&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;归属感&lt;/strong&gt;是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;身份的认同&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;好的组织&lt;/code&gt;也会让员工产生归属感。&lt;/p&gt;
+
+&lt;p&gt;团队归属感最重要的东西是“&lt;strong&gt;共同的回忆&lt;/strong&gt;”：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;成功&lt;/strong&gt;：我们&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;一起完成了一项了不起的事&lt;/code&gt;，每个人都作出了贡献，而且每个人都知道他的贡献对于集体能干成这件事非常重要。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;失败&lt;/strong&gt;：失败会&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;让人成熟&lt;/code&gt;。一起经历过失败，谁也&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;不推卸责任&lt;/code&gt;，大家都知道失败是什么样的，团队会变成熟。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;关心&lt;/strong&gt;：通过一些事情让人感觉到&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;集体很关心自己&lt;/code&gt;，这样就有了安全感。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;示范&lt;/strong&gt;：当你作为领导面临一个艰难选择的时候，你要让团队看到你是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;如何做出正确选择&lt;/code&gt;的 —— 这样下次他们遇到类似情况，也知道应该怎么选。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;创造环境增强员工内驱力&quot;&gt;创造环境增强员工内驱力&lt;/h3&gt;
+
+&lt;p&gt;如果员工工作是&lt;strong&gt;内在动机&lt;/strong&gt;，他们很容易把一件事做好。但如果他们是由&lt;strong&gt;外在动机&lt;/strong&gt;驱动去做一件事情，大家很容易就能感受到他们并不投入。&lt;/p&gt;
+
+&lt;p&gt;创造一个条件，让员工能够&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;理解这件事情对他们的意义&lt;/code&gt;，让他们靠内在动机驱动工作。&lt;/p&gt;</content><author><name></name></author><summary type="html">2021年1月13日 星期三</summary></entry></feed>

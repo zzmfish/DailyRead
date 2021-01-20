@@ -1,0 +1,85 @@
+<p>2021年1月18日 星期一</p>
+
+<h2 id="mobileye-rem地图如何解决高精地图落地难点">Mobileye REM地图如何解决高精地图落地难点？</h2>
+
+<h4 id="高精地图的挑战">高精地图的挑战</h4>
+
+<p><strong>规模化</strong></p>
+
+<p>2025年之后，自动驾驶会在消费者层面全面落地，Scale是一个无法规避的问题</p>
+
+<p><strong>鲜度</strong></p>
+
+<p>理想情况下，地图是在实时更新的</p>
+
+<p><strong>精度</strong></p>
+
+<p>车载系统(OnBoard System)检测的车辆和行人需要与高精地图(High Definiation Map)实现厘米级精度的匹配</p>
+
+<h4 id="通用高精地图制作方法的缺陷">通用高精地图制作方法的缺陷</h4>
+
+<p><strong>全局坐标系下厘米级精度不是必需的</strong></p>
+
+<p><strong>语义层数据生产难以自动化</strong></p>
+
+<ul>
+  <li>没有车道线</li>
+  <li>转向规则</li>
+  <li>红绿灯</li>
+  <li>Stop/Yield Point</li>
+  <li>道路几何、限速、文化</li>
+</ul>
+
+<h4 id="mobileye如何解决这些问题">Mobileye如何解决这些问题</h4>
+
+<ul>
+  <li>从成百上千辆车获取<code class="language-plaintext highlighter-rouge">检测信息并传送</code>到云端</li>
+  <li>将每辆车的数据进行<code class="language-plaintext highlighter-rouge">Alignment处理</code>，生成高精度的地图数据</li>
+  <li>生成地图的<code class="language-plaintext highlighter-rouge">语义数据</code></li>
+</ul>
+
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/hcvXjXPVObrRE1hMbFh68bv3ZqljkL13gHVusTvAia4GyEZMQAVAdf7AKrA9iaWslGOfGkgSzGALqZIXTicGMTRAQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片" /></p>
+
+<h5 id="harvesting">Harvesting</h5>
+
+<p>车辆检测<code class="language-plaintext highlighter-rouge">landmarks</code>、<code class="language-plaintext highlighter-rouge">lane marks</code>、<code class="language-plaintext highlighter-rouge">driving path</code>等语义信息。</p>
+
+<p>成百上千的过路车辆会让检测结果越来越好。</p>
+
+<h5 id="alignment">Alignment</h5>
+
+<p>检测每个RSD中每个元素的6D Pose，然后<code class="language-plaintext highlighter-rouge">对齐相同位置的元素</code>，得到<code class="language-plaintext highlighter-rouge">厘米度精度</code>的driving path等信息。</p>
+
+<p>每个车辆检测的道路元素位置都存在噪声，不能只依靠简单的求均值，而是依靠<strong>几何运算</strong>。</p>
+
+<h5 id="modeling--semantics">Modeling &amp; Semantics</h5>
+
+<p>使用<strong>神经网络</strong></p>
+
+<h4 id="为什么语义理解离不开众包">为什么语义理解离不开众包</h4>
+
+<ul>
+  <li>
+    <p>可以在没有Lane Marking的道路上获取Driving Path</p>
+  </li>
+  <li>
+    <p>众包数据提供了复杂场景下的所有可通行路径</p>
+  </li>
+  <li>获得红绿灯与车道的关联关系、Yield Sign的Stop Point、Crosswalk与红绿灯的关联关系等</li>
+  <li>
+    <p>到没有Traffic Sign情况下各个道路的路权优先级</p>
+  </li>
+  <li>路口其它司机的停车位置</li>
+  <li>在无保护左转的场景下车辆的Stop Point</li>
+  <li>获得各个道路Common Speed的唯一高效的方法</li>
+</ul>
+
+<h4 id="总结">总结</h4>
+
+<ul>
+  <li>Mobileye与超过<code class="language-plaintext highlighter-rouge">6家汽车制造厂商</code>合作</li>
+  <li>每天覆盖<code class="language-plaintext highlighter-rouge">800万公里</code>的路网更新</li>
+  <li>预计到2024年，每天覆盖的路网会达到<code class="language-plaintext highlighter-rouge">10亿公里</code></li>
+</ul>
+
+<p><a href="https://mp.weixin.qq.com/s/P-InX0BuLp1UIkuSFAyUBA">阅读原文</a></p>
