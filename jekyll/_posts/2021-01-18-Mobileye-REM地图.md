@@ -42,7 +42,7 @@ title:  "Mobileye-REM地图"
 * 将每辆车的数据进行`Alignment处理`，生成高精度的地图数据
 * 生成地图的`语义数据`
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/hcvXjXPVObrRE1hMbFh68bv3ZqljkL13gHVusTvAia4GyEZMQAVAdf7AKrA9iaWslGOfGkgSzGALqZIXTicGMTRAQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](https://ftp.bmp.ovh/imgs/2021/01/0e3abdebe3cde991.webp)
 
 
 ##### Harvesting
