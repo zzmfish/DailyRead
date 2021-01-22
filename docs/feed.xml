@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-01-22T15:18:10+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">四维图新HDMap，动态规划，2020经济</title><link href="https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-2020%E7%BB%8F%E6%B5%8E.html" rel="alternate" type="text/html" title="四维图新HDMap，动态规划，2020经济" /><published>2021-01-21T00:00:00+08:00</published><updated>2021-01-21T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap,%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92,2020%E7%BB%8F%E6%B5%8E</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-2020%E7%BB%8F%E6%B5%8E.html">&lt;h2 id=&quot;四维图新技术解析如何做到行云流水的高精度地图&quot;&gt;四维图新技术解析：如何做到行云流水的高精度地图&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-01-22T18:23:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">阿里玄铁910处理器成功运行Android</title><link href="https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid.html" rel="alternate" type="text/html" title="阿里玄铁910处理器成功运行Android" /><published>2021-01-22T00:00:00+08:00</published><updated>2021-01-22T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid.html">&lt;h2 id=&quot;阿里自研risc-v处理器玄铁910成功运行android-10&quot;&gt;阿里自研RISC-V处理器玄铁910成功运行Android 10&lt;/h2&gt;
+
+&lt;p&gt;阿里巴巴方旗下的&lt;strong&gt;平头哥半导体&lt;/strong&gt;完成了&lt;strong&gt;安卓10对RISC-V的移植&lt;/strong&gt;并开源了全部相关代码。&lt;/p&gt;
+
+&lt;h4 id=&quot;玄铁910处理器&quot;&gt;玄铁910处理器&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;目前业界最强的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RISC-V&lt;/code&gt;处理器&lt;/li&gt;
+  &lt;li&gt;单核性能&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7.1 Coremark/MHz&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;达到&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2.5GHz&lt;/code&gt;，比目前业界最好的RISC-V处理器性能高&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40%&lt;/code&gt;以上&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;安卓开源项目aosp实现了对risc-v架构的支持&quot;&gt;安卓开源项目(AOSP)实现了对RISC-V架构的支持&lt;/h4&gt;
+
+&lt;h6 id=&quot;本地库与art支持&quot;&gt;本地库与ART支持&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bionic&lt;/code&gt;添加动态链接、系统调用、浮点数学库的支持&lt;/li&gt;
+  &lt;li&gt;基于ART实现了RISC-V架构的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DEX实时解释执行、dex2oat、JNI调用以及JIT编译优化&lt;/code&gt;
+    &lt;h6 id=&quot;linux内核支持&quot;&gt;Linux内核支持&lt;/h6&gt;
+  &lt;/li&gt;
+  &lt;li&gt;完善了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Clang/LLVM&lt;/code&gt;对Linux内核的编译支持&lt;/li&gt;
+  &lt;li&gt;修复了大量Clang/LLVM的问题&lt;/li&gt;
+  &lt;li&gt;首次将RISC-V架构的Linux内核与安卓系统进行了适配&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;build系统支持&quot;&gt;Build系统支持&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;整合编译框架、预编译的工具链、本地方法库、模拟器，应用和服务等模块&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://m.cnbeta.com/view/1080971.htm&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;迎难而上&quot;&gt;迎难而上&lt;/h2&gt;
+&lt;p&gt;人活着，就要&lt;strong&gt;逢山开路、遇水架桥&lt;/strong&gt;。很多时候，我们因为害怕而逃避，结果却是一退再退、无路可退。如果&lt;strong&gt;鼓起勇气直面问题&lt;/strong&gt;，反而容易迎来转机。勇敢从不是本能，而是本事，是明知有困难依然愿意迎难而上。迷茫焦虑的时候，直面那些风浪吧！穿过风雨，你所期待的都会到来。 
+美好一天从“迎难而上”开始！&lt;/p&gt;</content><author><name></name></author><summary type="html">阿里自研RISC-V处理器玄铁910成功运行Android 10</summary></entry><entry><title type="html">四维图新HDMap，动态规划，2020经济</title><link href="https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-2020%E7%BB%8F%E6%B5%8E.html" rel="alternate" type="text/html" title="四维图新HDMap，动态规划，2020经济" /><published>2021-01-21T00:00:00+08:00</published><updated>2021-01-21T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap,%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92,2020%E7%BB%8F%E6%B5%8E</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-2020%E7%BB%8F%E6%B5%8E.html">&lt;h2 id=&quot;四维图新技术解析如何做到行云流水的高精度地图&quot;&gt;四维图新技术解析：如何做到行云流水的高精度地图&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://ftp.bmp.ovh/imgs/2021/01/f0039c3a6c65ba8f.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -317,7 +350,7 @@ min \lbrace dp(n - coin) + 1 | coin \in coins \rbrace, n&amp;gt;0
   &lt;li&gt;通过对两个信号的拍频测量就可以得到距离信息&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://mmbiz.qpic.cn/sz_mmbiz_png/2icOarNW84W54R7HLJXyFRFzjnC8ARWppM1W6sksgddL7EQ60gOUpXKrYDZNguf2AtxZIq1xawHt2NAtzMs9NGg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ftp.bmp.ovh/imgs/2021/01/d1fccb410ba1505e.webp&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;激光雷达性能指标&quot;&gt;激光雷达性能指标&lt;/h4&gt;
 
