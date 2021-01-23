@@ -40,8 +40,16 @@ plugins:
 
 minima:
   skin: solarized-dark
-
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
