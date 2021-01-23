@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-01-23T10:37:05+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">阿里玄铁910处理器成功运行Android</title><link href="https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid.html" rel="alternate" type="text/html" title="阿里玄铁910处理器成功运行Android" /><published>2021-01-22T00:00:00+08:00</published><updated>2021-01-22T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid.html">&lt;h2 id=&quot;阿里自研risc-v处理器玄铁910成功运行android-10&quot;&gt;阿里自研RISC-V处理器玄铁910成功运行Android 10&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-01-23T16:14:58+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">百度 Apollo Cyber RT 简介</title><link href="https://zzmfish.github.io/DailyRead/2021/01/23/%E7%99%BE%E5%BA%A6-Apollo-Cyber-RT-%E7%AE%80%E4%BB%8B.html" rel="alternate" type="text/html" title="百度 Apollo Cyber RT 简介" /><published>2021-01-23T00:00:00+08:00</published><updated>2021-01-23T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/23/%E7%99%BE%E5%BA%A6%20Apollo%20Cyber%20RT%20%E7%AE%80%E4%BB%8B</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/23/%E7%99%BE%E5%BA%A6-Apollo-Cyber-RT-%E7%AE%80%E4%BB%8B.html">&lt;h2 id=&quot;百度-apollo-cyber-rt简介&quot;&gt;百度 Apollo Cyber RT简介&lt;/h2&gt;
+
+&lt;h4 id=&quot;ros-应用于自动驾驶的不足&quot;&gt;ROS 应用于自动驾驶的不足&lt;/h4&gt;
+
+&lt;p&gt;独立进程的节点的运行顺序无法确定；&lt;/p&gt;
+
+&lt;p&gt;分布式系统存在通信开销。&lt;/p&gt;
+
+&lt;h4 id=&quot;cyber-rt-框架&quot;&gt;Cyber RT 框架&lt;/h4&gt;
+
+&lt;h6 id=&quot;基础库&quot;&gt;基础库&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;高性能&lt;/li&gt;
+  &lt;li&gt;无锁队列&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;通信层&quot;&gt;通信层&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Publish/Subscribe机制&lt;/li&gt;
+  &lt;li&gt;Service/Client机制&lt;/li&gt;
+  &lt;li&gt;服务自发现&lt;/li&gt;
+  &lt;li&gt;自适应的通信机制（共享内存、Socket、进程内）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;数据层&quot;&gt;数据层&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;数据缓存与融合&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;计算层&quot;&gt;计算层&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;计算模型&lt;/li&gt;
+  &lt;li&gt;任务以及任务调度&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;运行流程&quot;&gt;运行流程&lt;/h4&gt;
+
+&lt;h6 id=&quot;算法模块&quot;&gt;算法模块&lt;/h6&gt;
+&lt;p&gt;通过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;有向无环图（DAG）&lt;/code&gt;配置任务间的逻辑关系；&lt;/p&gt;
+
+&lt;p&gt;每个算法可以进行&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;优先级、运行时间、使用资源&lt;/code&gt;等方面的配置。&lt;/p&gt;
+
+&lt;h6 id=&quot;创建任务&quot;&gt;创建任务&lt;/h6&gt;
+&lt;p&gt;结合DAG、调度配置创建任务；&lt;/p&gt;
+
+&lt;p&gt;内部&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;协程（coroutine）&lt;/code&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;调度器&quot;&gt;调度器&lt;/h6&gt;
+&lt;p&gt;把任务放到各个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Processor队列&lt;/code&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;数据输入&quot;&gt;数据输入&lt;/h6&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sensor&lt;/code&gt; 输入数据驱动系统运转&lt;/p&gt;
+
+&lt;h4 id=&quot;基本概念&quot;&gt;基本概念&lt;/h4&gt;
+
+&lt;h6 id=&quot;component&quot;&gt;Component&lt;/h6&gt;
+
+&lt;p&gt;组件之间通过 Cyber channel 通信&lt;/p&gt;
+
+&lt;h6 id=&quot;channel&quot;&gt;Channel&lt;/h6&gt;
+
+&lt;p&gt;管理数据通信&lt;/p&gt;
+
+&lt;h6 id=&quot;node&quot;&gt;Node&lt;/h6&gt;
+
+&lt;p&gt;每一个模块包含 Node 并通过 Node 来通信&lt;/p&gt;
+
+&lt;h6 id=&quot;readerwriter&quot;&gt;Reader/Writer&lt;/h6&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;订阅者模式&lt;/code&gt;，往 channel 读写消息的类&lt;/p&gt;
+
+&lt;h6 id=&quot;serviceclient&quot;&gt;Service/Client&lt;/h6&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;请求/响应模式&lt;/code&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;message&quot;&gt;Message&lt;/h6&gt;
+
+&lt;p&gt;模块间通信的数据单元；基于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;protobuf&lt;/code&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;parameter&quot;&gt;Parameter&lt;/h6&gt;
+
+&lt;p&gt;全局参数&lt;/p&gt;
+
+&lt;h6 id=&quot;record-file&quot;&gt;Record file&lt;/h6&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;记录&lt;/code&gt;从 channel 发送或接收的消息；&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;回放&lt;/code&gt; record file 可以重现之前的操作行为&lt;/p&gt;
+
+&lt;h6 id=&quot;launch-file&quot;&gt;Launch file&lt;/h6&gt;
+
+&lt;p&gt;提供一种启动模块的便利途径。通过在 launch file 中定义一个或多个 dag 文件，可以同时启动多个 modules。&lt;/p&gt;
+
+&lt;h6 id=&quot;task&quot;&gt;Task&lt;/h6&gt;
+
+&lt;p&gt;异步计算任务&lt;/p&gt;
+
+&lt;h6 id=&quot;croutine&quot;&gt;CRoutine&lt;/h6&gt;
+
+&lt;p&gt;协程&lt;/p&gt;
+
+&lt;h6 id=&quot;scheduler&quot;&gt;Scheduler&lt;/h6&gt;
+
+&lt;p&gt;用户空间任务调度器&lt;/p&gt;
+
+&lt;h6 id=&quot;dag-file&quot;&gt;Dag file&lt;/h6&gt;
+
+&lt;p&gt;定义模块拓扑结构的配置文件&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/kesalin/article/details/88914029&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">百度 Apollo Cyber RT简介</summary></entry><entry><title type="html">阿里玄铁910处理器成功运行Android</title><link href="https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid.html" rel="alternate" type="text/html" title="阿里玄铁910处理器成功运行Android" /><published>2021-01-22T00:00:00+08:00</published><updated>2021-01-22T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid.html">&lt;h2 id=&quot;阿里自研risc-v处理器玄铁910成功运行android-10&quot;&gt;阿里自研RISC-V处理器玄铁910成功运行Android 10&lt;/h2&gt;
 
 &lt;p&gt;阿里巴巴方旗下的&lt;strong&gt;平头哥半导体&lt;/strong&gt;完成了&lt;strong&gt;安卓10对RISC-V的移植&lt;/strong&gt;并开源了全部相关代码。&lt;/p&gt;
 
@@ -879,68 +989,4 @@ PG  (participant_id_gain)   = 2
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;卫星&lt;/code&gt;和其他通信设备通常基于太阳和恒星的位置，因此恒星日与地球原子钟的同步十分关键。&lt;/p&gt;
 
-&lt;p&gt;当恒星日与原子钟的偏差超过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.9秒&lt;/code&gt;时，科学家就会_调整原子钟的时间_，给它增加或减少&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1秒&lt;/code&gt;。&lt;/p&gt;</content><author><name></name></author><summary type="html">减速50年，地球如今却开始加速自转！</summary></entry><entry><title type="html">钟南山话太极,蔚来ET7,快乐工作</title><link href="https://zzmfish.github.io/DailyRead/2021/01/13/%E9%92%9F%E5%8D%97%E5%B1%B1%E8%AF%9D%E5%A4%AA%E6%9E%81,%E8%94%9A%E6%9D%A5ET7,%E5%BF%AB%E4%B9%90%E5%B7%A5%E4%BD%9C.html" rel="alternate" type="text/html" title="钟南山话太极,蔚来ET7,快乐工作" /><published>2021-01-13T00:00:00+08:00</published><updated>2021-01-13T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/13/%E9%92%9F%E5%8D%97%E5%B1%B1%E8%AF%9D%E5%A4%AA%E6%9E%81,%E8%94%9A%E6%9D%A5ET7,%E5%BF%AB%E4%B9%90%E5%B7%A5%E4%BD%9C</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/13/%E9%92%9F%E5%8D%97%E5%B1%B1%E8%AF%9D%E5%A4%AA%E6%9E%81,%E8%94%9A%E6%9D%A5ET7,%E5%BF%AB%E4%B9%90%E5%B7%A5%E4%BD%9C.html">&lt;h2 id=&quot;钟南山为什么如此推崇太极拳&quot;&gt;钟南山为什么如此推崇太极拳？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;慢阻肺&lt;/strong&gt; 的全称是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;慢性阻塞性肺疾病&lt;/code&gt;，是一种常见的，反复发作的，以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;持续气流受限&lt;/code&gt;为特征的慢性呼吸系统疾病，通常见于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;长期吸烟&lt;/code&gt;的人。慢阻肺发病的原因之一就是体内的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;二氧化碳潴留&lt;/code&gt;，无法呼出。&lt;/p&gt;
-
-&lt;p&gt;太极拳因为&lt;strong&gt;思想清净&lt;/strong&gt;，动作&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;缓慢、柔和、放松&lt;/code&gt;，消耗的机体能量很少，因而体内产生的二氧化碳就少。&lt;/p&gt;
-
-&lt;p&gt;太极拳因为要进行深长细匀的&lt;strong&gt;腹式呼吸&lt;/strong&gt;，因而呼吸功能得到有效的锻炼，吸入更多新鲜的氧气，潴留的二氧化碳得以排出。&lt;/p&gt;
-
-&lt;p&gt;最后就是打太极拳要求&lt;strong&gt;落地生根&lt;/strong&gt;，经常有半蹲的姿势，对&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;下肢&lt;/code&gt;也是非常好的锻炼。&lt;/p&gt;
-
-&lt;h2 id=&quot;蔚来et7&quot;&gt;蔚来ET7&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11&lt;/code&gt; 个  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;800 万&lt;/code&gt;像素高清摄像头&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; 个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Innovution&lt;/code&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1550nm&lt;/code&gt;波长 、等效&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;300线&lt;/code&gt;的&lt;strong&gt;固态激光雷达&lt;/strong&gt;、测距离&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;500 米&lt;/code&gt;，最高辨率为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.06°x0.06°&lt;/code&gt;，水平 FOV 视角达到了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;120°&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; 个毫米波雷达&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;12&lt;/code&gt; 个超声波雷达&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; 个高精度定位单元&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; 个车路协同感知&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; 个增强主驾感知&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1016&lt;/code&gt; TOPS算力来源于四块&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;英伟达 Drive Orin&lt;/code&gt; 自动驾驶芯片&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;150 kWh&lt;/code&gt; &lt;strong&gt;固态电池&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;百公里 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.9 秒&lt;/code&gt;，前&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;180kW&lt;/code&gt; 的&lt;strong&gt;永磁电机&lt;/strong&gt;，后&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;300kW&lt;/code&gt; 的&lt;strong&gt;异步电机&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;累死你的不是工作而是不快乐的工作&quot;&gt;累死你的不是工作，而是不快乐的工作&lt;/h2&gt;
-
-&lt;h3 id=&quot;工作是快乐之源&quot;&gt;工作是快乐之源&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;心流&lt;/strong&gt;是指一种将&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;个体注意力完全投注在某活动上&lt;/code&gt;的感觉，心流产生时同时会有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;高度的兴奋及充实感&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;心流的体验，发生在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;工作时（54%）&lt;/code&gt;的机率，大大高于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;休闲时（18%）&lt;/code&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;让工作快乐的四个条件&quot;&gt;让工作快乐的四个条件&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;意义感&lt;/strong&gt;是指工作内容要&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;符合自己的价值观&lt;/code&gt;，工作不只是挣钱，还感受到特别的意义。&lt;/p&gt;
-
-&lt;p&gt;学会把自己做的事嫁接到一个伟大的目标上。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;成就感&lt;/strong&gt;是指一个人做一件事时的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;心理满足感&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;当&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;难度略高于技能10%到20％&lt;/code&gt;的时候，最容易有成就感。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;成长&lt;/strong&gt;是每个人最基本的动机之一，成长不仅可以获得满足感，还让自己&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;对未来充满信心&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;让员工有成长感，一定要注意&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;及时的正面反馈&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;归属感&lt;/strong&gt;是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;身份的认同&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;好的组织&lt;/code&gt;也会让员工产生归属感。&lt;/p&gt;
-
-&lt;p&gt;团队归属感最重要的东西是“&lt;strong&gt;共同的回忆&lt;/strong&gt;”：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;成功&lt;/strong&gt;：我们&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;一起完成了一项了不起的事&lt;/code&gt;，每个人都作出了贡献，而且每个人都知道他的贡献对于集体能干成这件事非常重要。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;失败&lt;/strong&gt;：失败会&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;让人成熟&lt;/code&gt;。一起经历过失败，谁也&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;不推卸责任&lt;/code&gt;，大家都知道失败是什么样的，团队会变成熟。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;关心&lt;/strong&gt;：通过一些事情让人感觉到&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;集体很关心自己&lt;/code&gt;，这样就有了安全感。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;示范&lt;/strong&gt;：当你作为领导面临一个艰难选择的时候，你要让团队看到你是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;如何做出正确选择&lt;/code&gt;的 —— 这样下次他们遇到类似情况，也知道应该怎么选。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;创造环境增强员工内驱力&quot;&gt;创造环境增强员工内驱力&lt;/h3&gt;
-
-&lt;p&gt;如果员工工作是&lt;strong&gt;内在动机&lt;/strong&gt;，他们很容易把一件事做好。但如果他们是由&lt;strong&gt;外在动机&lt;/strong&gt;驱动去做一件事情，大家很容易就能感受到他们并不投入。&lt;/p&gt;
-
-&lt;p&gt;创造一个条件，让员工能够&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;理解这件事情对他们的意义&lt;/code&gt;，让他们靠内在动机驱动工作。&lt;/p&gt;</content><author><name></name></author><summary type="html">钟南山为什么如此推崇太极拳？</summary></entry></feed>
+&lt;p&gt;当恒星日与原子钟的偏差超过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.9秒&lt;/code&gt;时，科学家就会_调整原子钟的时间_，给它增加或减少&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1秒&lt;/code&gt;。&lt;/p&gt;</content><author><name></name></author><summary type="html">减速50年，地球如今却开始加速自转！</summary></entry></feed>

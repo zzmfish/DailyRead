@@ -58,4 +58,10 @@ var store = [{
         "tags": [],
         "url": "https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid.html",
         "teaser": null
+      },{
+        "title": "百度 Apollo Cyber RT 简介",
+        "excerpt":"百度 Apollo Cyber RT简介 ROS 应用于自动驾驶的不足 独立进程的节点的运行顺序无法确定； 分布式系统存在通信开销。 Cyber RT 框架 基础库 高性能 无锁队列 通信层 Publish/Subscribe机制 Service/Client机制 服务自发现 自适应的通信机制（共享内存、Socket、进程内） 数据层 数据缓存与融合 计算层 计算模型 任务以及任务调度 运行流程 算法模块 通过有向无环图（DAG）配置任务间的逻辑关系； 每个算法可以进行优先级、运行时间、使用资源等方面的配置。 创建任务 结合DAG、调度配置创建任务； 内部协程（coroutine） 调度器 把任务放到各个 Processor队列 数据输入 Sensor 输入数据驱动系统运转 基本概念 Component 组件之间通过 Cyber channel 通信 Channel 管理数据通信 Node 每一个模块包含 Node 并通过 Node...","categories": [],
+        "tags": [],
+        "url": "https://zzmfish.github.io/DailyRead/2021/01/23/%E7%99%BE%E5%BA%A6-Apollo-Cyber-RT-%E7%AE%80%E4%BB%8B.html",
+        "teaser": null
       }]
