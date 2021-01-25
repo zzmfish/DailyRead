@@ -53,10 +53,10 @@ var store = [{
         "url": "https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-2020%E7%BB%8F%E6%B5%8E.html",
         "teaser": null
       },{
-        "title": "阿里玄铁910处理器成功运行Android",
+        "title": "阿里自研RISC-V处理器玄铁910成功运行Android 10",
         "excerpt":"阿里自研RISC-V处理器玄铁910成功运行Android 10   阿里巴巴方旗下的平头哥半导体完成了安卓10对RISC-V的移植并开源了全部相关代码。   玄铁910处理器     目前业界最强的RISC-V处理器   单核性能7.1 Coremark/MHz   达到2.5GHz，比目前业界最好的RISC-V处理器性能高40%以上   安卓开源项目(AOSP)实现了对RISC-V架构的支持   本地库与ART支持     为bionic添加动态链接、系统调用、浮点数学库的支持   基于ART实现了RISC-V架构的DEX实时解释执行、dex2oat、JNI调用以及JIT编译优化     Linux内核支持       完善了Clang/LLVM对Linux内核的编译支持   修复了大量Clang/LLVM的问题   首次将RISC-V架构的Linux内核与安卓系统进行了适配   Build系统支持     整合编译框架、预编译的工具链、本地方法库、模拟器，应用和服务等模块   阅读原文   迎难而上  人活着，就要逢山开路、遇水架桥。很多时候，我们因为害怕而逃避，结果却是一退再退、无路可退。如果鼓起勇气直面问题，反而容易迎来转机。勇敢从不是本能，而是本事，是明知有困难依然愿意迎难而上。迷茫焦虑的时候，直面那些风浪吧！穿过风雨，你所期待的都会到来。  美好一天从“迎难而上”开始！  ","categories": [],
         "tags": [],
-        "url": "https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E7%8E%84%E9%93%81910%E5%A4%84%E7%90%86%E5%99%A8%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid.html",
+        "url": "https://zzmfish.github.io/DailyRead/2021/01/22/%E9%98%BF%E9%87%8C%E8%87%AA%E7%A0%94RISC-V%E5%A4%84%E7%90%86%E5%99%A8%E7%8E%84%E9%93%81910%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8CAndroid-10.html",
         "teaser": null
       },{
         "title": "百度 Apollo Cyber RT 简介",
@@ -69,5 +69,17 @@ var store = [{
         "excerpt":"一篇帮你更了解美国的雄文：美国危险的根源（上）  1776年~1789年：独立宣言—宪法政体构建  只有开国者之一的汉密尔顿领导的联邦党。   1791年，另外两名开国者杰斐逊和麦迪逊为了对抗汉密尔顿组建了民主共和党。   1812年联邦党解散。   1825年民主共和党分为民主党和辉格党。民主党代表着南方地主、农民的利益。   1854年辉格党改名共和党，代表北方资产阶级的利益。   这时期民主党一家独大。   1861年~1865年：南北战争   共和党为首的资本阶层获得胜利，美国也得以彻底转型为一个资本主义国家。   1933年~1945年：罗斯福新政——二战   美国成为世界霸主。   移民大浪潮的到来，民主党为了崛起，迅速成为这些新一代移民的代言人。   而这就迫使其他保守派人士，扎堆到共和党里。   至此，共和党就变成一个保守主义政党，而民主党就变成一个自由主义政党。   阅读原文   ","categories": [],
         "tags": [],
         "url": "https://zzmfish.github.io/DailyRead/2021/01/24/%E4%B8%80%E7%AF%87%E5%B8%AE%E4%BD%A0%E6%9B%B4%E4%BA%86%E8%A7%A3%E7%BE%8E%E5%9B%BD%E7%9A%84%E9%9B%84%E6%96%87-%E7%BE%8E%E5%9B%BD%E5%8D%B1%E9%99%A9%E7%9A%84%E6%A0%B9%E6%BA%90-%E4%B8%8A.html",
+        "teaser": null
+      },{
+        "title": "C++ explicit、#pragma once",
+        "excerpt":"C++ explicit 关键字 隐式类型转换 #include &lt;iostream&gt; using namespace std; class Point { public: int x, y; Point(int x = 0, int y = 0) : x(x), y(y) {} }; void displayPoint(const Point&amp; p) { cout &lt;&lt; \"(\" &lt;&lt; p.x &lt;&lt; \",\" &lt;&lt; p.y &lt;&lt; \")\" &lt;&lt; endl; } int main()...","categories": [],
+        "tags": [],
+        "url": "https://zzmfish.github.io/DailyRead/2021/01/25/C++-explicit-pragma-once.html",
+        "teaser": null
+      },{
+        "title": "心灵奇旅：活着就是活着的意义",
+        "excerpt":"心灵奇旅：活着就是活着的意义   成功是达成目标、实现愿望、满足欲求。   追求目标、达成目标不是人生的意义。   普通平常的生活就是人生的意义：      身体的连接；   五官的感受；   友情；   亲情；   对其他人的关爱。   幸福不是一种状态，而是一种能力，是感知快乐的能力；幸福的反面不是不幸福，而是麻木。   珍惜人生，体验生命，活在当下，次第花开。      阅读原文   ","categories": [],
+        "tags": [],
+        "url": "https://zzmfish.github.io/DailyRead/2021/01/25/%E5%BF%83%E7%81%B5%E5%A5%87%E6%97%85-%E6%B4%BB%E7%9D%80%E5%B0%B1%E6%98%AF%E6%B4%BB%E7%9D%80%E7%9A%84%E6%84%8F%E4%B9%89.html",
         "teaser": null
       }]
