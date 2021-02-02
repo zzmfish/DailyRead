@@ -1,4 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-01-25T21:16:04+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">C++ explicit、#pragma once</title><link href="https://zzmfish.github.io/DailyRead/2021/01/25/C++-explicit-pragma-once.html" rel="alternate" type="text/html" title="C++ explicit、#pragma once" /><published>2021-01-25T00:00:00+08:00</published><updated>2021-01-25T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/25/C++%20explicit%E3%80%81#pragma%20once</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/25/C++-explicit-pragma-once.html">&lt;h2 id=&quot;c-explicit-关键字&quot;&gt;C++ explicit 关键字&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-02-02T15:16:15+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">四年烧掉百亿，威马上市难上岸</title><link href="https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF-%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8.html" rel="alternate" type="text/html" title="四年烧掉百亿，威马上市难上岸" /><published>2021-02-02T00:00:00+08:00</published><updated>2021-02-02T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF,%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF-%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8.html">&lt;h2 id=&quot;四年烧掉百亿威马上市难上岸&quot;&gt;四年烧掉百亿，威马上市难上岸&lt;/h2&gt;
+
+&lt;p&gt;1月29日，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;上海证监局&lt;/code&gt;网站上披露了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;中信建投&lt;/code&gt;关于威马汽车辅导工作的总结报告。威马距离&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;科创板&lt;/code&gt;上市只有几步之遥了。&lt;/p&gt;
+
+&lt;p&gt;2020年，威马全年交付量为&lt;strong&gt;22495台&lt;/strong&gt;，EX5销量在12月份甚至开始下滑。&lt;/p&gt;
+
+&lt;p&gt;2020年5推出EX6，售价23.99万-28.88万，5月到9月销量分别为82台、38台、52台、15台和72台。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0202-Weima-1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;营收体量是四家中最小&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0202-Weima-2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;亏损逐年扩大，四年亏损&lt;strong&gt;114.09亿元&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0202-Weima-3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2020年威马一个月内连发至少四起自燃事件，随后共计&lt;strong&gt;1282辆&lt;/strong&gt;汽车。&lt;/p&gt;
+
+&lt;p&gt;2019年蔚来接连发生起火事件，召回搭载共计&lt;strong&gt;4803辆ES8&lt;/strong&gt;，召回成本高达&lt;strong&gt;3.39亿元&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;威马的&lt;strong&gt;经营性现金流常年为负&lt;/strong&gt;，且目前手头的&lt;strong&gt;现金及现金等价物还剩42亿元&lt;/strong&gt;。&lt;strong&gt;年均亏损额接近30亿&lt;/strong&gt;的威马，能否找到金主融资上市登陆二级市场，成了生死存亡的关键。&lt;/p&gt;
+
+&lt;p&gt;多位业内人士对威马评价是&lt;strong&gt;产品定位不清，没有核心竞争力&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;百度&lt;/strong&gt;数轮战略投资了威马，威马的智能技术很多时候需要靠百度赋能。过程中不但会遇到匹配难题，难以实现用软件训练硬件，最大的问题是，&lt;strong&gt;如果技术不掌握在自己手里，是没有未来的&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.toutiao.com/i6924480299095081484/&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">四年烧掉百亿，威马上市难上岸</summary></entry><entry><title type="html">解析国内第一款前装量产激光雷达：蔚来 vs 小鹏的选择</title><link href="https://zzmfish.github.io/DailyRead/2021/02/01/%E8%A7%A3%E6%9E%90%E5%9B%BD%E5%86%85%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%89%8D%E8%A3%85%E9%87%8F%E4%BA%A7%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE-%E8%94%9A%E6%9D%A5-vs-%E5%B0%8F%E9%B9%8F%E7%9A%84%E9%80%89%E6%8B%A9.html" rel="alternate" type="text/html" title="解析国内第一款前装量产激光雷达：蔚来 vs 小鹏的选择" /><published>2021-02-01T00:00:00+08:00</published><updated>2021-02-01T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/01/%E8%A7%A3%E6%9E%90%E5%9B%BD%E5%86%85%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%89%8D%E8%A3%85%E9%87%8F%E4%BA%A7%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE:%E8%94%9A%E6%9D%A5%20vs%20%E5%B0%8F%E9%B9%8F%E7%9A%84%E9%80%89%E6%8B%A9</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/01/%E8%A7%A3%E6%9E%90%E5%9B%BD%E5%86%85%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%89%8D%E8%A3%85%E9%87%8F%E4%BA%A7%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE-%E8%94%9A%E6%9D%A5-vs-%E5%B0%8F%E9%B9%8F%E7%9A%84%E9%80%89%E6%8B%A9.html">&lt;h4 id=&quot;蔚来-x-innovusion&quot;&gt;蔚来 x Innovusion&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;多边形&lt;/strong&gt;扫描器&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;等效300线&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;可以&lt;strong&gt;控制扫描区域&lt;/strong&gt;，提高关键区域的扫描密度&lt;/li&gt;
+  &lt;li&gt;最远探测距离&lt;strong&gt;500 米&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;水平 FOV &lt;strong&gt;120°&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;功耗高&lt;/strong&gt;，有电机转动部件&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0201-Lidar-1.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;小鹏-x-livox&quot;&gt;小鹏 x Livox&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;双楔形棱镜&lt;/strong&gt;扫描器&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;探测距离&lt;strong&gt;150 米&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;0.1 秒下的&lt;strong&gt;等效144 线&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;水平 FOV  &lt;strong&gt;120°&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;花瓣型&lt;/strong&gt;点云，中央密度高，外围密度低&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;扫描时间越长效果越好&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0201-Lidar-2.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;小结&quot;&gt;小结&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;主动型&lt;/strong&gt;传感器&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;巨大的成本与性能&lt;strong&gt;挖掘潜力&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;多种技术路线&lt;/strong&gt;竞争&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;可提供 &lt;strong&gt;3D 信息&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/4yHRllaDOULlUO_-GkiFMw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">蔚来 x Innovusion</summary></entry><entry><title type="html">美国多空大战：互联网+民粹主义，金融暴力+网络暴力</title><link href="https://zzmfish.github.io/DailyRead/2021/01/30/%E7%BE%8E%E5%9B%BD%E5%A4%9A%E7%A9%BA%E5%A4%A7%E6%88%98-%E4%BA%92%E8%81%94%E7%BD%91+%E6%B0%91%E7%B2%B9%E4%B8%BB%E4%B9%89-%E9%87%91%E8%9E%8D%E6%9A%B4%E5%8A%9B+%E7%BD%91%E7%BB%9C%E6%9A%B4%E5%8A%9B.html" rel="alternate" type="text/html" title="美国多空大战：互联网+民粹主义，金融暴力+网络暴力" /><published>2021-01-30T00:00:00+08:00</published><updated>2021-01-30T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/30/%E7%BE%8E%E5%9B%BD%E5%A4%9A%E7%A9%BA%E5%A4%A7%E6%88%98:%E4%BA%92%E8%81%94%E7%BD%91+%E6%B0%91%E7%B2%B9%E4%B8%BB%E4%B9%89,%E9%87%91%E8%9E%8D%E6%9A%B4%E5%8A%9B+%E7%BD%91%E7%BB%9C%E6%9A%B4%E5%8A%9B</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/30/%E7%BE%8E%E5%9B%BD%E5%A4%9A%E7%A9%BA%E5%A4%A7%E6%88%98-%E4%BA%92%E8%81%94%E7%BD%91+%E6%B0%91%E7%B2%B9%E4%B8%BB%E4%B9%89-%E9%87%91%E8%9E%8D%E6%9A%B4%E5%8A%9B+%E7%BD%91%E7%BB%9C%E6%9A%B4%E5%8A%9B.html">&lt;h2 id=&quot;美国多空大战互联网民粹主义金融暴力网络暴力&quot;&gt;美国多空大战：互联网+民粹主义，金融暴力+网络暴力&lt;/h2&gt;
+
+&lt;h4 id=&quot;美国散户逼空世纪大战&quot;&gt;美国散户逼空世纪大战&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;香橼研究&lt;/strong&gt; (CitronResearch) 的CEO发表对&lt;strong&gt;游戏驿站&lt;/strong&gt; (Gamestop) 做空的观点后，&lt;strong&gt;Reddit&lt;/strong&gt;网站的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;华尔街赌注&lt;/code&gt;版块就开始有大V号召大家买进游戏驿站股票，和香橼公司、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Melvin Capital&lt;/code&gt;等做空游戏驿站的基金对抗。&lt;/p&gt;
+
+&lt;p&gt;游戏驿站股价5个交易日涨幅高达&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;788.32%&lt;/code&gt;。 一个交易日经历了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17次&lt;/code&gt;熔断。&lt;/p&gt;
+
+&lt;h4 id=&quot;基础知识&quot;&gt;基础知识&lt;/h4&gt;
+&lt;h6 id=&quot;融资&quot;&gt;融资&lt;/h6&gt;
+&lt;p&gt;证劵公司&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;借钱&lt;/code&gt;给你买股票，你在约定的时间内&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;偿还&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h6 id=&quot;看多&quot;&gt;看多&lt;/h6&gt;
+&lt;p&gt;你通过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;融资&lt;/code&gt;买股票，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;股价上涨&lt;/code&gt;了，你卖掉股票赚钱了。&lt;/p&gt;
+
+&lt;h6 id=&quot;融券卖空&quot;&gt;融券（卖空）&lt;/h6&gt;
+&lt;p&gt;券商&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;借你股票&lt;/code&gt;并帮你卖掉，你的账户里多了一笔&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;现金&lt;/code&gt;，同时你欠券商&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;股票&lt;/code&gt;，在约定的时间内必须&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;偿还&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h6 id=&quot;期货&quot;&gt;期货&lt;/h6&gt;
+&lt;p&gt;买卖双方约定在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;未来某一时期&lt;/code&gt;以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;约定的价格&lt;/code&gt;买卖&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;约定数量&lt;/code&gt;的股票。&lt;/p&gt;
+
+&lt;p&gt;######期权
+购买方支付&lt;strong&gt;premium权利金&lt;/strong&gt;，可以在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;约定的时间&lt;/code&gt;以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;约定的价格&lt;/code&gt;卖出或买进一项标的的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;权利&lt;/code&gt;。卖方卖的是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;义务&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h6 id=&quot;看跌期权认沽期权&quot;&gt;看跌期权（认沽期权）&lt;/h6&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;对方卖出&lt;/code&gt;标的物的权利。&lt;/p&gt;
+
+&lt;h6 id=&quot;看涨期权认购期权&quot;&gt;看涨期权（认购期权）&lt;/h6&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;对方买入&lt;/code&gt;标的物的权利。&lt;/p&gt;
+
+&lt;h6 id=&quot;实物交割&quot;&gt;实物交割&lt;/h6&gt;
+&lt;p&gt;期货、期权合约到期时，双方以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;实物&lt;/code&gt;为介质、在市场上走一圈变成&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;现金&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h6 id=&quot;现金交割&quot;&gt;现金交割&lt;/h6&gt;
+&lt;p&gt;期货、期权合约到期时，双方直接现金结算。&lt;/p&gt;
+
+&lt;h6 id=&quot;保证金&quot;&gt;保证金&lt;/h6&gt;
+&lt;p&gt;交易的期货合约标的物&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;总价的一个百分比&lt;/code&gt;，一般不低于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6%&lt;/code&gt;。然后会每日盯市，如果保证金不够了，就会向你&lt;strong&gt;催缴&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h6 id=&quot;平仓&quot;&gt;平仓&lt;/h6&gt;
+&lt;p&gt;不能及时缴纳保证金，导致&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;亏损大保证金&lt;/code&gt;，交易所不让你玩下去。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/pBTIxIrdvZRQt8CtHrWhSg&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">美国多空大战：互联网+民粹主义，金融暴力+网络暴力</summary></entry><entry><title type="html">MongoDB rename databases</title><link href="https://zzmfish.github.io/DailyRead/2021/01/26/MongoDB-rename-databases.html" rel="alternate" type="text/html" title="MongoDB rename databases" /><published>2021-01-26T00:00:00+08:00</published><updated>2021-01-26T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/26/MongoDB%20rename%20databases</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/26/MongoDB-rename-databases.html">&lt;blockquote&gt;
+  &lt;p&gt;The “copydb” command is deprecated, please use these two commands instead:&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;mongodump to back up data&lt;/li&gt;
+    &lt;li&gt;mongorestore to recover data from mongodump into a new namespace&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不赞成使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;copy&lt;/code&gt;命令，请使用以下两个命令来代替：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mongodump&lt;/code&gt;备份数据&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mongorestore&lt;/code&gt;从mongodump的数据恢复到一个新的命名空间&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We are aware of how painful and long it is to rename a database in MongoDB. Unfortunately, this is not an simple feature for us to implement due to the way that database metadata is stored in the original (default) storage engine. In MMAPv1 files, the namespace (e.g.: dbName.collection) that describes every single collection and index includes the database name, so to rename a set of database files, every single namespace string would have to be rewritten. This impacts:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;the .ns file&lt;/li&gt;
+    &lt;li&gt;every single numbered file for the collection&lt;/li&gt;
+    &lt;li&gt;the namespace for every index&lt;/li&gt;
+    &lt;li&gt;internal unique names of each collection and index&lt;/li&gt;
+    &lt;li&gt;contents of system.namespaces and system.indexes (or their equivalents in the future)&lt;/li&gt;
+    &lt;li&gt;other locations I may be missing&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我们清楚在MongoDB重命名一个数据库有多痛苦和要多久。很不幸因为数据库&lt;strong&gt;元数据&lt;/strong&gt;的存储方式，并不存在一种简单的实现方式。在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MMAPv1&lt;/code&gt;文件中，&lt;strong&gt;命名空间&lt;/strong&gt;描述每一个集合、索引和数据库的名称，因此为了修改一系列数据库文件，每个名字空间字符串都要被修改。这影响到：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.ns文件&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;集合的每个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;编号文件&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;每个集合和索引的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;内部唯一命名&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;system.namespace&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;system.indexes&lt;/code&gt;的内容&lt;/li&gt;
+  &lt;li&gt;其他我可能遗漏的地方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is just to accomplish a rename of a single database in a standalone mongod instance. For replica sets the above would need to be done on every replica node, plus on each node every single oplog entry that refers this database would have to be somehow invalidated or rewritten, and then if it’s a sharded cluster, one also needs to add these changes to every shard if the DB is sharded, plus the config servers have all the shard metadata in terms of namespaces with their full names.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这只是完成单一mongod实例的数据库重命名。&lt;strong&gt;副本集&lt;/strong&gt;需要在每一个节点上做一遍以上操作，另外每个节点上的每个用到这个库的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oplog条目&lt;/code&gt;都会变无效或需要重写。而对于&lt;strong&gt;分片集群&lt;/strong&gt;，要对这个数据库的每个分片都加上这些修改，包括含有所有数据库完整名称的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;分片元数据&lt;/code&gt;的&lt;strong&gt;配置服务器&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There would be absolutely no way to do this on a live system.
+To do it offline, it would require re-writing every single database file to accommodate the new name, and at that point it would be as slow as the current “copydb” command.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这实在无法在一个在线系统上实现。&lt;/p&gt;
+
+&lt;p&gt;离线做的话，这需要重写每一个数据库文件去适应新名字，然而这会和现在的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;copydb&lt;/code&gt;一样慢。&lt;/p&gt;
+
+&lt;p&gt;MongoDB Product Team，Sep 10, 2019&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jira.mongodb.org/browse/SERVER-701&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The “copydb” command is deprecated, please use these two commands instead: mongodump to back up data mongorestore to recover data from mongodump into a new namespace</summary></entry><entry><title type="html">C++ explicit、#pragma once</title><link href="https://zzmfish.github.io/DailyRead/2021/01/25/C++-explicit-pragma-once.html" rel="alternate" type="text/html" title="C++ explicit、#pragma once" /><published>2021-01-25T00:00:00+08:00</published><updated>2021-01-25T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/25/C++%20explicit%E3%80%81#pragma%20once</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/25/C++-explicit-pragma-once.html">&lt;h2 id=&quot;c-explicit-关键字&quot;&gt;C++ explicit 关键字&lt;/h2&gt;
 
 &lt;h4 id=&quot;隐式类型转换&quot;&gt;隐式类型转换&lt;/h4&gt;
 
@@ -240,95 +421,7 @@ int main()
 
 &lt;h2 id=&quot;迎难而上&quot;&gt;迎难而上&lt;/h2&gt;
 &lt;p&gt;人活着，就要&lt;strong&gt;逢山开路、遇水架桥&lt;/strong&gt;。很多时候，我们因为害怕而逃避，结果却是一退再退、无路可退。如果&lt;strong&gt;鼓起勇气直面问题&lt;/strong&gt;，反而容易迎来转机。勇敢从不是本能，而是本事，是明知有困难依然愿意迎难而上。迷茫焦虑的时候，直面那些风浪吧！穿过风雨，你所期待的都会到来。 
-美好一天从“迎难而上”开始！&lt;/p&gt;</content><author><name></name></author><summary type="html">阿里自研RISC-V处理器玄铁910成功运行Android 10</summary></entry><entry><title type="html">四维图新HDMap，动态规划，2020经济</title><link href="https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-2020%E7%BB%8F%E6%B5%8E.html" rel="alternate" type="text/html" title="四维图新HDMap，动态规划，2020经济" /><published>2021-01-21T00:00:00+08:00</published><updated>2021-01-21T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap,%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92,2020%E7%BB%8F%E6%B5%8E</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/21/%E5%9B%9B%E7%BB%B4%E5%9B%BE%E6%96%B0HDMap-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-2020%E7%BB%8F%E6%B5%8E.html">&lt;h2 id=&quot;四维图新技术解析如何做到行云流水的高精度地图&quot;&gt;四维图新技术解析：如何做到行云流水的高精度地图&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://ftp.bmp.ovh/imgs/2021/01/f0039c3a6c65ba8f.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;揭秘高精度地图的生产过程&quot;&gt;揭秘高精度地图的生产过程&lt;/h4&gt;
-
-&lt;h6 id=&quot;采集&quot;&gt;采集&lt;/h6&gt;
-
-&lt;p&gt;1、专业采集车进行外业采集&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;提前分配任务&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;安装&lt;strong&gt;多种传感器&lt;/strong&gt;：激光雷达、摄像头、惯性测量单元和定位设备&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;厘米级精度&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;设备较为昂贵&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2、UGC设备采集&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;采集&lt;strong&gt;大量数据&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;精准地&lt;strong&gt;发现数据变化的范围&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;判断是否需要采集车进行有针对性的专业测量&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;处理&quot;&gt;处理&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;把不同传感器的采集数据进行&lt;strong&gt;融合叠加&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;道路元素识别&lt;/strong&gt;：道路标线、路沿、路牌、交通标志&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;冗余数据整合和删除&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;验证&quot;&gt;验证&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;人工&lt;strong&gt;抽样检测&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;确认和完善&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;发布&quot;&gt;发布&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;生成&lt;strong&gt;矢量母库&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;借助&lt;strong&gt;云平台&lt;/strong&gt;来实现发布及更新&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;影响高精度地图量产的关键因素&quot;&gt;影响高精度地图量产的关键因素&lt;/h4&gt;
-
-&lt;h6 id=&quot;实时更新&quot;&gt;实时更新&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;准动态数据：&lt;strong&gt;分钟&lt;/strong&gt;更新&lt;/li&gt;
-  &lt;li&gt;实时动态数据：&lt;strong&gt;秒或毫秒&lt;/strong&gt;更新&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;生产效率&quot;&gt;生产效率&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;需要布设很多高精度采集设备和车辆&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;较高的成本&lt;/strong&gt;限制了高精地图的生产效率&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;地图存储问题&quot;&gt;地图存储问题&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;整体容量远远超出目前主流控制器方案的存储容量&lt;/li&gt;
-  &lt;li&gt;需要借助&lt;strong&gt;云储存&lt;/strong&gt;及&lt;strong&gt;云分发&lt;/strong&gt;的形式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;未来高精度地图的更新生态圈&quot;&gt;未来高精度地图的更新生态圈&lt;/h4&gt;
-
-&lt;p&gt;未来的高精度地图更新，一定是一个&lt;strong&gt;云+端的完整生态圈&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;未来&lt;strong&gt;智能网联汽车&lt;/strong&gt;，既是云端地图数据成果的&lt;strong&gt;消费和使用者&lt;/strong&gt;，同时也会是地图云中心部分&lt;strong&gt;数据的提供者&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h4 id=&quot;面向量产四维图新的挑战和思考&quot;&gt;面向量产四维图新的挑战和思考&lt;/h4&gt;
-
-&lt;p&gt;覆盖超过&lt;strong&gt;32万公里&lt;/strong&gt;高速公路&lt;/p&gt;
-
-&lt;p&gt;覆盖超过&lt;strong&gt;5000公里&lt;/strong&gt;复杂城市道路&lt;/p&gt;
-
-&lt;p&gt;正在构建一个云+端的生态体系&lt;/p&gt;
-
-&lt;p&gt;更多源的第三方数据关联到地图&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/3aeUc0uUXXzZ43KSGvFdMQ&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;动态规划&quot;&gt;动态规划&lt;/h2&gt;
+美好一天从“迎难而上”开始！&lt;/p&gt;</content><author><name></name></author><summary type="html">阿里自研RISC-V处理器玄铁910成功运行Android 10</summary></entry><entry><title type="html">动态规划解题套路框架</title><link href="https://zzmfish.github.io/DailyRead/2021/01/21/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%A7%A3%E9%A2%98%E5%A5%97%E8%B7%AF%E6%A1%86%E6%9E%B6.html" rel="alternate" type="text/html" title="动态规划解题套路框架" /><published>2021-01-21T00:00:00+08:00</published><updated>2021-01-21T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/21/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%A7%A3%E9%A2%98%E5%A5%97%E8%B7%AF%E6%A1%86%E6%9E%B6</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/21/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%A7%A3%E9%A2%98%E5%A5%97%E8%B7%AF%E6%A1%86%E6%9E%B6.html">&lt;h2 id=&quot;动态规划解题套路框架&quot;&gt;动态规划解题套路框架&lt;/h2&gt;
 
 &lt;h4 id=&quot;动态规划三要素&quot;&gt;动态规划三要素&lt;/h4&gt;
 
@@ -348,7 +441,7 @@ int main()
 
 &lt;blockquote&gt;
   &lt;p&gt;0和1开始，之后每一项都等于前两项之和：
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233……&lt;/p&gt;
+ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233……&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h6 id=&quot;状态转移方程&quot;&gt;状态转移方程&lt;/h6&gt;
@@ -390,573 +483,4 @@ min \lbrace dp(n - coin) + 1 | coin \in coins \rbrace, n&amp;gt;0
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/dong-tai-gui-hua-xiang-jie-jin-jie&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;经济新方位2020怎么看&quot;&gt;经济新方位·2020怎么看&lt;/h2&gt;
-
-&lt;p&gt;GDP同比增长&lt;strong&gt;2.3%&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;GDP突破&lt;strong&gt;100万亿元&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;人均GDP连续两年超&lt;strong&gt;1万美元&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;城镇新增就业&lt;strong&gt;1186万人&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;居民消费价格指数(CPI)比上年上涨&lt;strong&gt;2.5%&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;全国居民人均可支配收入实际增长&lt;strong&gt;2.1%&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;外汇储备余额&lt;strong&gt;32165亿美元&lt;/strong&gt;，比上年末增加了&lt;strong&gt;1086亿美元&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;单位GDP能耗比上年下降&lt;strong&gt;0.1%&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;消费支出占GDP的比重&lt;strong&gt;54.3%&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://ftp.bmp.ovh/imgs/2021/01/707eb3e148da9d57.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://m2.people.cn/news/toutiao.html?s=MV8wXzE0Njk0MDM2XzQwODFfMTYxMTAwOTAxNw==&amp;amp;tt_from=weixin&amp;amp;tt_group_id=6919234187018895880&amp;amp;tt_from=weixin&amp;amp;utm_campaign=client_share&amp;amp;wxshare_count=1&amp;amp;timestamp=1611106155&amp;amp;app=news_article&amp;amp;utm_source=weixin&amp;amp;utm_medium=toutiao_android&amp;amp;use_new_style=1&amp;amp;req_id=2021012009291501014413113401EBEC48&amp;amp;share_token=ee0d89b8-8baf-4c2a-9b8e-c4c3694e1553&amp;amp;group_id=6919234187018895880&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">四维图新技术解析：如何做到行云流水的高精度地图</summary></entry><entry><title type="html">PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战</title><link href="https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98.html" rel="alternate" type="text/html" title="PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战" /><published>2021-01-20T00:00:00+08:00</published><updated>2021-01-20T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB:%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI%E6%8A%80%E6%9C%AF%E8%A7%A3%E8%AF%BB-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98.html">&lt;h2 id=&quot;ponyai技术解读自动驾驶中轨迹规划的探索和挑战&quot;&gt;PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战&lt;/h2&gt;
-
-&lt;h4 id=&quot;轨迹规划基本介绍&quot;&gt;轨迹规划基本介绍&lt;/h4&gt;
-
-&lt;h6 id=&quot;轨迹规划的概念&quot;&gt;轨迹规划的概念&lt;/h6&gt;
-
-&lt;p&gt;核心是解决车辆该怎么走的问题&lt;/p&gt;
-
-&lt;p&gt;输入&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;拓扑地图&lt;/li&gt;
-  &lt;li&gt;障碍物&lt;/li&gt;
-  &lt;li&gt;障碍物的预测轨迹&lt;/li&gt;
-  &lt;li&gt;交通信号灯的状态&lt;/li&gt;
-  &lt;li&gt;定位&lt;/li&gt;
-  &lt;li&gt;导航&lt;/li&gt;
-  &lt;li&gt;车辆状态&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;输出是一个&lt;strong&gt;轨迹&lt;/strong&gt;，是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;时间到位置的函数 t→(x,y,z)&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;为什么需要决策模块&quot;&gt;为什么需要决策模块&lt;/h4&gt;
-&lt;h6 id=&quot;决策&quot;&gt;决策&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;限定非凸问题（轨迹规划）的解空间，将问题转化为凸的&lt;/li&gt;
-  &lt;li&gt;使解更加稳定&lt;/li&gt;
-  &lt;li&gt;NP-hard（非确定性多项式困难）问题&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;需要决策的场景&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;抢行还是让行&lt;/li&gt;
-  &lt;li&gt;是否要冲黄灯&lt;/li&gt;
-  &lt;li&gt;在哪两辆车之间变道、并线&lt;/li&gt;
-  &lt;li&gt;是否要主动变道&lt;/li&gt;
-  &lt;li&gt;是从左还是右绕行前方障碍物&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;纵向规划决策求解动态规划&quot;&gt;纵向规划决策求解：动态规划&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;将t - s 图进行&lt;strong&gt;离散化&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;通过前边两步近似求出加速度，写出一个&lt;strong&gt;状态转移方程&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;只能一个&lt;strong&gt;大概的决策&lt;/strong&gt;方法，即到底让或者不让，不能保证舒适&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;决策面临的挑战&quot;&gt;决策面临的挑战&lt;/h6&gt;
-
-&lt;p&gt;1、&lt;strong&gt;NP-hard问题&lt;/strong&gt;，不易直接求解&lt;/p&gt;
-
-&lt;p&gt;2、很难&lt;strong&gt;用规则去拟合人的经验&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;3、场景多变而复杂&lt;/p&gt;
-
-&lt;h4 id=&quot;横向规划&quot;&gt;横向规划&lt;/h4&gt;
-
-&lt;h6 id=&quot;横向规划的解法&quot;&gt;横向规划的解法&lt;/h6&gt;
-
-&lt;p&gt;无车道的场景：业界大多都用搜索等路径生成的方式去处理。&lt;/p&gt;
-
-&lt;p&gt;有车道的情况：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;离线生成&lt;strong&gt;参考线&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;将求解&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;s→(x,y)&lt;/code&gt;的问题变为求解&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;s→l&lt;/code&gt;的问题&lt;/li&gt;
-  &lt;li&gt;l是指车辆在这个参考线上的&lt;strong&gt;横向偏移量&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;参考线的生成&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;可以利用&lt;strong&gt;高精地图&lt;/strong&gt;离线计算&lt;/li&gt;
-  &lt;li&gt;约束
-    &lt;ul&gt;
-      &lt;li&gt;需要在车道线内&lt;/li&gt;
-      &lt;li&gt;控制上可实现&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;优化目标
-    &lt;ul&gt;
-      &lt;li&gt;离参考线近&lt;/li&gt;
-      &lt;li&gt;离障碍物远&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;曲率&lt;/strong&gt;不大&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;曲率变化率&lt;/strong&gt;不大&lt;/li&gt;
-      &lt;li&gt;可以使用&lt;strong&gt;二次规划&lt;/strong&gt;来解决&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;横向规划的挑战&quot;&gt;横向规划的挑战&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;没有车道线&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;普通车辆不按车道线行驶&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;行驶环境瞬息万变，预测困难&lt;/li&gt;
-  &lt;li&gt;保证规划的路径光滑且在控制上可实现&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;纵向规划&quot;&gt;纵向规划&lt;/h4&gt;
-
-&lt;h6 id=&quot;纵向规划的定义和场景&quot;&gt;纵向规划的定义和场景&lt;/h6&gt;
-
-&lt;p&gt;车辆在设定好的路径上的速度规划&lt;/p&gt;
-
-&lt;p&gt;约束&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;遵守交规&lt;/li&gt;
-  &lt;li&gt;避免碰撞&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;优化目标&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;乘坐&lt;strong&gt;舒适&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;速度变化率&lt;/strong&gt;不大&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;加速度变化率&lt;/strong&gt;不大&lt;/li&gt;
-  &lt;li&gt;行驶速度尽量&lt;strong&gt;快&lt;/strong&gt;一点&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;纵向规划的挑战&quot;&gt;纵向规划的挑战&lt;/h6&gt;
-
-&lt;p&gt;1、&lt;strong&gt;博弈&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;2、&lt;strong&gt;激进和保守之间的平衡点&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;3、&lt;strong&gt;感知和预测的困难&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;4、&lt;strong&gt;横纵向协调配合&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/cJNQNDrNyttV9a8UK2SkfQ&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">PonyAI技术解读：自动驾驶中轨迹规划的探索和挑战</summary></entry><entry><title type="html">英特尔FMCW激光雷达</title><link href="https://zzmfish.github.io/DailyRead/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE.html" rel="alternate" type="text/html" title="英特尔FMCW激光雷达" /><published>2021-01-20T00:00:00+08:00</published><updated>2021-01-20T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/20/%E8%8B%B1%E7%89%B9%E5%B0%94FMCW%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE.html">&lt;h2 id=&quot;英特尔mobileye最新发布的fmcw激光雷达有何过人之处&quot;&gt;英特尔Mobileye最新发布的FMCW激光雷达有何过人之处&lt;/h2&gt;
-
-&lt;h4 id=&quot;激光雷达原理&quot;&gt;激光雷达原理&lt;/h4&gt;
-
-&lt;h6 id=&quot;拍频原理&quot;&gt;拍频原理&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;信号发生器发出频率随时间呈&lt;strong&gt;三角波&lt;/strong&gt;变化的信号给发射机&lt;/li&gt;
-  &lt;li&gt;接收机接收这个频率呈三角状变化的信号&lt;/li&gt;
-  &lt;li&gt;通过对两个信号的拍频测量就可以得到距离信息&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/zzmfish/DailyRead/main/images/0120-FMCWLidar.webp&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;激光雷达性能指标&quot;&gt;激光雷达性能指标&lt;/h4&gt;
-
-&lt;h6 id=&quot;距离分辨力&quot;&gt;距离分辨力&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;单次测量中可区分的目标间最小距离&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;由&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;光源调制带宽&lt;/code&gt;决定&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;角分辨力&quot;&gt;角分辨力&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;单次探测中把距离R相同但是相对角度不同的目标区分开的能力&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;根据高斯光束的瑞利判据，光束发散角θ受到发射端准直器的孔径d与光载波波长λ的影响，满足θ=1.27λ/d&lt;/li&gt;
-  &lt;li&gt;可区分的径向距离SA可表示为SA≥2R⋅sin(θ/2)&lt;/li&gt;
-  &lt;li&gt;常用方法是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;增加天线孔径d&lt;/code&gt;以减小光束发散角&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;距离测量准确度&quot;&gt;距离测量准确度&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;测得的距离分布的均值与真实距离之间的差距&lt;/li&gt;
-  &lt;li&gt;主要受到光源频率调制的线性度和测量系统校准的影响&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;角测量准确度&quot;&gt;角测量准确度&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;受发射端扫描器件的角度准确度影响&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;距离测量与角测量结果的精度&quot;&gt;距离测量与角测量结果的精度&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;对同一目标测量结果的一致性程度&lt;/li&gt;
-  &lt;li&gt;受到光源的各参数稳定度和角扫描重复性与最小步长的影响&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;测量速率&quot;&gt;测量速率&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;获得一个探测数据的时间的倒数&lt;/li&gt;
-  &lt;li&gt;主要受限于调制信号重复速率&lt;/li&gt;
-  &lt;li&gt;高重复速率和长可探测距离不可兼得&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;调试技术&quot;&gt;调试技术&lt;/h4&gt;
-
-&lt;h6 id=&quot;内调制技术&quot;&gt;内调制技术&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;调制过程与激光振荡建立同时进行的调制&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;做成芯片是目前业内主要研发方向&lt;/li&gt;
-  &lt;li&gt;半导体激光器本身的结电容限制了激光器的响应速率以及腔内光场建立时间的存在，使得可调谐范围、调谐速率、输出线宽等参数较难进一步提高&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;外调制技术&quot;&gt;外调制技术&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;在激光振荡建立之后，在激光射出的光路上使用调制器对光场参数进行调&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;声光调制&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;工作带宽相对较窄&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;电光调制&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;体积庞大，难以芯片化&lt;/li&gt;
-      &lt;li&gt;主要用在非车载领域&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;fmcw激光雷达的优势&quot;&gt;FMCW激光雷达的优势&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;信噪比高&lt;/li&gt;
-  &lt;li&gt;功耗低&lt;/li&gt;
-  &lt;li&gt;与距离物体远近不直接相关
-    &lt;ul&gt;
-      &lt;li&gt;ToF激光雷达越远测距准确度越低&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;与物体运动速度不直接相关
-    &lt;ul&gt;
-      &lt;li&gt;相对运动越快，ToF测距准确度越差，甚至出现物体畸变&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;fmcw激光雷达的缺点&quot;&gt;FMCW激光雷达的缺点&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;成本高&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;旁瓣干扰&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;轻微延迟&lt;/li&gt;
-  &lt;li&gt;成熟度&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/i2U34MvbPFpcxk4xSwKGFQ&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">英特尔Mobileye最新发布的FMCW激光雷达有何过人之处</summary></entry><entry><title type="html">四元数,DDS端口,自律的人</title><link href="https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html" rel="alternate" type="text/html" title="四元数,DDS端口,自律的人" /><published>2021-01-19T00:00:00+08:00</published><updated>2021-01-19T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html">&lt;h2 id=&quot;欧拉角四元数旋转矩阵推导及相互关系&quot;&gt;欧拉角、四元数、旋转矩阵推导及相互关系&lt;/h2&gt;
-
-&lt;h4 id=&quot;旋转与旋转矩阵&quot;&gt;旋转与旋转矩阵&lt;/h4&gt;
-
-&lt;h6 id=&quot;2d旋转&quot;&gt;2D旋转&lt;/h6&gt;
-
-&lt;p&gt;与右手系旋转方向相同的为&lt;strong&gt;旋转正方向&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;二维平面内旋转&lt;/p&gt;
-
-\[\left(
-    \begin{matrix}
-    	x&apos; \\
-    	y&apos;
-    \end{matrix}
-\right)
-=
-\left(
-    \begin{matrix}
-    	cosα &amp;amp; −sinα\\
-    	sinα &amp;amp; cosα
-    \end{matrix}
-\right)
-\left(
-    \begin{matrix}
-    	x \\
-    	y
-    \end{matrix}
-\right)\]
-
-&lt;h6 id=&quot;3d旋转&quot;&gt;3D旋转&lt;/h6&gt;
-
-&lt;p&gt;绕Z轴旋转α角
-\(\left(
-    \begin{matrix}
-    	x&apos; \\
-    	y&apos; \\
-    	z
-    \end{matrix}
-\right)
-=
-\left(
-    \begin{matrix}
-    	cosα &amp;amp; −sinα &amp;amp; 0\\
-    	sinα &amp;amp; cosα &amp;amp; 0 \\
-    	0 &amp;amp; 0 &amp;amp; 1
-    \end{matrix}
-\right)
-\left(
-    \begin{matrix}
-    	x \\
-    	y \\
-    	z
-    \end{matrix}
-\right)\)&lt;/p&gt;
-
-&lt;p&gt;旋转矩阵
-\(R_z(α)=
-\left(
-    \begin{matrix}
-    	cosα &amp;amp; −sinα &amp;amp; 0\\
-    	sinα &amp;amp; cosα &amp;amp; 0 \\
-    	0 &amp;amp; 0 &amp;amp; 1
-    \end{matrix}
-\right)\)
-绕X轴的旋转矩阵&lt;/p&gt;
-
-\[R_x(α)=
-\left(
-    \begin{matrix}
-    	1 &amp;amp; 0 &amp;amp; 0\\
-    	0 &amp;amp; cosα &amp;amp; -sinα \\
-    	0 &amp;amp; sinα &amp;amp; cosα
-    \end{matrix}
-\right)\]
-
-&lt;p&gt;绕Y轴的旋转矩阵
-\(R_y(α)=
-\left(
-    \begin{matrix}
-    	cosα &amp;amp; 0 &amp;amp; sinα\\
-    	0 &amp;amp; 1 &amp;amp; 0 \\
-    	-sinα &amp;amp; 0 &amp;amp; cosα
-    \end{matrix}
-\right)\)&lt;/p&gt;
-
-&lt;h4 id=&quot;欧拉角&quot;&gt;欧拉角&lt;/h4&gt;
-
-&lt;p&gt;欧拉角用于描述&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;某个物体在坐标系中的姿态&lt;/code&gt;。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;翻滚&lt;/strong&gt;（Roll）绕X轴&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;俯仰&lt;/strong&gt;（Pitch）绕Y轴&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;偏航&lt;/strong&gt;（Yaw）绕Z轴&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;有两种旋转方式，旋转矩阵是一样的：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;绕固定（参考）坐标轴旋&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;绕自身坐标轴旋转&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;四元数&quot;&gt;四元数&lt;/h4&gt;
-
-&lt;p&gt;\(q=q_0+q_1 i+q_2 j + q_3 k\)
-或
-\(q=w+x i+y j + z k\)&lt;/p&gt;
-
-&lt;h4 id=&quot;相互转换&quot;&gt;相互转换&lt;/h4&gt;
-
-&lt;h6 id=&quot;四元数转旋转矩阵&quot;&gt;四元数转旋转矩阵&lt;/h6&gt;
-&lt;h6 id=&quot;旋转矩阵转四元数&quot;&gt;旋转矩阵转四元数&lt;/h6&gt;
-&lt;h6 id=&quot;欧拉角转旋转矩阵&quot;&gt;欧拉角转旋转矩阵&lt;/h6&gt;
-
-\[R=R_z(α)R_y(β)R_x(γ)=
-\left(
-    \begin{matrix}
-    	cosαcosβ &amp;amp; cosαsinβsinγ−sinαcosγ &amp;amp; cosαsinβcosγ+sinαsinγ\\
-    	sinαcosβ &amp;amp; cosαcosγ+sinαsinβsinγ &amp;amp; sinαsinβcosγ−sinγcosα \\
-    	−sinβ &amp;amp; cosβsinγ &amp;amp; cosβcosγ
-    \end{matrix}
-\right)\]
-
-&lt;h6 id=&quot;旋转矩阵转欧拉角&quot;&gt;旋转矩阵转欧拉角&lt;/h6&gt;
-&lt;h6 id=&quot;欧拉角转四元素&quot;&gt;欧拉角转四元素&lt;/h6&gt;
-&lt;h6 id=&quot;四元数转欧拉角&quot;&gt;四元数转欧拉角&lt;/h6&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://quaternions.online/&quot;&gt;这个网站&lt;/a&gt;可以动态展示四元数与欧拉角的对应关系&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://zhaoxuhui.top/blog/2018/03/13/RelationBetweenQ4&amp;amp;R&amp;amp;Euler.html&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;dds端口&quot;&gt;DDS端口&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The ports (and multicast addresses) used by DDS implementations (such as RTI Connext DDS) are specified by the &lt;a href=&quot;http://www.omg.org/spec/DDS-RTPS/&quot;&gt;OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS)&lt;/a&gt;.By default, each DomainParticipant opens 4 UDP/IP ports: Two of those ports are multicast ports which are shared among all domain participants in the same DomainId. The other two are unicast ports which are different for each participant within a computer. The multicast IP address used for discovery is 239.255.0.1 by default consistent which the DDS-RTPS specification.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;默认情况下，每个DomainParticipant打开4个UDP/IP端口&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;2个组播端口&lt;/strong&gt;：同一个domainId下所有participants共享&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;2个单播端口&lt;/strong&gt;：每个participant都不同&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;用作发现的&lt;strong&gt;组播IP&lt;/strong&gt;地：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;239.255.0.1&lt;/code&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The ports used are given by a formula that depends on the DDS domainId and the number of participants that are already running on the same operating system instance (computer or virtual machines):&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;端口分配依赖&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DmainId&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;participant数量&lt;/code&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Multicast Ports (common to all applications on a domainId):&lt;/p&gt;
-
-  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryMulticastPort  =   PB + DG * domainId + d0
-UserMulticastPort	=   PB + DG * domainId + d2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-
-  &lt;p&gt;Unicast Ports (different for each participant running on a single operating system instance. Computer or VM):&lt;/p&gt;
-
-  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DiscoveryUnicastPort    =   PB + DG * domainId + d1 + PG * participantId
-UserUnicastPort         =   PB + DG * domainId + d3 + PG * participantId
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-
-  &lt;p&gt;These formulas are depend on two variables: domainId and participantId&lt;/p&gt;
-
-  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;domainId      - Is the DDS domainId
-participantId - Is an integer starting at 0 that enumerates each participant 
-                that runs on a given operating system instance (computer 
-                or virtual machine). 
-                The first participant will be 0, the second 1, etc.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-
-  &lt;p&gt;The formulas are parameterized by the constants d0, d1, d2, d3, PB, DG, and PG which are all defined in the OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS) as follows:&lt;/p&gt;
-
-  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;d0  (builtin_multicast_port_offset)    = 0
-d2  (user_multicast_port_offset)       = 1 
-d1  (builtin_unicast_port_offset)      = 10
-d3  (user_unicast_port_offset)         = 11
-PB  (port_base)             = 7400
-DG ( domain_id_gain)        = 250
-PG  (participant_id_gain)   = 2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;公式中使用的常数是DDS协议编译的默认值。&lt;/p&gt;
-
-&lt;p&gt;可以通过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DomainParticipantQos&lt;/code&gt;里面的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WireProtocolQosPolicy&lt;/code&gt;改变端口映射。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://community.rti.com/content/forum-topic/statically-configure-firewall-let-omg-dds-traffic-through&quot;&gt;阅读原文➡&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;一个人高度自律的3种迹象&quot;&gt;一个人高度自律的3种迹象&lt;/h2&gt;
-
-&lt;p&gt;一个人高度自律的3种迹象：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;读不喜欢但有价值的书&lt;/strong&gt;，才能实现认知突围。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;做不容易但正确的事&lt;/strong&gt;，才能不断提升自己。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;远离消耗自己的朋友&lt;/strong&gt;，才能融入高质量的朋友圈。&lt;/p&gt;
-
-&lt;p&gt;沉浸在舒适区，容易变得消极颓废。高度自律的人，才能获得真正的自由。&lt;/p&gt;
-
-&lt;p&gt;愿我们都能不断修炼自己，最终活成自己喜欢的模样。&lt;/p&gt;
-
-&lt;p&gt;美好一天从“自律”开始！&lt;/p&gt;</content><author><name></name></author><summary type="html">欧拉角、四元数、旋转矩阵推导及相互关系</summary></entry><entry><title type="html">Mobileye-REM地图</title><link href="https://zzmfish.github.io/DailyRead/2021/01/18/Mobileye-REM%E5%9C%B0%E5%9B%BE.html" rel="alternate" type="text/html" title="Mobileye-REM地图" /><published>2021-01-18T00:00:00+08:00</published><updated>2021-01-18T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/18/Mobileye-REM%E5%9C%B0%E5%9B%BE</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/18/Mobileye-REM%E5%9C%B0%E5%9B%BE.html">&lt;h2 id=&quot;mobileye-rem地图如何解决高精地图落地难点&quot;&gt;Mobileye REM地图如何解决高精地图落地难点？&lt;/h2&gt;
-
-&lt;h4 id=&quot;高精地图的挑战&quot;&gt;高精地图的挑战&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;规模化&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;2025年之后，自动驾驶会在消费者层面全面落地，Scale是一个无法规避的问题&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;鲜度&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;理想情况下，地图是在实时更新的&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;精度&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;车载系统(OnBoard System)检测的车辆和行人需要与高精地图(High Definiation Map)实现厘米级精度的匹配&lt;/p&gt;
-
-&lt;h4 id=&quot;通用高精地图制作方法的缺陷&quot;&gt;通用高精地图制作方法的缺陷&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;全局坐标系下厘米级精度不是必需的&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;语义层数据生产难以自动化&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;没有车道线&lt;/li&gt;
-  &lt;li&gt;转向规则&lt;/li&gt;
-  &lt;li&gt;红绿灯&lt;/li&gt;
-  &lt;li&gt;Stop/Yield Point&lt;/li&gt;
-  &lt;li&gt;道路几何、限速、文化&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;mobileye如何解决这些问题&quot;&gt;Mobileye如何解决这些问题&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;从成百上千辆车获取&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;检测信息并传送&lt;/code&gt;到云端&lt;/li&gt;
-  &lt;li&gt;将每辆车的数据进行&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Alignment处理&lt;/code&gt;，生成高精度的地图数据&lt;/li&gt;
-  &lt;li&gt;生成地图的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;语义数据&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://ftp.bmp.ovh/imgs/2021/01/0e3abdebe3cde991.webp&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;harvesting&quot;&gt;Harvesting&lt;/h5&gt;
-
-&lt;p&gt;车辆检测&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;landmarks&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lane marks&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;driving path&lt;/code&gt;等语义信息。&lt;/p&gt;
-
-&lt;p&gt;成百上千的过路车辆会让检测结果越来越好。&lt;/p&gt;
-
-&lt;h5 id=&quot;alignment&quot;&gt;Alignment&lt;/h5&gt;
-
-&lt;p&gt;检测每个RSD中每个元素的6D Pose，然后&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;对齐相同位置的元素&lt;/code&gt;，得到&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;厘米度精度&lt;/code&gt;的driving path等信息。&lt;/p&gt;
-
-&lt;p&gt;每个车辆检测的道路元素位置都存在噪声，不能只依靠简单的求均值，而是依靠&lt;strong&gt;几何运算&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h5 id=&quot;modeling--semantics&quot;&gt;Modeling &amp;amp; Semantics&lt;/h5&gt;
-
-&lt;p&gt;使用&lt;strong&gt;神经网络&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;为什么语义理解离不开众包&quot;&gt;为什么语义理解离不开众包&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;可以在没有Lane Marking的道路上获取Driving Path&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;众包数据提供了复杂场景下的所有可通行路径&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;获得红绿灯与车道的关联关系、Yield Sign的Stop Point、Crosswalk与红绿灯的关联关系等&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;到没有Traffic Sign情况下各个道路的路权优先级&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;路口其它司机的停车位置&lt;/li&gt;
-  &lt;li&gt;在无保护左转的场景下车辆的Stop Point&lt;/li&gt;
-  &lt;li&gt;获得各个道路Common Speed的唯一高效的方法&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;总结&quot;&gt;总结&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mobileye与超过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6家汽车制造厂商&lt;/code&gt;合作&lt;/li&gt;
-  &lt;li&gt;每天覆盖&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;800万公里&lt;/code&gt;的路网更新&lt;/li&gt;
-  &lt;li&gt;预计到2024年，每天覆盖的路网会达到&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10亿公里&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/P-InX0BuLp1UIkuSFAyUBA&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Mobileye REM地图如何解决高精地图落地难点？</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/dong-tai-gui-hua-xiang-jie-jin-jie&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">动态规划解题套路框架</summary></entry></feed>

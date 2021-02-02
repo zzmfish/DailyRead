@@ -1,0 +1,264 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>MongoDB rename databases - 每日阅读</title>
+<meta name="description" content="The “copydb” command is deprecated, please use these two commands instead:        mongodump to back up data     mongorestore to recover data from mongodump into a new namespace">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="每日阅读">
+<meta property="og:title" content="MongoDB rename databases">
+<meta property="og:url" content="https://zzmfish.github.io/DailyRead/2021/01/26/MongoDB-rename-databases.html">
+
+
+  <meta property="og:description" content="The “copydb” command is deprecated, please use these two commands instead:        mongodump to back up data     mongorestore to recover data from mongodump into a new namespace">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-01-26T00:00:00+08:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://zzmfish.github.io/DailyRead/2021/01/26/MongoDB-rename-databases.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://zzmfish.github.io/DailyRead/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+<link href="/DailyRead/feed.xml" type="application/atom+xml" rel="alternate" title="每日阅读 Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/DailyRead/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--post">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/DailyRead/">
+          每日阅读
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="archive">
+    <!--
+    
+      <h1 id="page-title" class="page__title">MongoDB rename databases</h1>
+    
+    -->
+    <small>
+  <i class="far fa-calendar-alt" aria-hidden="true"></i>
+  <time datetime="2021-01-26T00:00:00+08:00">Jan 26, 2021</time>
+</small>
+
+<blockquote>
+  <p>The “copydb” command is deprecated, please use these two commands instead:</p>
+  <ol>
+    <li>mongodump to back up data</li>
+    <li>mongorestore to recover data from mongodump into a new namespace</li>
+  </ol>
+</blockquote>
+
+<p>不赞成使用<code class="language-plaintext highlighter-rouge">copy</code>命令，请使用以下两个命令来代替：</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">mongodump</code>备份数据</li>
+  <li><code class="language-plaintext highlighter-rouge">mongorestore</code>从mongodump的数据恢复到一个新的命名空间</li>
+</ol>
+
+<blockquote>
+  <p>We are aware of how painful and long it is to rename a database in MongoDB. Unfortunately, this is not an simple feature for us to implement due to the way that database metadata is stored in the original (default) storage engine. In MMAPv1 files, the namespace (e.g.: dbName.collection) that describes every single collection and index includes the database name, so to rename a set of database files, every single namespace string would have to be rewritten. This impacts:</p>
+  <ul>
+    <li>the .ns file</li>
+    <li>every single numbered file for the collection</li>
+    <li>the namespace for every index</li>
+    <li>internal unique names of each collection and index</li>
+    <li>contents of system.namespaces and system.indexes (or their equivalents in the future)</li>
+    <li>other locations I may be missing</li>
+  </ul>
+</blockquote>
+
+<p>我们清楚在MongoDB重命名一个数据库有多痛苦和要多久。很不幸因为数据库<strong>元数据</strong>的存储方式，并不存在一种简单的实现方式。在<code class="language-plaintext highlighter-rouge">MMAPv1</code>文件中，<strong>命名空间</strong>描述每一个集合、索引和数据库的名称，因此为了修改一系列数据库文件，每个名字空间字符串都要被修改。这影响到：</p>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.ns文件</code></p>
+  </li>
+  <li>
+    <p>集合的每个<code class="language-plaintext highlighter-rouge">编号文件</code></p>
+  </li>
+  <li>每个集合和索引的<code class="language-plaintext highlighter-rouge">内部唯一命名</code></li>
+  <li><code class="language-plaintext highlighter-rouge">system.namespace</code>和<code class="language-plaintext highlighter-rouge">system.indexes</code>的内容</li>
+  <li>其他我可能遗漏的地方</li>
+</ul>
+
+<blockquote>
+  <p>This is just to accomplish a rename of a single database in a standalone mongod instance. For replica sets the above would need to be done on every replica node, plus on each node every single oplog entry that refers this database would have to be somehow invalidated or rewritten, and then if it’s a sharded cluster, one also needs to add these changes to every shard if the DB is sharded, plus the config servers have all the shard metadata in terms of namespaces with their full names.</p>
+</blockquote>
+
+<p>这只是完成单一mongod实例的数据库重命名。<strong>副本集</strong>需要在每一个节点上做一遍以上操作，另外每个节点上的每个用到这个库的<code class="language-plaintext highlighter-rouge">oplog条目</code>都会变无效或需要重写。而对于<strong>分片集群</strong>，要对这个数据库的每个分片都加上这些修改，包括含有所有数据库完整名称的<code class="language-plaintext highlighter-rouge">分片元数据</code>的<strong>配置服务器</strong>。</p>
+
+<blockquote>
+  <p>There would be absolutely no way to do this on a live system.
+To do it offline, it would require re-writing every single database file to accommodate the new name, and at that point it would be as slow as the current “copydb” command.</p>
+</blockquote>
+
+<p>这实在无法在一个在线系统上实现。</p>
+
+<p>离线做的话，这需要重写每一个数据库文件去适应新名字，然而这会和现在的<code class="language-plaintext highlighter-rouge">copydb</code>一样慢。</p>
+
+<p>MongoDB Product Team，Sep 10, 2019</p>
+
+<p><a href="https://jira.mongodb.org/browse/SERVER-701">阅读原文</a></p>
+
+
+
+  </div>
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    <li><a href="/DailyRead/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 每日阅读. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/DailyRead/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -6,6 +6,8 @@ import datetime
 import shutil
 
 jekyll_dir = os.path.dirname(__file__)
+os.chdir(jekyll_dir)
+os.system('rm -rvf _posts/*')
 
 # 列出markdown文件
 file_list = []
@@ -26,7 +28,11 @@ for root, dirs, files in os.walk('.'):
             month = int(match_obj.group(1))
             date = int(match_obj.group(2))
             file_name = match_obj.group(3)
-            file_date = datetime.datetime(2021, month, date).strftime('%Y-%m-%d')
+            try:
+                file_date = datetime.datetime(2021, month, date).strftime('%Y-%m-%d')
+            except ValueError:
+                print('date not match: ', file_name)
+                continue
             new_path = 'jekyll/_posts/%s-%s' % (file_date, file_name)
             file_list.append(new_path)
             if not os.path.exists(new_path) or os.path.getmtime(new_path) < os.path.getmtime(file_path):

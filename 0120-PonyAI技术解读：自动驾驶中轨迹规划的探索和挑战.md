@@ -28,7 +28,7 @@
 * 使解更加稳定
 * NP-hard（非确定性多项式困难）问题
 
-
+![](http://8.134.51.249/DailyRead/assets/images/0120-PonyPlanning-1.webp)
 
 需要决策的场景
 
@@ -46,7 +46,7 @@
 * 通过前边两步近似求出加速度，写出一个**状态转移方程**
 * 只能一个**大概的决策**方法，即到底让或者不让，不能保证舒适
 
-
+![](http://8.134.51.249/DailyRead/assets/images/0120-PonyPlanning-2.webp)
 
 ###### 决策面临的挑战
 
@@ -70,7 +70,7 @@
 * 将求解`s→(x,y)`的问题变为求解`s→l`的问题
 * l是指车辆在这个参考线上的**横向偏移量**
 
-
+![](http://8.134.51.249/DailyRead/assets/images/0120-PonyPlanning-3.webp)
 
 参考线的生成
 
@@ -114,7 +114,7 @@
 * **加速度变化率**不大
 * 行驶速度尽量**快**一点
 
-
+![](http://8.134.51.249/DailyRead/assets/images/0120-PonyPlanning-4.webp)
 
 ###### 纵向规划的挑战
 
