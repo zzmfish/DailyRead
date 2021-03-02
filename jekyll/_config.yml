@@ -28,6 +28,7 @@ baseurl: "/DailyRead" # the subpath of your site, e.g. /blog
 url: "https://zzmfish.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
+search: true
 
 # Build settings
 # theme: minima
@@ -49,6 +50,8 @@ defaults:
       type: posts
     values:
       show_date: true
+
+    
 
 
 # Exclude from processing.

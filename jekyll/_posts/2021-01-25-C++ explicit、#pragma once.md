@@ -1,7 +1,10 @@
 ---
-layout: post
+layout: posts
 title: C++ explicit、#pragma once
+tags: 开发
 ---
+
+
 ## C++ explicit 关键字
 
 #### 隐式类型转换

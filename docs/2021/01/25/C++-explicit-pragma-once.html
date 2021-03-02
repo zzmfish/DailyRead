@@ -101,7 +101,7 @@
 
   </head>
 
-  <body class="layout--post">
+  <body class="layout--posts">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -126,7 +126,16 @@
           📖每日阅读
           
         </a>
-        <ul class="visible-links"></ul>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/DailyRead/tags.html">Tags</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -147,7 +156,6 @@
 <div id="main" role="main">
   
 
-
   <div class="archive">
     <!--
     
@@ -159,7 +167,8 @@
   <time datetime="2021-01-25T00:00:00+08:00">Jan 25, 2021</time>
 </small>
 
-<h2 id="c-explicit-关键字">C++ explicit 关键字</h2>
+<div style="position: relative;">
+  <h2 id="c-explicit-关键字">C++ explicit 关键字</h2>
 
 <h4 id="隐式类型转换">隐式类型转换</h4>
 
@@ -210,6 +219,80 @@ int main()
 
 <p><a href="https://zhuanlan.zhihu.com/p/52152355">阅读原文</a></p>
 
+  <aside class="sidebar__right ">
+    <nav class="toc">
+      <header><h4 class="nav__title">Tags</h4></header>
+      <ul class="toc__menu">
+        
+          
+          
+          <li><a href='/tags.html#电动车'>电动车 <small style="font-weight: normal;">(4)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#太极拳'>太极拳 <small style="font-weight: normal;">(1)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#人文'>人文 <small style="font-weight: normal;">(2)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#科学'>科学 <small style="font-weight: normal;">(2)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#小鹏'>小鹏 <small style="font-weight: normal;">(1)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#互联网'>互联网 <small style="font-weight: normal;">(1)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#国际'>国际 <small style="font-weight: normal;">(3)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#自动驾驶'>自动驾驶 <small style="font-weight: normal;">(6)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#激光雷达'>激光雷达 <small style="font-weight: normal;">(2)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#经济'>经济 <small style="font-weight: normal;">(5)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#算法'>算法 <small style="font-weight: normal;">(1)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#科技'>科技 <small style="font-weight: normal;">(2)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#开发'>开发 <small style="font-weight: normal;">(3)</small></a></li>
+        
+          
+          
+          <li><a href='/tags.html#思维导图'>思维导图 <small style="font-weight: normal;">(2)</small></a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+
+  <div>
+    <small>
+    
+      <a href='/tags.html#开发'>🔖开发</a>&nbsp;
+    
+    </small>
+  </div>
+
+</div>
 
 
   </div>
@@ -217,6 +300,17 @@ int main()
 
     </div>
 
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
     
 
     <div id="footer" class="page__footer">
@@ -244,6 +338,10 @@ int main()
 
 
 
+
+<script src="/DailyRead/assets/js/lunr/lunr.min.js"></script>
+<script src="/DailyRead/assets/js/lunr/lunr-store.js"></script>
+<script src="/DailyRead/assets/js/lunr/lunr-en.js"></script>
 
 
 

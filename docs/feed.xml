@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-02-25T18:02:27+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">天问入轨：4.75亿公里飞行背后，中国航天突围64年</title><link href="https://zzmfish.github.io/DailyRead/2021/02/15/%E5%A4%A9%E9%97%AE%E5%85%A5%E8%BD%A8-4.75%E4%BA%BF%E5%85%AC%E9%87%8C%E9%A3%9E%E8%A1%8C%E8%83%8C%E5%90%8E-%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%AA%81%E5%9B%B464%E5%B9%B4.html" rel="alternate" type="text/html" title="天问入轨：4.75亿公里飞行背后，中国航天突围64年" /><published>2021-02-15T00:00:00+08:00</published><updated>2021-02-15T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/15/%E5%A4%A9%E9%97%AE%E5%85%A5%E8%BD%A8:4.75%E4%BA%BF%E5%85%AC%E9%87%8C%E9%A3%9E%E8%A1%8C%E8%83%8C%E5%90%8E,%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%AA%81%E5%9B%B464%E5%B9%B4</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/15/%E5%A4%A9%E9%97%AE%E5%85%A5%E8%BD%A8-4.75%E4%BA%BF%E5%85%AC%E9%87%8C%E9%A3%9E%E8%A1%8C%E8%83%8C%E5%90%8E-%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%AA%81%E5%9B%B464%E5%B9%B4.html">&lt;h2 id=&quot;天问入轨475亿公里飞行背后中国航天突围64年&quot;&gt;天问入轨：4.75亿公里飞行背后，中国航天突围64年&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-03-03T06:14:50+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">自动驾驶仿真超全综述</title><link href="https://zzmfish.github.io/DailyRead/2021/03/02/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BB%BF%E7%9C%9F%E8%B6%85%E5%85%A8%E7%BB%BC%E8%BF%B0.html" rel="alternate" type="text/html" title="自动驾驶仿真超全综述" /><published>2021-03-02T00:00:00+08:00</published><updated>2021-03-02T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/03/02/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BB%BF%E7%9C%9F%E8%B6%85%E5%85%A8%E7%BB%BC%E8%BF%B0</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/03/02/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BB%BF%E7%9C%9F%E8%B6%85%E5%85%A8%E7%BB%BC%E8%BF%B0.html">&lt;h2 id=&quot;自动驾驶仿真超全综述从仿真场景系统到评价&quot;&gt;自动驾驶仿真超全综述：从仿真场景、系统到评价&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.processon.com/view/link/603d8c147d9c087bdf73596b&quot;&gt;打开思维导图&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe id=&quot;embed_dom&quot; name=&quot;embed_dom&quot; frameborder=&quot;0&quot; style=&quot;display:block;width:100%; height:800px;&quot; src=&quot;https://www.processon.com/embed/5f6abb44f346fb7adcfa23ec&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/rnFnbuP8_wAaOAadWfHZbQ&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="思维导图" /><category term="自动驾驶" /><summary type="html">自动驾驶仿真超全综述：从仿真场景、系统到评价</summary></entry><entry><title type="html">详解自动驾驶汽车技术</title><link href="https://zzmfish.github.io/DailyRead/2021/03/02/%E8%AF%A6%E8%A7%A3%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E6%8A%80%E6%9C%AF.html" rel="alternate" type="text/html" title="详解自动驾驶汽车技术" /><published>2021-03-02T00:00:00+08:00</published><updated>2021-03-02T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/03/02/%E8%AF%A6%E8%A7%A3%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E6%8A%80%E6%9C%AF</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/03/02/%E8%AF%A6%E8%A7%A3%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E6%8A%80%E6%9C%AF.html">&lt;h2 id=&quot;万字长文详解自动驾驶汽车技术从感知定位处理规划到执行&quot;&gt;万字长文详解自动驾驶汽车技术：从感知、定位、处理规划到执行&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.processon.com/view/link/603d8b106376896973c984fc&quot;&gt;打开思维导图&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe id=&quot;embed_dom&quot; name=&quot;embed_dom&quot; frameborder=&quot;0&quot; style=&quot;display:block;width:100%; height:800px;&quot; src=&quot;https://www.processon.com/embed/5f63e6c55653bb28eb4513f3&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/EiLHjCbCbhEq3g_FJ-P7qw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="思维导图" /><category term="自动驾驶" /><summary type="html">万字长文详解自动驾驶汽车技术：从感知、定位、处理规划到执行</summary></entry><entry><title type="html">寒潮下的美国得州，穷人不配用电？</title><link href="https://zzmfish.github.io/DailyRead/2021/02/27/%E5%AF%92%E6%BD%AE%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%9B%BD%E5%BE%97%E5%B7%9E-%E7%A9%B7%E4%BA%BA%E4%B8%8D%E9%85%8D%E7%94%A8%E7%94%B5.html" rel="alternate" type="text/html" title="寒潮下的美国得州，穷人不配用电？" /><published>2021-02-27T00:00:00+08:00</published><updated>2021-02-27T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/27/%E5%AF%92%E6%BD%AE%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%9B%BD%E5%BE%97%E5%B7%9E,%E7%A9%B7%E4%BA%BA%E4%B8%8D%E9%85%8D%E7%94%A8%E7%94%B5%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/27/%E5%AF%92%E6%BD%AE%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%9B%BD%E5%BE%97%E5%B7%9E-%E7%A9%B7%E4%BA%BA%E4%B8%8D%E9%85%8D%E7%94%A8%E7%94%B5.html">&lt;h2 id=&quot;寒潮下的美国得州穷人不配用电&quot;&gt;寒潮下的美国得州，穷人不配用电？&lt;/h2&gt;
+
+&lt;h4 id=&quot;得州大规模停电&quot;&gt;得州大规模停电&lt;/h4&gt;
+
+&lt;p&gt;极寒天气几乎冰冻了整个美国，最低气温&lt;strong&gt;零下23摄氏度&lt;/strong&gt;，冻死人数已经超过了&lt;strong&gt;33人&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;至少&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;14&lt;/code&gt;个州的电网出现故障，&lt;strong&gt;得克萨斯州&lt;/strong&gt;电力系统几乎瘫痪，一晚上就有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11人&lt;/code&gt;丧生。&lt;/p&gt;
+
+&lt;h4 id=&quot;美国电网&quot;&gt;美国电网&lt;/h4&gt;
+
+&lt;p&gt;得州电力&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20%&lt;/code&gt;来源于&lt;strong&gt;风力&lt;/strong&gt;，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40%&lt;/code&gt;来源于&lt;em&gt;天然气&lt;/em&gt;的&lt;strong&gt;火力发电&lt;/strong&gt;。&lt;em&gt;风力发电机和天然气管道被冻住&lt;/em&gt;，是大停电的主要原因。&lt;/p&gt;
+
+&lt;p&gt;美国其他州的电力公司由 &lt;strong&gt;联邦电力监管委员会(FERC)&lt;/strong&gt; 监管，得州大部分电网由&lt;strong&gt;得州电力可靠性委员会(ERCOT)&lt;/strong&gt; 调度管理。&lt;/p&gt;
+
+&lt;p&gt;美国有电力企业&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3000多家&lt;/code&gt;，其中&lt;strong&gt;私营企业&lt;/strong&gt;服务用户占比&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;72.6%&lt;/code&gt;。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;70%&lt;/code&gt;的&lt;em&gt;输电线路和变压器&lt;/em&gt;运行年限超过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;25&lt;/code&gt;年，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;60%&lt;/code&gt;的&lt;em&gt;断路器&lt;/em&gt;运行年限超过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;30年&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;私营企业首先考虑&lt;strong&gt;划算不划算&lt;/strong&gt;，宁可接受&lt;em&gt;电力事故&lt;/em&gt;，也不愿意因&lt;strong&gt;小概率事件&lt;/strong&gt;而对电网设施进行&lt;em&gt;投资和维护&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;得州供电瘫痪，一个原因就是&lt;strong&gt;电网方主动切断了居民区的电力供应&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h4 id=&quot;党派纠纷&quot;&gt;党派纠纷&lt;/h4&gt;
+
+&lt;p&gt;2007年&lt;strong&gt;次贷危机&lt;/strong&gt;，失业率一度高达10%。&lt;/p&gt;
+
+&lt;p&gt;2009年&lt;strong&gt;奥巴马&lt;/strong&gt;上台，大力发展&lt;strong&gt;新能源&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;2012年之后，美国新增的发电能力中，&lt;em&gt;风能&lt;/em&gt;占到了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;一半&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;太阳能&lt;/em&gt;发电增长了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40倍&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;2006—2016年，美国&lt;em&gt;煤炭&lt;/em&gt;发电量减少了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;53%&lt;/code&gt;，美国&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40%&lt;/code&gt;的煤电厂濒临破产或已经破产。&lt;/p&gt;
+
+&lt;p&gt;2017年&lt;strong&gt;特朗普&lt;/strong&gt;上任，废除多条环保法案，支持&lt;strong&gt;煤炭发电&lt;/strong&gt;，还以安全的名义&lt;em&gt;禁止美国从中国进口电力系统设备&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;但是特朗普没能阻挡清洁能源大趋势。2017年煤炭发电所占份额为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;30%&lt;/code&gt;，到了2019年仅为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;24%&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h4 id=&quot;双城记&quot;&gt;双城记&lt;/h4&gt;
+
+&lt;p&gt;得州大面积停电同时，得州富裕社区却灯火通明。&lt;/p&gt;
+
+&lt;p&gt;许多美国官员认为，&lt;strong&gt;为防范危机进行投资几乎没有任何政治回报&lt;/strong&gt;，他们根本就没有去主动应对危机的动力。&lt;/p&gt;
+
+&lt;p&gt;美国为了应对突发灾害，特别成立了&lt;strong&gt;联邦紧急事务管理局(FEMA)&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;1992年&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;安德鲁飓风&lt;/code&gt;发生&lt;em&gt;6天后&lt;/em&gt;，FEMA才派人进行救灾，大批民众死于饥饿和寒冷。&lt;/p&gt;
+
+&lt;p&gt;2005年&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;卡特里娜飓风&lt;/code&gt; FEMA在灾害现场不作为，还&lt;em&gt;把救灾物错配到没有受灾的州&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;2006年纽约遭遇了暴风雪，FEMA却“见死不救”，理由是&lt;em&gt;纽约州没有宣布进入“紧急状态”&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;富人们选择雇佣&lt;strong&gt;私人消防员&lt;/strong&gt;来保护自己的安全，每天服务价格达到&lt;em&gt;上千美元&lt;/em&gt;。&lt;/p&gt;
+
+&lt;h4 id=&quot;尾声&quot;&gt;尾声&lt;/h4&gt;
+
+&lt;p&gt;春节我们南方同样遇到了“百年一遇”的寒潮。&lt;/p&gt;
+
+&lt;p&gt;南方电网10千伏以上的电路，每天有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6000人次&lt;/code&gt;除冰工作，且配备了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;巡冰无人机&lt;/code&gt;。在除冰方面，还配备&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;激光大炮&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;激光雷达&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;机动式车载直流融冰装置&lt;/code&gt;。万家灯火，一盏也没有熄灭。&lt;/p&gt;</content><author><name></name></author><category term="国际" /><summary type="html">寒潮下的美国得州，穷人不配用电？</summary></entry><entry><title type="html">全球资产价格存在非常大的泡沫</title><link href="https://zzmfish.github.io/DailyRead/2021/02/26/%E5%85%A8%E7%90%83%E8%B5%84%E4%BA%A7%E4%BB%B7%E6%A0%BC%E5%AD%98%E5%9C%A8%E9%9D%9E%E5%B8%B8%E5%A4%A7%E7%9A%84%E6%B3%A1%E6%B2%AB.html" rel="alternate" type="text/html" title="全球资产价格存在非常大的泡沫" /><published>2021-02-26T00:00:00+08:00</published><updated>2021-02-26T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/26/%E5%85%A8%E7%90%83%E8%B5%84%E4%BA%A7%E4%BB%B7%E6%A0%BC%E5%AD%98%E5%9C%A8%E9%9D%9E%E5%B8%B8%E5%A4%A7%E7%9A%84%E6%B3%A1%E6%B2%AB</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/26/%E5%85%A8%E7%90%83%E8%B5%84%E4%BA%A7%E4%BB%B7%E6%A0%BC%E5%AD%98%E5%9C%A8%E9%9D%9E%E5%B8%B8%E5%A4%A7%E7%9A%84%E6%B3%A1%E6%B2%AB.html">&lt;h2 id=&quot;全球资产价格存在非常大的泡沫或现大幅调整&quot;&gt;全球资产价格存在非常大的泡沫，或现大幅调整&lt;/h2&gt;
+
+&lt;p&gt;朱宁&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/images/%E7%BE%8E%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E5%A4%A7%E5%BA%86%E5%B8%82%E9%BB%8E%E6%98%8E%E6%B9%96%E5%A4%9C%E6%99%AF.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;全球资产价格上升&quot;&gt;全球资产价格上升&lt;/h4&gt;
+
+&lt;p&gt;自从2020年3月，以美联储为首的全球央行推出史无前例的&lt;strong&gt;量化宽松刺激政策&lt;/strong&gt;以来，全球资产价格出现了明显的上升，包括&lt;em&gt;全球股市（尤其是头部企业股票）、房地产市场、加密货币&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;加密货币暴涨&lt;/strong&gt;反映了&lt;em&gt;全球对于无限制的主权货币发行的发行量大幅增加的担忧和不满&lt;/em&gt;。&lt;/p&gt;
+
+&lt;h4 id=&quot;资产价格高估的消化方式&quot;&gt;资产价格高估的消化方式&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;通过&lt;strong&gt;实体经济增长&lt;/strong&gt;来&lt;em&gt;推动房租或者上市公司盈利的增加&lt;/em&gt;；&lt;/li&gt;
+  &lt;li&gt;通过&lt;strong&gt;股票或者房地产价格的下跌&lt;/strong&gt;，就像&lt;em&gt;日本1990年&lt;/em&gt;以后或&lt;em&gt;美国2008年&lt;/em&gt;以后的情况。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;如果市场&lt;strong&gt;对于政府的救助和刺激抱有强烈的一致预期&lt;/strong&gt;，投资者会&lt;em&gt;认为这是一种理性的、得到了政府支持的泡沫&lt;/em&gt;。&lt;/p&gt;
+
+&lt;h4 id=&quot;引发泡沫破裂的原因&quot;&gt;引发泡沫破裂的原因&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;流动性的收紧&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;全球资金面的紧张&lt;/li&gt;
+      &lt;li&gt;安全资产利率的上升&lt;em&gt;和投&lt;/em&gt;资者风险偏好的下降&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;黑天鹅事件的发生（新冠疫情）&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;全社会的流动性的紧张&lt;/li&gt;
+      &lt;li&gt;投资者的风险偏好下降&lt;/li&gt;
+      &lt;li&gt;全球经济活动的萎靡&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;蝴蝶效应&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;对比历史上的暴涨有的相同点&quot;&gt;对比历史上的暴涨有的相同点&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;对于政府和对于流动性的强烈预期&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;强烈的自我实现的预期&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;涨幅越大、估值越高的资产越得到投资者的追捧&lt;/li&gt;
+      &lt;li&gt;游戏驿站事件&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;对比历史上的暴涨有的不同点&quot;&gt;对比历史上的暴涨有的不同点&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;全球的流动性环境&lt;/strong&gt;
+全球央行所投放的流动性的增量远远大于2008年全球金融危机时投放的流动性&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;资产价格的分化愈加严重&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;总结&quot;&gt;总结&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;根本原因是投资者的非理性心理&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;全球资产价格出现大幅调整是大概率事件&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://m.huxiu.com/article/411050.html&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="经济" /><summary type="html">全球资产价格存在非常大的泡沫，或现大幅调整</summary></entry><entry><title type="html">中国航天突围64年</title><link href="https://zzmfish.github.io/DailyRead/2021/02/15/%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%AA%81%E5%9B%B464%E5%B9%B4.html" rel="alternate" type="text/html" title="中国航天突围64年" /><published>2021-02-15T00:00:00+08:00</published><updated>2021-02-15T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/15/%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%AA%81%E5%9B%B464%E5%B9%B4</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/15/%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%AA%81%E5%9B%B464%E5%B9%B4.html">&lt;h2 id=&quot;天问入轨475亿公里飞行背后中国航天突围64年&quot;&gt;天问入轨：4.75亿公里飞行背后，中国航天突围64年&lt;/h2&gt;
 
 &lt;p&gt;1957年10月4日，&lt;strong&gt;苏联&lt;/strong&gt;的 &lt;strong&gt;斯普特尼克1号&lt;/strong&gt;🚀 发射成功，成为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;世界上第一颗人造卫星&lt;/code&gt;🛰️。11月3日，搭载一只🐶的 &lt;em&gt;斯普特尼克2号&lt;/em&gt; 也发射成功；&lt;/p&gt;
 
@@ -44,7 +176,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0215.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://36kr.com/p/1093554531568131&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">天问入轨：4.75亿公里飞行背后，中国航天突围64年</summary></entry><entry><title type="html">券商观点：特斯拉还会继续降价 造车新势力10-20万车型受冲击较大</title><link href="https://zzmfish.github.io/DailyRead/2021/02/14/%E5%88%B8%E5%95%86%E8%A7%82%E7%82%B9-%E7%89%B9%E6%96%AF%E6%8B%89%E8%BF%98%E4%BC%9A%E7%BB%A7%E7%BB%AD%E9%99%8D%E4%BB%B7-%E9%80%A0%E8%BD%A6%E6%96%B0%E5%8A%BF%E5%8A%9B10-20%E4%B8%87%E8%BD%A6%E5%9E%8B%E5%8F%97%E5%86%B2%E5%87%BB%E8%BE%83%E5%A4%A7.html" rel="alternate" type="text/html" title="券商观点：特斯拉还会继续降价 造车新势力10-20万车型受冲击较大" /><published>2021-02-14T00:00:00+08:00</published><updated>2021-02-14T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/14/%E5%88%B8%E5%95%86%E8%A7%82%E7%82%B9:%E7%89%B9%E6%96%AF%E6%8B%89%E8%BF%98%E4%BC%9A%E7%BB%A7%E7%BB%AD%E9%99%8D%E4%BB%B7%20%E9%80%A0%E8%BD%A6%E6%96%B0%E5%8A%BF%E5%8A%9B10-20%E4%B8%87%E8%BD%A6%E5%9E%8B%E5%8F%97%E5%86%B2%E5%87%BB%E8%BE%83%E5%A4%A7</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/14/%E5%88%B8%E5%95%86%E8%A7%82%E7%82%B9-%E7%89%B9%E6%96%AF%E6%8B%89%E8%BF%98%E4%BC%9A%E7%BB%A7%E7%BB%AD%E9%99%8D%E4%BB%B7-%E9%80%A0%E8%BD%A6%E6%96%B0%E5%8A%BF%E5%8A%9B10-20%E4%B8%87%E8%BD%A6%E5%9E%8B%E5%8F%97%E5%86%B2%E5%87%BB%E8%BE%83%E5%A4%A7.html">&lt;h2 id=&quot;券商观点特斯拉还会继续降价-造车新势力10-20万车型受冲击较大&quot;&gt;券商观点：特斯拉还会继续降价 造车新势力10-20万车型受冲击较大&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://36kr.com/p/1093554531568131&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="科技" /><summary type="html">天问入轨：4.75亿公里飞行背后，中国航天突围64年</summary></entry><entry><title type="html">特斯拉还会继续降价，10-20万车型受冲击较大</title><link href="https://zzmfish.github.io/DailyRead/2021/02/14/%E7%89%B9%E6%96%AF%E6%8B%89%E8%BF%98%E4%BC%9A%E7%BB%A7%E7%BB%AD%E9%99%8D%E4%BB%B7-10-20%E4%B8%87%E8%BD%A6%E5%9E%8B%E5%8F%97%E5%86%B2%E5%87%BB%E8%BE%83%E5%A4%A7.html" rel="alternate" type="text/html" title="特斯拉还会继续降价，10-20万车型受冲击较大" /><published>2021-02-14T00:00:00+08:00</published><updated>2021-02-14T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/14/%E7%89%B9%E6%96%AF%E6%8B%89%E8%BF%98%E4%BC%9A%E7%BB%A7%E7%BB%AD%E9%99%8D%E4%BB%B7,10-20%E4%B8%87%E8%BD%A6%E5%9E%8B%E5%8F%97%E5%86%B2%E5%87%BB%E8%BE%83%E5%A4%A7</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/14/%E7%89%B9%E6%96%AF%E6%8B%89%E8%BF%98%E4%BC%9A%E7%BB%A7%E7%BB%AD%E9%99%8D%E4%BB%B7-10-20%E4%B8%87%E8%BD%A6%E5%9E%8B%E5%8F%97%E5%86%B2%E5%87%BB%E8%BE%83%E5%A4%A7.html">&lt;h2 id=&quot;券商观点特斯拉还会继续降价-造车新势力10-20万车型受冲击较大&quot;&gt;券商观点：特斯拉还会继续降价 造车新势力10-20万车型受冲击较大&lt;/h2&gt;
 
 &lt;p&gt;汽车行业的竞争力更多要看一个公司的&lt;strong&gt;管理机制&lt;/strong&gt;：一是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;管理团队的相互配合&lt;/code&gt;，二是关于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;新团队的塑造&lt;/code&gt;。&lt;/p&gt;
 
@@ -62,7 +194,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0214.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://m.cnbeta.com/view/1090485.htm&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">券商观点：特斯拉还会继续降价 造车新势力10-20万车型受冲击较大</summary></entry><entry><title type="html">“中国制造”并非想象中那么强大，再继续下去会出大问题！</title><link href="https://zzmfish.github.io/DailyRead/2021/02/08/%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0-%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E4%B8%AD%E9%82%A3%E4%B9%88%E5%BC%BA%E5%A4%A7-%E5%86%8D%E7%BB%A7%E7%BB%AD%E4%B8%8B%E5%8E%BB%E4%BC%9A%E5%87%BA%E5%A4%A7%E9%97%AE%E9%A2%98.html" rel="alternate" type="text/html" title="“中国制造”并非想象中那么强大，再继续下去会出大问题！" /><published>2021-02-08T00:00:00+08:00</published><updated>2021-02-08T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/08/%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E2%80%9D%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E4%B8%AD%E9%82%A3%E4%B9%88%E5%BC%BA%E5%A4%A7,%E5%86%8D%E7%BB%A7%E7%BB%AD%E4%B8%8B%E5%8E%BB%E4%BC%9A%E5%87%BA%E5%A4%A7%E9%97%AE%E9%A2%98!</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/08/%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0-%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E4%B8%AD%E9%82%A3%E4%B9%88%E5%BC%BA%E5%A4%A7-%E5%86%8D%E7%BB%A7%E7%BB%AD%E4%B8%8B%E5%8E%BB%E4%BC%9A%E5%87%BA%E5%A4%A7%E9%97%AE%E9%A2%98.html">&lt;h2 id=&quot;中国制造并非想象中那么强大再继续下去会出大问题&quot;&gt;“中国制造”并非想象中那么强大，再继续下去会出大问题！&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://m.cnbeta.com/view/1090485.htm&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="经济" /><category term="电动车" /><summary type="html">券商观点：特斯拉还会继续降价 造车新势力10-20万车型受冲击较大</summary></entry><entry><title type="html">“中国制造”并非想象中那么强大</title><link href="https://zzmfish.github.io/DailyRead/2021/02/08/%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0-%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E4%B8%AD%E9%82%A3%E4%B9%88%E5%BC%BA%E5%A4%A7.html" rel="alternate" type="text/html" title="“中国制造”并非想象中那么强大" /><published>2021-02-08T00:00:00+08:00</published><updated>2021-02-08T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/08/%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E2%80%9D%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E4%B8%AD%E9%82%A3%E4%B9%88%E5%BC%BA%E5%A4%A7</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/08/%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0-%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E4%B8%AD%E9%82%A3%E4%B9%88%E5%BC%BA%E5%A4%A7.html">&lt;h2 id=&quot;中国制造并非想象中那么强大再继续下去会出大问题&quot;&gt;“中国制造”并非想象中那么强大，再继续下去会出大问题！&lt;/h2&gt;
 
 &lt;p&gt;原工信部部&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;长苗圩&lt;/code&gt;：&lt;/p&gt;
 
@@ -134,7 +266,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0208-4.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/EktOyfAezkLLeQ-sDH2LSw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">“中国制造”并非想象中那么强大，再继续下去会出大问题！</summary></entry><entry><title type="html">高级自动驾驶感知系统前装量产爆发，如何高效测评系统性能表现？</title><link href="https://zzmfish.github.io/DailyRead/2021/02/08/%E9%AB%98%E7%BA%A7%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%84%9F%E7%9F%A5%E7%B3%BB%E7%BB%9F%E5%89%8D%E8%A3%85%E9%87%8F%E4%BA%A7%E7%88%86%E5%8F%91-%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%B5%8B%E8%AF%84%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%A1%A8%E7%8E%B0.html" rel="alternate" type="text/html" title="高级自动驾驶感知系统前装量产爆发，如何高效测评系统性能表现？" /><published>2021-02-08T00:00:00+08:00</published><updated>2021-02-08T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/08/%E9%AB%98%E7%BA%A7%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%84%9F%E7%9F%A5%E7%B3%BB%E7%BB%9F%E5%89%8D%E8%A3%85%E9%87%8F%E4%BA%A7%E7%88%86%E5%8F%91,%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%B5%8B%E8%AF%84%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%A1%A8%E7%8E%B0%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/08/%E9%AB%98%E7%BA%A7%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%84%9F%E7%9F%A5%E7%B3%BB%E7%BB%9F%E5%89%8D%E8%A3%85%E9%87%8F%E4%BA%A7%E7%88%86%E5%8F%91-%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%B5%8B%E8%AF%84%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%A1%A8%E7%8E%B0.html">&lt;h2 id=&quot;高级自动驾驶感知系统前装量产爆发如何高效测评系统性能表现&quot;&gt;高级自动驾驶感知系统前装量产爆发，如何高效测评系统性能表现？&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/EktOyfAezkLLeQ-sDH2LSw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="经济" /><summary type="html">“中国制造”并非想象中那么强大，再继续下去会出大问题！</summary></entry><entry><title type="html">如何高效测评自动驾驶感知系统性能表现？</title><link href="https://zzmfish.github.io/DailyRead/2021/02/08/%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%B5%8B%E8%AF%84%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%84%9F%E7%9F%A5%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%A1%A8%E7%8E%B0.html" rel="alternate" type="text/html" title="如何高效测评自动驾驶感知系统性能表现？" /><published>2021-02-08T00:00:00+08:00</published><updated>2021-02-08T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/08/%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%B5%8B%E8%AF%84%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%84%9F%E7%9F%A5%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%A1%A8%E7%8E%B0%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/08/%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%B5%8B%E8%AF%84%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%84%9F%E7%9F%A5%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%A1%A8%E7%8E%B0.html">&lt;h2 id=&quot;高级自动驾驶感知系统前装量产爆发如何高效测评系统性能表现&quot;&gt;高级自动驾驶感知系统前装量产爆发，如何高效测评系统性能表现？&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;RS-Reference&lt;/strong&gt; 是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RoboSense（速腾聚创）&lt;/code&gt;的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;真值系统+测评&lt;/code&gt;工具链，推向市场&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3年&lt;/code&gt;以来，已服务于多家国际顶级OEM和Tier1。&lt;/p&gt;
 
@@ -213,7 +345,7 @@
   &lt;li&gt;OTA升级服务&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/2CJO6tatIPcIObxU4MCdgg&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">高级自动驾驶感知系统前装量产爆发，如何高效测评系统性能表现？</summary></entry><entry><title type="html">蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？</title><link href="https://zzmfish.github.io/DailyRead/2021/02/04/%E8%94%9A%E6%9D%A5ES8%E5%BC%80L2%E6%92%9E%E4%BA%BA%E5%8F%88%E6%92%9E%E8%BD%A6-%E4%B8%BA%E5%95%A5%E8%A3%8524%E4%B8%AA%E4%BC%A0%E6%84%9F%E5%99%A8%E9%83%BD%E8%BA%B2%E4%B8%8D%E5%BC%80.html" rel="alternate" type="text/html" title="蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？" /><published>2021-02-04T00:00:00+08:00</published><updated>2021-02-04T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/04/%E8%94%9A%E6%9D%A5ES8%E5%BC%80L2%E6%92%9E%E4%BA%BA%E5%8F%88%E6%92%9E%E8%BD%A6,%E4%B8%BA%E5%95%A5%E8%A3%8524%E4%B8%AA%E4%BC%A0%E6%84%9F%E5%99%A8%E9%83%BD%E8%BA%B2%E4%B8%8D%E5%BC%80%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/04/%E8%94%9A%E6%9D%A5ES8%E5%BC%80L2%E6%92%9E%E4%BA%BA%E5%8F%88%E6%92%9E%E8%BD%A6-%E4%B8%BA%E5%95%A5%E8%A3%8524%E4%B8%AA%E4%BC%A0%E6%84%9F%E5%99%A8%E9%83%BD%E8%BA%B2%E4%B8%8D%E5%BC%80.html">&lt;h2 id=&quot;蔚来es8开l2撞人又撞车为啥装24个传感器都躲不开&quot;&gt;蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/2CJO6tatIPcIObxU4MCdgg&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="自动驾驶" /><summary type="html">高级自动驾驶感知系统前装量产爆发，如何高效测评系统性能表现？</summary></entry><entry><title type="html">蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？</title><link href="https://zzmfish.github.io/DailyRead/2021/02/04/%E8%94%9A%E6%9D%A5ES8%E5%BC%80L2%E6%92%9E%E4%BA%BA%E5%8F%88%E6%92%9E%E8%BD%A6-%E4%B8%BA%E5%95%A5%E8%A3%8524%E4%B8%AA%E4%BC%A0%E6%84%9F%E5%99%A8%E9%83%BD%E8%BA%B2%E4%B8%8D%E5%BC%80.html" rel="alternate" type="text/html" title="蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？" /><published>2021-02-04T00:00:00+08:00</published><updated>2021-02-04T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/04/%E8%94%9A%E6%9D%A5ES8%E5%BC%80L2%E6%92%9E%E4%BA%BA%E5%8F%88%E6%92%9E%E8%BD%A6,%E4%B8%BA%E5%95%A5%E8%A3%8524%E4%B8%AA%E4%BC%A0%E6%84%9F%E5%99%A8%E9%83%BD%E8%BA%B2%E4%B8%8D%E5%BC%80%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/04/%E8%94%9A%E6%9D%A5ES8%E5%BC%80L2%E6%92%9E%E4%BA%BA%E5%8F%88%E6%92%9E%E8%BD%A6-%E4%B8%BA%E5%95%A5%E8%A3%8524%E4%B8%AA%E4%BC%A0%E6%84%9F%E5%99%A8%E9%83%BD%E8%BA%B2%E4%B8%8D%E5%BC%80.html">&lt;h2 id=&quot;蔚来es8开l2撞人又撞车为啥装24个传感器都躲不开&quot;&gt;蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？&lt;/h2&gt;
 
 &lt;h4 id=&quot;事故原因&quot;&gt;事故原因&lt;/h4&gt;
 
@@ -268,7 +400,7 @@
 
 &lt;p&gt;一线车企必须走全栈自研之路&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/UIY534AQ79JNmhZRAhlKKA&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？</summary></entry><entry><title type="html">四年烧掉百亿，威马上市难上岸</title><link href="https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF-%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8.html" rel="alternate" type="text/html" title="四年烧掉百亿，威马上市难上岸" /><published>2021-02-02T00:00:00+08:00</published><updated>2021-02-02T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF,%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF-%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8.html">&lt;h2 id=&quot;四年烧掉百亿威马上市难上岸&quot;&gt;四年烧掉百亿，威马上市难上岸&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/UIY534AQ79JNmhZRAhlKKA&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="自动驾驶" /><category term="电动车" /><summary type="html">蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？</summary></entry><entry><title type="html">四年烧掉百亿，威马上市难上岸</title><link href="https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF-%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8.html" rel="alternate" type="text/html" title="四年烧掉百亿，威马上市难上岸" /><published>2021-02-02T00:00:00+08:00</published><updated>2021-02-02T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF,%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF-%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8.html">&lt;h2 id=&quot;四年烧掉百亿威马上市难上岸&quot;&gt;四年烧掉百亿，威马上市难上岸&lt;/h2&gt;
 
 &lt;p&gt;1月29日，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;上海证监局&lt;/code&gt;网站上披露了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;中信建投&lt;/code&gt;关于威马汽车辅导工作的总结报告。威马距离&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;科创板&lt;/code&gt;上市只有几步之遥了。&lt;/p&gt;
 
@@ -296,206 +428,4 @@
 
 &lt;p&gt;&lt;strong&gt;百度&lt;/strong&gt;数轮战略投资了威马，威马的智能技术很多时候需要靠百度赋能。过程中不但会遇到匹配难题，难以实现用软件训练硬件，最大的问题是，&lt;strong&gt;如果技术不掌握在自己手里，是没有未来的&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.toutiao.com/i6924480299095081484/&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">四年烧掉百亿，威马上市难上岸</summary></entry><entry><title type="html">解析国内第一款前装量产激光雷达：蔚来 vs 小鹏的选择</title><link href="https://zzmfish.github.io/DailyRead/2021/02/01/%E8%A7%A3%E6%9E%90%E5%9B%BD%E5%86%85%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%89%8D%E8%A3%85%E9%87%8F%E4%BA%A7%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE-%E8%94%9A%E6%9D%A5-vs-%E5%B0%8F%E9%B9%8F%E7%9A%84%E9%80%89%E6%8B%A9.html" rel="alternate" type="text/html" title="解析国内第一款前装量产激光雷达：蔚来 vs 小鹏的选择" /><published>2021-02-01T00:00:00+08:00</published><updated>2021-02-01T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/01/%E8%A7%A3%E6%9E%90%E5%9B%BD%E5%86%85%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%89%8D%E8%A3%85%E9%87%8F%E4%BA%A7%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE:%E8%94%9A%E6%9D%A5%20vs%20%E5%B0%8F%E9%B9%8F%E7%9A%84%E9%80%89%E6%8B%A9</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/01/%E8%A7%A3%E6%9E%90%E5%9B%BD%E5%86%85%E7%AC%AC%E4%B8%80%E6%AC%BE%E5%89%8D%E8%A3%85%E9%87%8F%E4%BA%A7%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE-%E8%94%9A%E6%9D%A5-vs-%E5%B0%8F%E9%B9%8F%E7%9A%84%E9%80%89%E6%8B%A9.html">&lt;h4 id=&quot;蔚来-x-innovusion&quot;&gt;蔚来 x Innovusion&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;多边形&lt;/strong&gt;扫描器&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;等效300线&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;可以&lt;strong&gt;控制扫描区域&lt;/strong&gt;，提高关键区域的扫描密度&lt;/li&gt;
-  &lt;li&gt;最远探测距离&lt;strong&gt;500 米&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;水平 FOV &lt;strong&gt;120°&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;功耗高&lt;/strong&gt;，有电机转动部件&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0201-Lidar-1.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;小鹏-x-livox&quot;&gt;小鹏 x Livox&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;双楔形棱镜&lt;/strong&gt;扫描器&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;探测距离&lt;strong&gt;150 米&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;0.1 秒下的&lt;strong&gt;等效144 线&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;水平 FOV  &lt;strong&gt;120°&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;花瓣型&lt;/strong&gt;点云，中央密度高，外围密度低&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;扫描时间越长效果越好&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0201-Lidar-2.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;小结&quot;&gt;小结&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;主动型&lt;/strong&gt;传感器&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;巨大的成本与性能&lt;strong&gt;挖掘潜力&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;多种技术路线&lt;/strong&gt;竞争&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;可提供 &lt;strong&gt;3D 信息&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/4yHRllaDOULlUO_-GkiFMw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">蔚来 x Innovusion</summary></entry><entry><title type="html">美国多空大战：互联网+民粹主义，金融暴力+网络暴力</title><link href="https://zzmfish.github.io/DailyRead/2021/01/30/%E7%BE%8E%E5%9B%BD%E5%A4%9A%E7%A9%BA%E5%A4%A7%E6%88%98-%E4%BA%92%E8%81%94%E7%BD%91+%E6%B0%91%E7%B2%B9%E4%B8%BB%E4%B9%89-%E9%87%91%E8%9E%8D%E6%9A%B4%E5%8A%9B+%E7%BD%91%E7%BB%9C%E6%9A%B4%E5%8A%9B.html" rel="alternate" type="text/html" title="美国多空大战：互联网+民粹主义，金融暴力+网络暴力" /><published>2021-01-30T00:00:00+08:00</published><updated>2021-01-30T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/30/%E7%BE%8E%E5%9B%BD%E5%A4%9A%E7%A9%BA%E5%A4%A7%E6%88%98:%E4%BA%92%E8%81%94%E7%BD%91+%E6%B0%91%E7%B2%B9%E4%B8%BB%E4%B9%89,%E9%87%91%E8%9E%8D%E6%9A%B4%E5%8A%9B+%E7%BD%91%E7%BB%9C%E6%9A%B4%E5%8A%9B</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/30/%E7%BE%8E%E5%9B%BD%E5%A4%9A%E7%A9%BA%E5%A4%A7%E6%88%98-%E4%BA%92%E8%81%94%E7%BD%91+%E6%B0%91%E7%B2%B9%E4%B8%BB%E4%B9%89-%E9%87%91%E8%9E%8D%E6%9A%B4%E5%8A%9B+%E7%BD%91%E7%BB%9C%E6%9A%B4%E5%8A%9B.html">&lt;h2 id=&quot;美国多空大战互联网民粹主义金融暴力网络暴力&quot;&gt;美国多空大战：互联网+民粹主义，金融暴力+网络暴力&lt;/h2&gt;
-
-&lt;h4 id=&quot;美国散户逼空世纪大战&quot;&gt;美国散户逼空世纪大战&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;香橼研究&lt;/strong&gt; (CitronResearch) 的CEO发表对&lt;strong&gt;游戏驿站&lt;/strong&gt; (Gamestop) 做空的观点后，&lt;strong&gt;Reddit&lt;/strong&gt;网站的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;华尔街赌注&lt;/code&gt;版块就开始有大V号召大家买进游戏驿站股票，和香橼公司、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Melvin Capital&lt;/code&gt;等做空游戏驿站的基金对抗。&lt;/p&gt;
-
-&lt;p&gt;游戏驿站股价5个交易日涨幅高达&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;788.32%&lt;/code&gt;。 一个交易日经历了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17次&lt;/code&gt;熔断。&lt;/p&gt;
-
-&lt;h4 id=&quot;基础知识&quot;&gt;基础知识&lt;/h4&gt;
-&lt;h6 id=&quot;融资&quot;&gt;融资&lt;/h6&gt;
-&lt;p&gt;证劵公司&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;借钱&lt;/code&gt;给你买股票，你在约定的时间内&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;偿还&lt;/code&gt;。&lt;/p&gt;
-
-&lt;h6 id=&quot;看多&quot;&gt;看多&lt;/h6&gt;
-&lt;p&gt;你通过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;融资&lt;/code&gt;买股票，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;股价上涨&lt;/code&gt;了，你卖掉股票赚钱了。&lt;/p&gt;
-
-&lt;h6 id=&quot;融券卖空&quot;&gt;融券（卖空）&lt;/h6&gt;
-&lt;p&gt;券商&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;借你股票&lt;/code&gt;并帮你卖掉，你的账户里多了一笔&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;现金&lt;/code&gt;，同时你欠券商&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;股票&lt;/code&gt;，在约定的时间内必须&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;偿还&lt;/code&gt;。&lt;/p&gt;
-
-&lt;h6 id=&quot;期货&quot;&gt;期货&lt;/h6&gt;
-&lt;p&gt;买卖双方约定在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;未来某一时期&lt;/code&gt;以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;约定的价格&lt;/code&gt;买卖&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;约定数量&lt;/code&gt;的股票。&lt;/p&gt;
-
-&lt;p&gt;######期权
-购买方支付&lt;strong&gt;premium权利金&lt;/strong&gt;，可以在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;约定的时间&lt;/code&gt;以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;约定的价格&lt;/code&gt;卖出或买进一项标的的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;权利&lt;/code&gt;。卖方卖的是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;义务&lt;/code&gt;。&lt;/p&gt;
-
-&lt;h6 id=&quot;看跌期权认沽期权&quot;&gt;看跌期权（认沽期权）&lt;/h6&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;对方卖出&lt;/code&gt;标的物的权利。&lt;/p&gt;
-
-&lt;h6 id=&quot;看涨期权认购期权&quot;&gt;看涨期权（认购期权）&lt;/h6&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;对方买入&lt;/code&gt;标的物的权利。&lt;/p&gt;
-
-&lt;h6 id=&quot;实物交割&quot;&gt;实物交割&lt;/h6&gt;
-&lt;p&gt;期货、期权合约到期时，双方以&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;实物&lt;/code&gt;为介质、在市场上走一圈变成&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;现金&lt;/code&gt;。&lt;/p&gt;
-
-&lt;h6 id=&quot;现金交割&quot;&gt;现金交割&lt;/h6&gt;
-&lt;p&gt;期货、期权合约到期时，双方直接现金结算。&lt;/p&gt;
-
-&lt;h6 id=&quot;保证金&quot;&gt;保证金&lt;/h6&gt;
-&lt;p&gt;交易的期货合约标的物&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;总价的一个百分比&lt;/code&gt;，一般不低于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6%&lt;/code&gt;。然后会每日盯市，如果保证金不够了，就会向你&lt;strong&gt;催缴&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h6 id=&quot;平仓&quot;&gt;平仓&lt;/h6&gt;
-&lt;p&gt;不能及时缴纳保证金，导致&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;亏损大保证金&lt;/code&gt;，交易所不让你玩下去。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/pBTIxIrdvZRQt8CtHrWhSg&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">美国多空大战：互联网+民粹主义，金融暴力+网络暴力</summary></entry><entry><title type="html">MongoDB rename databases</title><link href="https://zzmfish.github.io/DailyRead/2021/01/26/MongoDB-rename-databases.html" rel="alternate" type="text/html" title="MongoDB rename databases" /><published>2021-01-26T00:00:00+08:00</published><updated>2021-01-26T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/26/MongoDB%20rename%20databases</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/26/MongoDB-rename-databases.html">&lt;blockquote&gt;
-  &lt;p&gt;The “copydb” command is deprecated, please use these two commands instead:&lt;/p&gt;
-  &lt;ol&gt;
-    &lt;li&gt;mongodump to back up data&lt;/li&gt;
-    &lt;li&gt;mongorestore to recover data from mongodump into a new namespace&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;不赞成使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;copy&lt;/code&gt;命令，请使用以下两个命令来代替：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mongodump&lt;/code&gt;备份数据&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mongorestore&lt;/code&gt;从mongodump的数据恢复到一个新的命名空间&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We are aware of how painful and long it is to rename a database in MongoDB. Unfortunately, this is not an simple feature for us to implement due to the way that database metadata is stored in the original (default) storage engine. In MMAPv1 files, the namespace (e.g.: dbName.collection) that describes every single collection and index includes the database name, so to rename a set of database files, every single namespace string would have to be rewritten. This impacts:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;the .ns file&lt;/li&gt;
-    &lt;li&gt;every single numbered file for the collection&lt;/li&gt;
-    &lt;li&gt;the namespace for every index&lt;/li&gt;
-    &lt;li&gt;internal unique names of each collection and index&lt;/li&gt;
-    &lt;li&gt;contents of system.namespaces and system.indexes (or their equivalents in the future)&lt;/li&gt;
-    &lt;li&gt;other locations I may be missing&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我们清楚在MongoDB重命名一个数据库有多痛苦和要多久。很不幸因为数据库&lt;strong&gt;元数据&lt;/strong&gt;的存储方式，并不存在一种简单的实现方式。在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MMAPv1&lt;/code&gt;文件中，&lt;strong&gt;命名空间&lt;/strong&gt;描述每一个集合、索引和数据库的名称，因此为了修改一系列数据库文件，每个名字空间字符串都要被修改。这影响到：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.ns文件&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;集合的每个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;编号文件&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;每个集合和索引的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;内部唯一命名&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;system.namespace&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;system.indexes&lt;/code&gt;的内容&lt;/li&gt;
-  &lt;li&gt;其他我可能遗漏的地方&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is just to accomplish a rename of a single database in a standalone mongod instance. For replica sets the above would need to be done on every replica node, plus on each node every single oplog entry that refers this database would have to be somehow invalidated or rewritten, and then if it’s a sharded cluster, one also needs to add these changes to every shard if the DB is sharded, plus the config servers have all the shard metadata in terms of namespaces with their full names.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这只是完成单一mongod实例的数据库重命名。&lt;strong&gt;副本集&lt;/strong&gt;需要在每一个节点上做一遍以上操作，另外每个节点上的每个用到这个库的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oplog条目&lt;/code&gt;都会变无效或需要重写。而对于&lt;strong&gt;分片集群&lt;/strong&gt;，要对这个数据库的每个分片都加上这些修改，包括含有所有数据库完整名称的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;分片元数据&lt;/code&gt;的&lt;strong&gt;配置服务器&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;There would be absolutely no way to do this on a live system.
-To do it offline, it would require re-writing every single database file to accommodate the new name, and at that point it would be as slow as the current “copydb” command.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这实在无法在一个在线系统上实现。&lt;/p&gt;
-
-&lt;p&gt;离线做的话，这需要重写每一个数据库文件去适应新名字，然而这会和现在的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;copydb&lt;/code&gt;一样慢。&lt;/p&gt;
-
-&lt;p&gt;MongoDB Product Team，Sep 10, 2019&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://jira.mongodb.org/browse/SERVER-701&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The “copydb” command is deprecated, please use these two commands instead: mongodump to back up data mongorestore to recover data from mongodump into a new namespace</summary></entry><entry><title type="html">C++ explicit、#pragma once</title><link href="https://zzmfish.github.io/DailyRead/2021/01/25/C++-explicit-pragma-once.html" rel="alternate" type="text/html" title="C++ explicit、#pragma once" /><published>2021-01-25T00:00:00+08:00</published><updated>2021-01-25T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/01/25/C++%20explicit%E3%80%81#pragma%20once</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/01/25/C++-explicit-pragma-once.html">&lt;h2 id=&quot;c-explicit-关键字&quot;&gt;C++ explicit 关键字&lt;/h2&gt;
-
-&lt;h4 id=&quot;隐式类型转换&quot;&gt;隐式类型转换&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-C++&quot;&gt;#include &amp;lt;iostream&amp;gt;
-using namespace std;
-
-class Point {
-public:
-    int x, y;
-    Point(int x = 0, int y = 0)
-        : x(x), y(y) {}
-};
-
-void displayPoint(const Point&amp;amp; p) 
-{
-    cout &amp;lt;&amp;lt; &quot;(&quot; &amp;lt;&amp;lt; p.x &amp;lt;&amp;lt; &quot;,&quot; 
-         &amp;lt;&amp;lt; p.y &amp;lt;&amp;lt; &quot;)&quot; &amp;lt;&amp;lt; endl;
-}
-
-int main()
-{
-    displayPoint(1); //隐式调用构造函数
-    Point p = 1;  //隐式调用构造函数，而不是operator=
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&quot;explicit关键字&quot;&gt;explicit关键字&lt;/h4&gt;
-
-&lt;p&gt;指定构造函数或转换函数 (C++11起)为显式，即它不能用于&lt;em&gt;隐式转换&lt;/em&gt;和&lt;em&gt;复制初始化&lt;/em&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;c-pragma-once-与-ifndef-解析&quot;&gt;C++ #pragma once 与 #ifndef 解析&lt;/h2&gt;
-
-&lt;p&gt;为了避免同一个文件被include多次，C/C++中有两种方式：&lt;/p&gt;
-
-&lt;h4 id=&quot;ifndef&quot;&gt;#ifndef&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-C++&quot;&gt;#ifndef SOMEFILE_H
-#define SOMEFILE_H
-// 声明、定义语句...
-#endif
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;#### #pragma once&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-C++&quot;&gt;#pragma once
-// 声明、定义语句...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/52152355&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">C++ explicit 关键字</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.toutiao.com/i6924480299095081484/&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="电动车" /><summary type="html">四年烧掉百亿，威马上市难上岸</summary></entry></feed>

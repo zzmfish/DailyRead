@@ -1,8 +1,11 @@
 ---
-layout: post
+layout: posts
 title: MongoDB rename databases
+tags: 开发
 ---
-> The "copydb" command is deprecated, please use these two commands instead:
+
+
+> > The "copydb" command is deprecated, please use these two commands instead:
 > 1. mongodump to back up data
 > 2. mongorestore to recover data from mongodump into a new namespace
 
