@@ -9,34 +9,34 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>四元数,DDS端口,自律的人 - 每日阅读</title>
-<meta name="description" content="欧拉角、四元数、旋转矩阵推导及相互关系">
+<!-- begin _includes/seo.html --><title>欧拉角、四元数、旋转矩阵推导及相互关系 - 每日阅读</title>
+<meta name="description" content="旋转与旋转矩阵">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="每日阅读">
-<meta property="og:title" content="四元数,DDS端口,自律的人">
-<meta property="og:url" content="https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html">
+<meta property="og:title" content="欧拉角、四元数、旋转矩阵推导及相互关系">
+<meta property="og:url" content="https://zzmfish.github.io/DailyRead/2018/03/13/%E6%AC%A7%E6%8B%89%E8%A7%92-%E5%9B%9B%E5%85%83%E6%95%B0-%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5%E6%8E%A8%E5%AF%BC%E5%8F%8A%E7%9B%B8%E4%BA%92%E5%85%B3%E7%B3%BB.html">
 
 
-  <meta property="og:description" content="欧拉角、四元数、旋转矩阵推导及相互关系">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2021-01-19T00:00:00+08:00">
+  <meta property="og:description" content="旋转与旋转矩阵">
 
 
 
 
 
 
-<link rel="canonical" href="https://zzmfish.github.io/DailyRead/2021/01/19/%E5%9B%9B%E5%85%83%E6%95%B0,DDS%E7%AB%AF%E5%8F%A3,%E8%87%AA%E5%BE%8B%E7%9A%84%E4%BA%BA.html">
+
+  <meta property="article:published_time" content="2018-03-13T00:00:00+08:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://zzmfish.github.io/DailyRead/2018/03/13/%E6%AC%A7%E6%8B%89%E8%A7%92-%E5%9B%9B%E5%85%83%E6%95%B0-%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5%E6%8E%A8%E5%AF%BC%E5%8F%8A%E7%9B%B8%E4%BA%92%E5%85%B3%E7%B3%BB.html">
 
 
 
@@ -123,7 +123,7 @@
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/DailyRead/">
-          📖每日阅读
+          每日阅读
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
@@ -157,20 +157,16 @@
   
 
   <div class="archive">
-    <!--
     
-      <h1 id="page-title" class="page__title">四元数,DDS端口,自律的人</h1>
+      <h1 id="page-title" class="page__title">欧拉角、四元数、旋转矩阵推导及相互关系</h1>
     
-    -->
     <small>
   <i class="far fa-calendar-alt" aria-hidden="true"></i>
-  <time datetime="2021-01-19T00:00:00+08:00">Jan 19, 2021</time>
+  <time datetime="2018-03-13T00:00:00+08:00">Mar 13, 2018</time>
 </small>
 
 <div style="position: relative;">
-  <h2 id="欧拉角四元数旋转矩阵推导及相互关系">欧拉角、四元数、旋转矩阵推导及相互关系</h2>
-
-<h4 id="旋转与旋转矩阵">旋转与旋转矩阵</h4>
+  <h4 id="旋转与旋转矩阵">旋转与旋转矩阵</h4>
 
 <h6 id="2d旋转">2D旋转</h6>
 
@@ -283,14 +279,17 @@
 
 <h4 id="四元数">四元数</h4>
 
-<p>\(q=q_0+q_1 i+q_2 j + q_3 k\)
-或
+\[q=q_0+q_1 i+q_2 j + q_3 k\]
+
+<p>或
 \(q=w+x i+y j + z k\)</p>
 
 <h4 id="相互转换">相互转换</h4>
 
 <h6 id="四元数转旋转矩阵">四元数转旋转矩阵</h6>
+
 <h6 id="旋转矩阵转四元数">旋转矩阵转四元数</h6>
+
 <h6 id="欧拉角转旋转矩阵">欧拉角转旋转矩阵</h6>
 
 \[R=R_z(α)R_y(β)R_x(γ)=
@@ -303,90 +302,21 @@
 \right)\]
 
 <h6 id="旋转矩阵转欧拉角">旋转矩阵转欧拉角</h6>
-<h6 id="欧拉角转四元素">欧拉角转四元素</h6>
-<h6 id="四元数转欧拉角">四元数转欧拉角</h6>
 
-<p><a href="https://quaternions.online/">这个网站</a>可以动态展示四元数与欧拉角的对应关系</p>
+<h6 id="欧拉角转四元素">欧拉角转四元素</h6>
+
+<h6 id="四元数转欧拉角">四元数转欧拉角</h6>
 
 <p><a href="http://zhaoxuhui.top/blog/2018/03/13/RelationBetweenQ4&amp;R&amp;Euler.html">阅读原文➡</a></p>
 
-<h2 id="dds端口">DDS端口</h2>
 
-<blockquote>
-  <p>The ports (and multicast addresses) used by DDS implementations (such as RTI Connext DDS) are specified by the <a href="http://www.omg.org/spec/DDS-RTPS/">OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS)</a>.By default, each DomainParticipant opens 4 UDP/IP ports: Two of those ports are multicast ports which are shared among all domain participants in the same DomainId. The other two are unicast ports which are different for each participant within a computer. The multicast IP address used for discovery is 239.255.0.1 by default consistent which the DDS-RTPS specification.</p>
-</blockquote>
-
-<p>默认情况下，每个DomainParticipant打开4个UDP/IP端口</p>
-
-<ul>
-  <li><strong>2个组播端口</strong>：同一个domainId下所有participants共享</li>
-  <li><strong>2个单播端口</strong>：每个participant都不同</li>
-</ul>
-
-<p>用作发现的<strong>组播IP</strong>地：<code class="language-plaintext highlighter-rouge">239.255.0.1</code></p>
-
-<blockquote>
-  <p>The ports used are given by a formula that depends on the DDS domainId and the number of participants that are already running on the same operating system instance (computer or virtual machines):</p>
-</blockquote>
-
-<p>端口分配依赖<code class="language-plaintext highlighter-rouge">DmainId</code>和<code class="language-plaintext highlighter-rouge">participant数量</code></p>
-
-<blockquote>
-  <p>Multicast Ports (common to all applications on a domainId):</p>
-
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>DiscoveryMulticastPort  =   PB + DG * domainId + d0
-UserMulticastPort	=   PB + DG * domainId + d2
-</code></pre></div>  </div>
-
-  <p>Unicast Ports (different for each participant running on a single operating system instance. Computer or VM):</p>
-
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>DiscoveryUnicastPort    =   PB + DG * domainId + d1 + PG * participantId
-UserUnicastPort         =   PB + DG * domainId + d3 + PG * participantId
-</code></pre></div>  </div>
-
-  <p>These formulas are depend on two variables: domainId and participantId</p>
-
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>domainId      - Is the DDS domainId
-participantId - Is an integer starting at 0 that enumerates each participant 
-                that runs on a given operating system instance (computer 
-                or virtual machine). 
-                The first participant will be 0, the second 1, etc.
-</code></pre></div>  </div>
-
-  <p>The formulas are parameterized by the constants d0, d1, d2, d3, PB, DG, and PG which are all defined in the OMG DDS Interoperability Wire Protocol Specification (DDS-RTPS) as follows:</p>
-
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d0  (builtin_multicast_port_offset)    = 0
-d2  (user_multicast_port_offset)       = 1 
-d1  (builtin_unicast_port_offset)      = 10
-d3  (user_unicast_port_offset)         = 11
-PB  (port_base)             = 7400
-DG ( domain_id_gain)        = 250
-PG  (participant_id_gain)   = 2
-</code></pre></div>  </div>
-
-</blockquote>
-
-<p>公式中使用的常数是DDS协议编译的默认值。</p>
-
-<p>可以通过<code class="language-plaintext highlighter-rouge">DomainParticipantQos</code>里面的<code class="language-plaintext highlighter-rouge">WireProtocolQosPolicy</code>改变端口映射。</p>
-
-<p><a href="https://community.rti.com/content/forum-topic/statically-configure-firewall-let-omg-dds-traffic-through">阅读原文➡</a></p>
-
-<h2 id="一个人高度自律的3种迹象">一个人高度自律的3种迹象</h2>
-
-<p>一个人高度自律的3种迹象：</p>
-
-<p><strong>读不喜欢但有价值的书</strong>，才能实现认知突围。</p>
-
-<p><strong>做不容易但正确的事</strong>，才能不断提升自己。</p>
-
-<p><strong>远离消耗自己的朋友</strong>，才能融入高质量的朋友圈。</p>
-
-<p>沉浸在舒适区，容易变得消极颓废。高度自律的人，才能获得真正的自由。</p>
-
-<p>愿我们都能不断修炼自己，最终活成自己喜欢的模样。</p>
-
-<p>美好一天从“自律”开始！</p>
+  <div>
+    <small>
+    
+      <a href='/tags.html#数学'>🔖数学</a>&nbsp;
+    
+    </small>
+  </div>
 
   <aside class="sidebar__right ">
     <nav class="toc">
@@ -395,69 +325,81 @@ PG  (participant_id_gain)   = 2
         
           
           
-          <li><a href='/tags.html#电动车'>电动车 <small style="font-weight: normal;">(4)</small></a></li>
+          <li><a href='/DailyRead/tags.html#数学'>数学 <small style="font-weight: normal;">(1)</small></a></li>
         
           
           
-          <li><a href='/tags.html#太极拳'>太极拳 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#太极拳'>太极拳 <small style="font-weight: normal;">(2)</small></a></li>
         
           
           
-          <li><a href='/tags.html#人文'>人文 <small style="font-weight: normal;">(2)</small></a></li>
+          <li><a href='/DailyRead/tags.html#管理'>管理 <small style="font-weight: normal;">(1)</small></a></li>
         
           
           
-          <li><a href='/tags.html#科学'>科学 <small style="font-weight: normal;">(2)</small></a></li>
+          <li><a href='/DailyRead/tags.html#电动车'>电动车 <small style="font-weight: normal;">(9)</small></a></li>
         
           
           
-          <li><a href='/tags.html#小鹏'>小鹏 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#科学'>科学 <small style="font-weight: normal;">(2)</small></a></li>
         
           
           
-          <li><a href='/tags.html#互联网'>互联网 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#互联网'>互联网 <small style="font-weight: normal;">(1)</small></a></li>
         
           
           
-          <li><a href='/tags.html#国际'>国际 <small style="font-weight: normal;">(3)</small></a></li>
+          <li><a href='/DailyRead/tags.html#小鹏'>小鹏 <small style="font-weight: normal;">(2)</small></a></li>
         
           
           
-          <li><a href='/tags.html#自动驾驶'>自动驾驶 <small style="font-weight: normal;">(6)</small></a></li>
+          <li><a href='/DailyRead/tags.html#国际'>国际 <small style="font-weight: normal;">(3)</small></a></li>
         
           
           
-          <li><a href='/tags.html#激光雷达'>激光雷达 <small style="font-weight: normal;">(2)</small></a></li>
+          <li><a href='/DailyRead/tags.html#自动驾驶'>自动驾驶 <small style="font-weight: normal;">(10)</small></a></li>
         
           
           
-          <li><a href='/tags.html#经济'>经济 <small style="font-weight: normal;">(5)</small></a></li>
+          <li><a href='/DailyRead/tags.html#激光雷达'>激光雷达 <small style="font-weight: normal;">(3)</small></a></li>
         
           
           
-          <li><a href='/tags.html#算法'>算法 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#经济'>经济 <small style="font-weight: normal;">(6)</small></a></li>
         
           
           
-          <li><a href='/tags.html#科技'>科技 <small style="font-weight: normal;">(2)</small></a></li>
+          <li><a href='/DailyRead/tags.html#算法'>算法 <small style="font-weight: normal;">(1)</small></a></li>
         
           
           
-          <li><a href='/tags.html#开发'>开发 <small style="font-weight: normal;">(3)</small></a></li>
+          <li><a href='/DailyRead/tags.html#科技'>科技 <small style="font-weight: normal;">(2)</small></a></li>
         
           
           
-          <li><a href='/tags.html#思维导图'>思维导图 <small style="font-weight: normal;">(2)</small></a></li>
+          <li><a href='/DailyRead/tags.html#开发'>开发 <small style="font-weight: normal;">(3)</small></a></li>
+        
+          
+          
+          <li><a href='/DailyRead/tags.html#心灵'>心灵 <small style="font-weight: normal;">(2)</small></a></li>
+        
+          
+          
+          <li><a href='/DailyRead/tags.html#思维导图'>思维导图 <small style="font-weight: normal;">(2)</small></a></li>
+        
+          
+          
+          <li><a href='/DailyRead/tags.html#中间件'>中间件 <small style="font-weight: normal;">(1)</small></a></li>
+        
+          
+          
+          <li><a href='/DailyRead/tags.html#蔚来'>蔚来 <small style="font-weight: normal;">(1)</small></a></li>
         
       </ul>
     </nav>
   </aside>
 
-  <div>
-    <small>
-    
-    </small>
-  </div>
+
 
 </div>
 

@@ -1,431 +1,380 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-03-03T06:14:50+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">自动驾驶仿真超全综述</title><link href="https://zzmfish.github.io/DailyRead/2021/03/02/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BB%BF%E7%9C%9F%E8%B6%85%E5%85%A8%E7%BB%BC%E8%BF%B0.html" rel="alternate" type="text/html" title="自动驾驶仿真超全综述" /><published>2021-03-02T00:00:00+08:00</published><updated>2021-03-02T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/03/02/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BB%BF%E7%9C%9F%E8%B6%85%E5%85%A8%E7%BB%BC%E8%BF%B0</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/03/02/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BB%BF%E7%9C%9F%E8%B6%85%E5%85%A8%E7%BB%BC%E8%BF%B0.html">&lt;h2 id=&quot;自动驾驶仿真超全综述从仿真场景系统到评价&quot;&gt;自动驾驶仿真超全综述：从仿真场景、系统到评价&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://zzmfish.github.io/DailyRead/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zzmfish.github.io/DailyRead/" rel="alternate" type="text/html" /><updated>2021-04-11T10:57:01+08:00</updated><id>https://zzmfish.github.io/DailyRead/feed.xml</id><title type="html">每日阅读</title><entry><title type="html">功能场景为纲 国产毫米波雷达商业化策略</title><link href="https://zzmfish.github.io/DailyRead/2021/04/08/%E5%8A%9F%E8%83%BD%E5%9C%BA%E6%99%AF%E4%B8%BA%E7%BA%B2-%E5%9B%BD%E4%BA%A7%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E5%95%86%E4%B8%9A%E5%8C%96%E7%AD%96%E7%95%A5.html" rel="alternate" type="text/html" title="功能场景为纲 国产毫米波雷达商业化策略" /><published>2021-04-08T00:00:00+08:00</published><updated>2021-04-08T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/04/08/%E5%8A%9F%E8%83%BD%E5%9C%BA%E6%99%AF%E4%B8%BA%E7%BA%B2---%E5%9B%BD%E4%BA%A7%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E5%95%86%E4%B8%9A%E5%8C%96%E7%AD%96%E7%95%A5</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/04/08/%E5%8A%9F%E8%83%BD%E5%9C%BA%E6%99%AF%E4%B8%BA%E7%BA%B2-%E5%9B%BD%E4%BA%A7%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E5%95%86%E4%B8%9A%E5%8C%96%E7%AD%96%E7%95%A5.html">&lt;p&gt;CEO &lt;strong&gt;楚詠焱&lt;/strong&gt; 是 &lt;em&gt;亚琛工大&lt;/em&gt; 电子信息学硕士，在 &lt;em&gt;博世&lt;/em&gt; 从事雷达研发管理13年；&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.processon.com/view/link/603d8c147d9c087bdf73596b&quot;&gt;打开思维导图&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CTO &lt;em&gt;张我弓&lt;/em&gt; 是 &lt;em&gt;德国斯图加特大学&lt;/em&gt; 半导体工程博士，曾在德国工作 &lt;em&gt;15年&lt;/em&gt;，期间在 &lt;em&gt;博世&lt;/em&gt; 主导 &lt;em&gt;第三代雷达天线&lt;/em&gt; 设计；&lt;/p&gt;
 
-&lt;iframe id=&quot;embed_dom&quot; name=&quot;embed_dom&quot; frameborder=&quot;0&quot; style=&quot;display:block;width:100%; height:800px;&quot; src=&quot;https://www.processon.com/embed/5f6abb44f346fb7adcfa23ec&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;COO &lt;em&gt;李烜&lt;/em&gt; 是 &lt;em&gt;汉诺威大学&lt;/em&gt; CAE硕士，在德国 &lt;em&gt;博坦德公司&lt;/em&gt; 工作12年。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/rnFnbuP8_wAaOAadWfHZbQ&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="思维导图" /><category term="自动驾驶" /><summary type="html">自动驾驶仿真超全综述：从仿真场景、系统到评价</summary></entry><entry><title type="html">详解自动驾驶汽车技术</title><link href="https://zzmfish.github.io/DailyRead/2021/03/02/%E8%AF%A6%E8%A7%A3%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E6%8A%80%E6%9C%AF.html" rel="alternate" type="text/html" title="详解自动驾驶汽车技术" /><published>2021-03-02T00:00:00+08:00</published><updated>2021-03-02T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/03/02/%E8%AF%A6%E8%A7%A3%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E6%8A%80%E6%9C%AF</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/03/02/%E8%AF%A6%E8%A7%A3%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%B1%BD%E8%BD%A6%E6%8A%80%E6%9C%AF.html">&lt;h2 id=&quot;万字长文详解自动驾驶汽车技术从感知定位处理规划到执行&quot;&gt;万字长文详解自动驾驶汽车技术：从感知、定位、处理规划到执行&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;2018年1月&lt;/strong&gt; 在 &lt;strong&gt;合肥&lt;/strong&gt; 成立的 &lt;strong&gt;楚航科技&lt;/strong&gt; 已获得A+轮 &lt;em&gt;数亿元&lt;/em&gt; 融资，公司遍布 &lt;em&gt;南京&lt;/em&gt;、&lt;em&gt;上海&lt;/em&gt;、&lt;em&gt;合肥&lt;/em&gt;、&lt;em&gt;安庆&lt;/em&gt;、&lt;em&gt;德国&lt;/em&gt;。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.processon.com/view/link/603d8b106376896973c984fc&quot;&gt;打开思维导图&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;产品创新性：&lt;strong&gt;行人分辨&lt;/strong&gt;（偏振算法）、&lt;strong&gt;目标分离和抗干扰&lt;/strong&gt;、&lt;strong&gt;功能安全&lt;/strong&gt; ASIL B，特别是 &lt;strong&gt;整车厂安装免校准&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;iframe id=&quot;embed_dom&quot; name=&quot;embed_dom&quot; frameborder=&quot;0&quot; style=&quot;display:block;width:100%; height:800px;&quot; src=&quot;https://www.processon.com/embed/5f63e6c55653bb28eb4513f3&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;要保证车辆安全，就是找到 &lt;strong&gt;每个传感器的优点和缺点&lt;/strong&gt;，并且知道在哪种场景下谁占 &lt;em&gt;主导&lt;/em&gt;，划好这个 &lt;strong&gt;边界&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/EiLHjCbCbhEq3g_FJ-P7qw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="思维导图" /><category term="自动驾驶" /><summary type="html">万字长文详解自动驾驶汽车技术：从感知、定位、处理规划到执行</summary></entry><entry><title type="html">寒潮下的美国得州，穷人不配用电？</title><link href="https://zzmfish.github.io/DailyRead/2021/02/27/%E5%AF%92%E6%BD%AE%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%9B%BD%E5%BE%97%E5%B7%9E-%E7%A9%B7%E4%BA%BA%E4%B8%8D%E9%85%8D%E7%94%A8%E7%94%B5.html" rel="alternate" type="text/html" title="寒潮下的美国得州，穷人不配用电？" /><published>2021-02-27T00:00:00+08:00</published><updated>2021-02-27T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/27/%E5%AF%92%E6%BD%AE%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%9B%BD%E5%BE%97%E5%B7%9E,%E7%A9%B7%E4%BA%BA%E4%B8%8D%E9%85%8D%E7%94%A8%E7%94%B5%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/27/%E5%AF%92%E6%BD%AE%E4%B8%8B%E7%9A%84%E7%BE%8E%E5%9B%BD%E5%BE%97%E5%B7%9E-%E7%A9%B7%E4%BA%BA%E4%B8%8D%E9%85%8D%E7%94%A8%E7%94%B5.html">&lt;h2 id=&quot;寒潮下的美国得州穷人不配用电&quot;&gt;寒潮下的美国得州，穷人不配用电？&lt;/h2&gt;
+&lt;p&gt;利用 &lt;strong&gt;多普勒效应&lt;/strong&gt; 基本原理的毫米波雷达可用于车内的 &lt;strong&gt;生命体征检测&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;h4 id=&quot;得州大规模停电&quot;&gt;得州大规模停电&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/2KyxkIuF-G3NEDWUn74-QA&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="自动驾驶" /><summary type="html">CEO 楚詠焱 是 亚琛工大 电子信息学硕士，在 博世 从事雷达研发管理13年；</summary></entry><entry><title type="html">重重挑战下，比亚迪如何重回王位？</title><link href="https://zzmfish.github.io/DailyRead/2021/04/08/%E9%87%8D%E9%87%8D%E6%8C%91%E6%88%98%E4%B8%8B-%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%A6%82%E4%BD%95%E9%87%8D%E5%9B%9E%E7%8E%8B%E4%BD%8D.html" rel="alternate" type="text/html" title="重重挑战下，比亚迪如何重回王位？" /><published>2021-04-08T00:00:00+08:00</published><updated>2021-04-08T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/04/08/%E9%87%8D%E9%87%8D%E6%8C%91%E6%88%98%E4%B8%8B,%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%A6%82%E4%BD%95%E9%87%8D%E5%9B%9E%E7%8E%8B%E4%BD%8D%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/04/08/%E9%87%8D%E9%87%8D%E6%8C%91%E6%88%98%E4%B8%8B-%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%A6%82%E4%BD%95%E9%87%8D%E5%9B%9E%E7%8E%8B%E4%BD%8D.html">&lt;p&gt;2020年比亚迪销售汽车 &lt;strong&gt;42.7万辆&lt;/strong&gt;，其中新能源汽车 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;18.9万辆&lt;/code&gt;，燃油汽车 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;23.7万辆&lt;/code&gt;，同比分别下降了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;18%&lt;/code&gt; 和增加了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1%&lt;/code&gt;。同期中国市场新能源车和燃油车的销量分别上涨了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10%&lt;/code&gt; 和下降了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6.8%&lt;/code&gt;。&lt;/p&gt;
 
-&lt;p&gt;极寒天气几乎冰冻了整个美国，最低气温&lt;strong&gt;零下23摄氏度&lt;/strong&gt;，冻死人数已经超过了&lt;strong&gt;33人&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;2020年7月，比亚迪 &lt;strong&gt;汉&lt;/strong&gt;上市。2020年下半年总销量超过 &lt;strong&gt;4万辆&lt;/strong&gt;。2021年1、2月销量分别为 &lt;strong&gt;12103、5028辆&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;p&gt;至少&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;14&lt;/code&gt;个州的电网出现故障，&lt;strong&gt;得克萨斯州&lt;/strong&gt;电力系统几乎瘫痪，一晚上就有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11人&lt;/code&gt;丧生。&lt;/p&gt;
+&lt;p&gt;营收组成：&lt;/p&gt;
 
-&lt;h4 id=&quot;美国电网&quot;&gt;美国电网&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;电池和光伏&lt;/strong&gt;: 一直在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7-8%&lt;/code&gt; 徘徊&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;汽车业务&lt;/strong&gt;: 大致占 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;50%&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;手机部件和组装&lt;/strong&gt; 大致占 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40%&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;得州电力&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20%&lt;/code&gt;来源于&lt;strong&gt;风力&lt;/strong&gt;，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40%&lt;/code&gt;来源于&lt;em&gt;天然气&lt;/em&gt;的&lt;strong&gt;火力发电&lt;/strong&gt;。&lt;em&gt;风力发电机和天然气管道被冻住&lt;/em&gt;，是大停电的主要原因。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;比亚迪电子&lt;/strong&gt; 是利润层面的“顶梁柱”，从2018年至今，&lt;em&gt;净利润&lt;/em&gt; 贡献都保持在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;70%&lt;/code&gt; 之上。&lt;/p&gt;
 
-&lt;p&gt;美国其他州的电力公司由 &lt;strong&gt;联邦电力监管委员会(FERC)&lt;/strong&gt; 监管，得州大部分电网由&lt;strong&gt;得州电力可靠性委员会(ERCOT)&lt;/strong&gt; 调度管理。&lt;/p&gt;
+&lt;p&gt;比亚迪坚持 &lt;strong&gt;买外来不如自己造&lt;/strong&gt;，前后发展出了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;19&lt;/code&gt; 个事业部。其中与汽车相关的有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;13&lt;/code&gt; 个，与电池相关的主要有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt; 个。&lt;/p&gt;
 
-&lt;p&gt;美国有电力企业&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3000多家&lt;/code&gt;，其中&lt;strong&gt;私营企业&lt;/strong&gt;服务用户占比&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;72.6%&lt;/code&gt;。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;70%&lt;/code&gt;的&lt;em&gt;输电线路和变压器&lt;/em&gt;运行年限超过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;25&lt;/code&gt;年，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;60%&lt;/code&gt;的&lt;em&gt;断路器&lt;/em&gt;运行年限超过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;30年&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;2016-2020年比亚迪的毛利润能维持在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;15-20%&lt;/code&gt;，略高于传统燃油车企业 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10+%&lt;/code&gt; 的水平。&lt;/p&gt;
 
-&lt;p&gt;私营企业首先考虑&lt;strong&gt;划算不划算&lt;/strong&gt;，宁可接受&lt;em&gt;电力事故&lt;/em&gt;，也不愿意因&lt;strong&gt;小概率事件&lt;/strong&gt;而对电网设施进行&lt;em&gt;投资和维护&lt;/em&gt;。&lt;/p&gt;
-
-&lt;p&gt;得州供电瘫痪，一个原因就是&lt;strong&gt;电网方主动切断了居民区的电力供应&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h4 id=&quot;党派纠纷&quot;&gt;党派纠纷&lt;/h4&gt;
-
-&lt;p&gt;2007年&lt;strong&gt;次贷危机&lt;/strong&gt;，失业率一度高达10%。&lt;/p&gt;
-
-&lt;p&gt;2009年&lt;strong&gt;奥巴马&lt;/strong&gt;上台，大力发展&lt;strong&gt;新能源&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;2012年之后，美国新增的发电能力中，&lt;em&gt;风能&lt;/em&gt;占到了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;一半&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;太阳能&lt;/em&gt;发电增长了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40倍&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;2006—2016年，美国&lt;em&gt;煤炭&lt;/em&gt;发电量减少了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;53%&lt;/code&gt;，美国&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40%&lt;/code&gt;的煤电厂濒临破产或已经破产。&lt;/p&gt;
-
-&lt;p&gt;2017年&lt;strong&gt;特朗普&lt;/strong&gt;上任，废除多条环保法案，支持&lt;strong&gt;煤炭发电&lt;/strong&gt;，还以安全的名义&lt;em&gt;禁止美国从中国进口电力系统设备&lt;/em&gt;。&lt;/p&gt;
-
-&lt;p&gt;但是特朗普没能阻挡清洁能源大趋势。2017年煤炭发电所占份额为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;30%&lt;/code&gt;，到了2019年仅为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;24%&lt;/code&gt;。&lt;/p&gt;
-
-&lt;h4 id=&quot;双城记&quot;&gt;双城记&lt;/h4&gt;
-
-&lt;p&gt;得州大面积停电同时，得州富裕社区却灯火通明。&lt;/p&gt;
-
-&lt;p&gt;许多美国官员认为，&lt;strong&gt;为防范危机进行投资几乎没有任何政治回报&lt;/strong&gt;，他们根本就没有去主动应对危机的动力。&lt;/p&gt;
-
-&lt;p&gt;美国为了应对突发灾害，特别成立了&lt;strong&gt;联邦紧急事务管理局(FEMA)&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;1992年&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;安德鲁飓风&lt;/code&gt;发生&lt;em&gt;6天后&lt;/em&gt;，FEMA才派人进行救灾，大批民众死于饥饿和寒冷。&lt;/p&gt;
-
-&lt;p&gt;2005年&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;卡特里娜飓风&lt;/code&gt; FEMA在灾害现场不作为，还&lt;em&gt;把救灾物错配到没有受灾的州&lt;/em&gt;。&lt;/p&gt;
-
-&lt;p&gt;2006年纽约遭遇了暴风雪，FEMA却“见死不救”，理由是&lt;em&gt;纽约州没有宣布进入“紧急状态”&lt;/em&gt;。&lt;/p&gt;
-
-&lt;p&gt;富人们选择雇佣&lt;strong&gt;私人消防员&lt;/strong&gt;来保护自己的安全，每天服务价格达到&lt;em&gt;上千美元&lt;/em&gt;。&lt;/p&gt;
-
-&lt;h4 id=&quot;尾声&quot;&gt;尾声&lt;/h4&gt;
-
-&lt;p&gt;春节我们南方同样遇到了“百年一遇”的寒潮。&lt;/p&gt;
-
-&lt;p&gt;南方电网10千伏以上的电路，每天有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6000人次&lt;/code&gt;除冰工作，且配备了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;巡冰无人机&lt;/code&gt;。在除冰方面，还配备&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;激光大炮&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;激光雷达&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;机动式车载直流融冰装置&lt;/code&gt;。万家灯火，一盏也没有熄灭。&lt;/p&gt;</content><author><name></name></author><category term="国际" /><summary type="html">寒潮下的美国得州，穷人不配用电？</summary></entry><entry><title type="html">全球资产价格存在非常大的泡沫</title><link href="https://zzmfish.github.io/DailyRead/2021/02/26/%E5%85%A8%E7%90%83%E8%B5%84%E4%BA%A7%E4%BB%B7%E6%A0%BC%E5%AD%98%E5%9C%A8%E9%9D%9E%E5%B8%B8%E5%A4%A7%E7%9A%84%E6%B3%A1%E6%B2%AB.html" rel="alternate" type="text/html" title="全球资产价格存在非常大的泡沫" /><published>2021-02-26T00:00:00+08:00</published><updated>2021-02-26T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/26/%E5%85%A8%E7%90%83%E8%B5%84%E4%BA%A7%E4%BB%B7%E6%A0%BC%E5%AD%98%E5%9C%A8%E9%9D%9E%E5%B8%B8%E5%A4%A7%E7%9A%84%E6%B3%A1%E6%B2%AB</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/26/%E5%85%A8%E7%90%83%E8%B5%84%E4%BA%A7%E4%BB%B7%E6%A0%BC%E5%AD%98%E5%9C%A8%E9%9D%9E%E5%B8%B8%E5%A4%A7%E7%9A%84%E6%B3%A1%E6%B2%AB.html">&lt;h2 id=&quot;全球资产价格存在非常大的泡沫或现大幅调整&quot;&gt;全球资产价格存在非常大的泡沫，或现大幅调整&lt;/h2&gt;
-
-&lt;p&gt;朱宁&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/images/%E7%BE%8E%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E5%A4%A7%E5%BA%86%E5%B8%82%E9%BB%8E%E6%98%8E%E6%B9%96%E5%A4%9C%E6%99%AF.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;全球资产价格上升&quot;&gt;全球资产价格上升&lt;/h4&gt;
-
-&lt;p&gt;自从2020年3月，以美联储为首的全球央行推出史无前例的&lt;strong&gt;量化宽松刺激政策&lt;/strong&gt;以来，全球资产价格出现了明显的上升，包括&lt;em&gt;全球股市（尤其是头部企业股票）、房地产市场、加密货币&lt;/em&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;加密货币暴涨&lt;/strong&gt;反映了&lt;em&gt;全球对于无限制的主权货币发行的发行量大幅增加的担忧和不满&lt;/em&gt;。&lt;/p&gt;
-
-&lt;h4 id=&quot;资产价格高估的消化方式&quot;&gt;资产价格高估的消化方式&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;通过&lt;strong&gt;实体经济增长&lt;/strong&gt;来&lt;em&gt;推动房租或者上市公司盈利的增加&lt;/em&gt;；&lt;/li&gt;
-  &lt;li&gt;通过&lt;strong&gt;股票或者房地产价格的下跌&lt;/strong&gt;，就像&lt;em&gt;日本1990年&lt;/em&gt;以后或&lt;em&gt;美国2008年&lt;/em&gt;以后的情况。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;如果市场&lt;strong&gt;对于政府的救助和刺激抱有强烈的一致预期&lt;/strong&gt;，投资者会&lt;em&gt;认为这是一种理性的、得到了政府支持的泡沫&lt;/em&gt;。&lt;/p&gt;
-
-&lt;h4 id=&quot;引发泡沫破裂的原因&quot;&gt;引发泡沫破裂的原因&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;流动性的收紧&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;全球资金面的紧张&lt;/li&gt;
-      &lt;li&gt;安全资产利率的上升&lt;em&gt;和投&lt;/em&gt;资者风险偏好的下降&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;黑天鹅事件的发生（新冠疫情）&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;全社会的流动性的紧张&lt;/li&gt;
-      &lt;li&gt;投资者的风险偏好下降&lt;/li&gt;
-      &lt;li&gt;全球经济活动的萎靡&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;蝴蝶效应&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;对比历史上的暴涨有的相同点&quot;&gt;对比历史上的暴涨有的相同点&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;对于政府和对于流动性的强烈预期&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;强烈的自我实现的预期&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;涨幅越大、估值越高的资产越得到投资者的追捧&lt;/li&gt;
-      &lt;li&gt;游戏驿站事件&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;对比历史上的暴涨有的不同点&quot;&gt;对比历史上的暴涨有的不同点&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;全球的流动性环境&lt;/strong&gt;
-全球央行所投放的流动性的增量远远大于2008年全球金融危机时投放的流动性&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;资产价格的分化愈加严重&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;总结&quot;&gt;总结&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;根本原因是投资者的非理性心理&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;全球资产价格出现大幅调整是大概率事件&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://m.huxiu.com/article/411050.html&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="经济" /><summary type="html">全球资产价格存在非常大的泡沫，或现大幅调整</summary></entry><entry><title type="html">中国航天突围64年</title><link href="https://zzmfish.github.io/DailyRead/2021/02/15/%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%AA%81%E5%9B%B464%E5%B9%B4.html" rel="alternate" type="text/html" title="中国航天突围64年" /><published>2021-02-15T00:00:00+08:00</published><updated>2021-02-15T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/15/%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%AA%81%E5%9B%B464%E5%B9%B4</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/15/%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E7%AA%81%E5%9B%B464%E5%B9%B4.html">&lt;h2 id=&quot;天问入轨475亿公里飞行背后中国航天突围64年&quot;&gt;天问入轨：4.75亿公里飞行背后，中国航天突围64年&lt;/h2&gt;
-
-&lt;p&gt;1957年10月4日，&lt;strong&gt;苏联&lt;/strong&gt;的 &lt;strong&gt;斯普特尼克1号&lt;/strong&gt;🚀 发射成功，成为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;世界上第一颗人造卫星&lt;/code&gt;🛰️。11月3日，搭载一只🐶的 &lt;em&gt;斯普特尼克2号&lt;/em&gt; 也发射成功；&lt;/p&gt;
-
-&lt;p&gt;1958年2月，&lt;strong&gt;美国&lt;/strong&gt;发射了 &lt;em&gt;探险者1号（Explorer-1）&lt;/em&gt; 。&lt;/p&gt;
-
-&lt;p&gt;1965年11月，&lt;strong&gt;法国&lt;/strong&gt;发射了 &lt;em&gt;阿斯特里克斯卫星（Asterix）&lt;/em&gt;。&lt;/p&gt;
-
-&lt;p&gt;1970年2月，&lt;strong&gt;日本&lt;/strong&gt;发射了 &lt;em&gt;大隅卫星&lt;/em&gt;。&lt;/p&gt;
-
-&lt;p&gt;1970年4月24日，&lt;strong&gt;中国&lt;/strong&gt;的&lt;strong&gt;长征一号&lt;/strong&gt;运载火箭搭载着&lt;strong&gt;东方红一号&lt;/strong&gt;卫星，在&lt;strong&gt;酒泉&lt;/strong&gt;卫星发射中心成功升空。&lt;/p&gt;
+&lt;p&gt;Model 3外部供应商大概有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;59&lt;/code&gt; 个，比亚迪汉只用了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;31&lt;/code&gt;个。&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;1986年1月28日，&lt;strong&gt;挑战者号航天飞机&lt;/strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;升空后爆炸&lt;/code&gt;💥失事震惊了全世界。&lt;/p&gt;
+&lt;p&gt;比亚迪的历史：&lt;/p&gt;
 
-&lt;p&gt;1986年5月30日，欧洲 &lt;strong&gt;阿丽亚娜2号火箭&lt;/strong&gt; &lt;em&gt;因第三级点火故障，发射后不到5分钟就星箭俱毁&lt;/em&gt;💥。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1995年-2002年，&lt;strong&gt;手机电池生产制造&lt;/strong&gt;；&lt;/li&gt;
+  &lt;li&gt;2002年-2009年，手机 &lt;strong&gt;电池+代工&lt;/strong&gt;，进军 &lt;strong&gt;燃油车&lt;/strong&gt; 市场；&lt;/li&gt;
+  &lt;li&gt;2009年-至今，进军 &lt;strong&gt;新能源车&lt;/strong&gt; 领域。&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;1990年4月7日，中国&lt;strong&gt;长城工业&lt;/strong&gt;公司在&lt;strong&gt;西昌&lt;/strong&gt;卫星发射中心，用&lt;strong&gt;长征三号&lt;/strong&gt;火箭成功发射&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;休斯公司&lt;/code&gt;制造的&lt;strong&gt;亚洲一号&lt;/strong&gt;卫星。从此中国打开了 &lt;em&gt;国际商业卫星发射服务市场&lt;/em&gt;💰。&lt;/p&gt;
+&lt;p&gt;发展路上数次“走岔路”：&lt;/p&gt;
 
-&lt;p&gt;1996年2月15日，&lt;strong&gt;长征三号&lt;/strong&gt;乙火箭发射&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;国际708&lt;/code&gt;通信卫星发生剧烈爆炸💥，星箭俱毁，造成&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6人&lt;/code&gt;死亡💀，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;57人&lt;/code&gt;受伤。&lt;/p&gt;
+&lt;p&gt;2009年比亚迪的战略方向定为新能源，包括 &lt;strong&gt;LED&lt;/strong&gt;，&lt;strong&gt;光伏发电&lt;/strong&gt; 等。建设了两个 &lt;em&gt;太阳能发电站&lt;/em&gt;，还建造了由完全利用太阳能和风力发电的 &lt;em&gt;未来村&lt;/em&gt;。后来光伏产业出现 &lt;em&gt;供过于求&lt;/em&gt;，而且行业内其他企业 &lt;em&gt;更早起步、高度产业分化&lt;/em&gt;，比亚迪的光伏业务并没有取得特别多的进展。&lt;/p&gt;
 
-&lt;p&gt;1996年8月18日，&lt;strong&gt;长征三号&lt;/strong&gt;运载火箭发射&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;中星七号&lt;/code&gt;通信卫星时，发生点火故障导致发射失败❌。&lt;/p&gt;
+&lt;p&gt;2016年比亚迪推出了 &lt;em&gt;云轨&lt;/em&gt;，相比地铁运输能力更小，但建设成本更低。其他轨道交通巨头纷纷拿出了产品和解决方案，还拥有强大的基建队伍和能力。云轨估值归0。&lt;/p&gt;
 
-&lt;p&gt;1999年5月，美国 &lt;strong&gt;《考克斯报告》&lt;/strong&gt; 认定&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;休斯&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;劳拉&lt;/code&gt;两公司泄密并间接推动了中国导弹技术的进步。美国开始 &lt;em&gt;限制对中国商业卫星出口&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;比亚迪 &lt;strong&gt;偏向于招收应届毕业生&lt;/strong&gt;，并且根据自己的需求进行培养。高管中的副总裁、核心技术人员，都是在毕业同年就加入了比亚迪。这些 &lt;em&gt;个人职业生涯与比亚迪紧密捆绑&lt;/em&gt;，也是比亚迪 &lt;em&gt;在技术和制造优势上得以贯彻&lt;/em&gt; 的关键。&lt;/p&gt;
+
+&lt;p&gt;但也增加了比亚迪发展中的 &lt;em&gt;惯性&lt;/em&gt;，具体表现为比亚迪在许多行业新趋势上“跟进”的不及时。&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;2011年，美国“&lt;strong&gt;沃尔夫条款&lt;/strong&gt;”规定NASA和OSTP的航天航空项目&lt;em&gt;不得与中国官方进行技术交流&lt;/em&gt;，也&lt;em&gt;不接待&lt;/em&gt; 中国学者🖐️。&lt;/p&gt;
+&lt;p&gt;2020年比亚迪动力电池装机量达到了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;9.48GWh&lt;/code&gt;，排名中国 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;第二&lt;/code&gt;。&lt;/p&gt;
 
-&lt;p&gt;2011年5月16日，&lt;strong&gt;奋进号航天飞机&lt;/strong&gt; 在 &lt;em&gt;肯尼迪航天中心&lt;/em&gt; 等待发射，任务是将迄今为止在太空运行的最强大、有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;15个国家&lt;/code&gt;的科学家参与的粒子物理探测器 &lt;em&gt;阿尔法磁谱仪&lt;/em&gt; 送往国际空间站。但临近发射时NASA却 &lt;em&gt;取消了中国记者的采访资格&lt;/em&gt;🖐️。&lt;/p&gt;
+&lt;p&gt;推出了全新的 &lt;strong&gt;刀片电池&lt;/strong&gt;，是动力电池的 &lt;em&gt;空间布局、电极焊接技术、涂敷技术&lt;/em&gt; 上的一次全新升级。&lt;/p&gt;
 
-&lt;p&gt;2012年，&lt;strong&gt;神舟九号&lt;/strong&gt;升空并与 &lt;strong&gt;天宫一号&lt;/strong&gt; 顺利对接并返回🎉。&lt;strong&gt;嫦娥二号&lt;/strong&gt;完成 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;绕月探测&lt;/code&gt;🎉 后，宣布将对 &lt;em&gt;图塔蒂斯小行星(4179 Toutatis)&lt;/em&gt; 进行飞跃探测。美国却 &lt;em&gt;关闭了原本开放的数据库&lt;/em&gt;🖐️。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;宁德时代&lt;/strong&gt; 和绝大部分客车制造企业形成了合作，实现了新能源 &lt;em&gt;客车领域&lt;/em&gt; 装车量的绝对第一。&lt;em&gt;专用车领域&lt;/em&gt;，2020年第11批新能源车专用车目录中，有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;45款&lt;/code&gt; 采用了宁德时代的电池，只有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;16款&lt;/code&gt; 采用了比亚迪的电池。&lt;/p&gt;
 
-&lt;p&gt;2013年10月，NASA &lt;em&gt;艾姆斯研究中心&lt;/em&gt; 举行由美国与国际研究团队报告 &lt;em&gt;寻找太阳系外行星&lt;/em&gt; 的研究结果的会议，但 &lt;em&gt;中国籍研究人员遭禁入&lt;/em&gt;🖐️。&lt;/p&gt;
+&lt;p&gt;比亚迪为滴滴专门定制的首款网约车D1，截至目前销售了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1200辆&lt;/code&gt;。&lt;/p&gt;
 
-&lt;p&gt;2013年12月，&lt;strong&gt;嫦娥三号&lt;/strong&gt;实现了无人登月探测器在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;月球软着陆&lt;/code&gt;🎉。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.huxiu.com/article/418107.html&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="电动车" /><summary type="html">2020年比亚迪销售汽车 42.7万辆，其中新能源汽车 18.9万辆，燃油汽车 23.7万辆，同比分别下降了 18% 和增加了 1%。同期中国市场新能源车和燃油车的销量分别上涨了 10% 和下降了 6.8%。</summary></entry><entry><title type="html">威马「迷航」：cto上月出走、ipo自动放弃</title><link href="https://zzmfish.github.io/DailyRead/2021/04/06/%E5%A8%81%E9%A9%AC-%E8%BF%B7%E8%88%AA-CTO%E4%B8%8A%E6%9C%88%E5%87%BA%E8%B5%B0-IPO%E8%87%AA%E5%8A%A8%E6%94%BE%E5%BC%83.html" rel="alternate" type="text/html" title="威马「迷航」：cto上月出走、ipo自动放弃" /><published>2021-04-06T00:00:00+08:00</published><updated>2021-04-06T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/04/06/%E5%A8%81%E9%A9%AC%E3%80%8C%E8%BF%B7%E8%88%AA%E3%80%8D:CTO%E4%B8%8A%E6%9C%88%E5%87%BA%E8%B5%B0%E3%80%81IPO%E8%87%AA%E5%8A%A8%E6%94%BE%E5%BC%83</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/04/06/%E5%A8%81%E9%A9%AC-%E8%BF%B7%E8%88%AA-CTO%E4%B8%8A%E6%9C%88%E5%87%BA%E8%B5%B0-IPO%E8%87%AA%E5%8A%A8%E6%94%BE%E5%BC%83.html">&lt;p&gt;威马合伙人 &amp;amp; CTO &lt;strong&gt;闫枫&lt;/strong&gt; 2004 年加入 &lt;em&gt;上汽&lt;/em&gt;，2013 年担任上汽 &lt;em&gt;副CIO&lt;/em&gt;。2021 年 3 月 10 日从威马离职。&lt;/p&gt;
 
-&lt;p&gt;2017年，中国月球和空间探测工程中心副主任 &lt;em&gt;于国斌被美拒签&lt;/em&gt;🖐️，无法参加在得克萨斯州举行的 &lt;em&gt;月球与行星科学大会&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;威马在 2020 年 10 月申请 &lt;strong&gt;上市辅导&lt;/strong&gt;，并且已经于今年 1 月完成，后来选择了 &lt;em&gt;自动放弃&lt;/em&gt;（中止上市）。&lt;/p&gt;
 
-&lt;p&gt;2019年，&lt;strong&gt;嫦娥四号&lt;/strong&gt; 实现人类首次在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;月球背面着陆&lt;/code&gt;🎉。&lt;/p&gt;
+&lt;p&gt;威马在寻求 &lt;strong&gt;百度&lt;/strong&gt; 融资支持时，曾接受了对方的竞业条款，不能自己做自动驾驶，而是使用百度的 &lt;em&gt;Apollo 系统&lt;/em&gt;。百度在造车上却选择了 &lt;em&gt;吉利&lt;/em&gt; 作为合作伙伴。&lt;/p&gt;
 
-&lt;p&gt;2020年，&lt;strong&gt;嫦娥五号&lt;/strong&gt; 让中国成为继苏联、美国之后，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;第三个取得月壤的国家&lt;/code&gt;🎉。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/images/%E7%BE%8E%E5%9B%BE/2021-04-07.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0215.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/3hd7OSHVEmHmHeB-_bYSbg&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="电动车" /><summary type="html">威马合伙人 &amp;amp; CTO 闫枫 2004 年加入 上汽，2013 年担任上汽 副CIO。2021 年 3 月 10 日从威马离职。</summary></entry><entry><title type="html">Waymo主帅离职疑云：自动驾驶商业化不力？l4太难？</title><link href="https://zzmfish.github.io/DailyRead/2021/04/05/Waymo%E4%B8%BB%E5%B8%85%E7%A6%BB%E8%81%8C%E7%96%91%E4%BA%91-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E5%95%86%E4%B8%9A%E5%8C%96%E4%B8%8D%E5%8A%9B-L4%E5%A4%AA%E9%9A%BE.html" rel="alternate" type="text/html" title="Waymo主帅离职疑云：自动驾驶商业化不力？l4太难？" /><published>2021-04-05T00:00:00+08:00</published><updated>2021-04-05T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/04/05/Waymo%E4%B8%BB%E5%B8%85%E7%A6%BB%E8%81%8C%E7%96%91%E4%BA%91:%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E5%95%86%E4%B8%9A%E5%8C%96%E4%B8%8D%E5%8A%9B%3FL4%E5%A4%AA%E9%9A%BE%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/04/05/Waymo%E4%B8%BB%E5%B8%85%E7%A6%BB%E8%81%8C%E7%96%91%E4%BA%91-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E5%95%86%E4%B8%9A%E5%8C%96%E4%B8%8D%E5%8A%9B-L4%E5%A4%AA%E9%9A%BE.html">&lt;p&gt;Waymo &lt;em&gt;CEO John Krafcik&lt;/em&gt; 宣布离职。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://36kr.com/p/1093554531568131&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="科技" /><summary type="html">天问入轨：4.75亿公里飞行背后，中国航天突围64年</summary></entry><entry><title type="html">特斯拉还会继续降价，10-20万车型受冲击较大</title><link href="https://zzmfish.github.io/DailyRead/2021/02/14/%E7%89%B9%E6%96%AF%E6%8B%89%E8%BF%98%E4%BC%9A%E7%BB%A7%E7%BB%AD%E9%99%8D%E4%BB%B7-10-20%E4%B8%87%E8%BD%A6%E5%9E%8B%E5%8F%97%E5%86%B2%E5%87%BB%E8%BE%83%E5%A4%A7.html" rel="alternate" type="text/html" title="特斯拉还会继续降价，10-20万车型受冲击较大" /><published>2021-02-14T00:00:00+08:00</published><updated>2021-02-14T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/14/%E7%89%B9%E6%96%AF%E6%8B%89%E8%BF%98%E4%BC%9A%E7%BB%A7%E7%BB%AD%E9%99%8D%E4%BB%B7,10-20%E4%B8%87%E8%BD%A6%E5%9E%8B%E5%8F%97%E5%86%B2%E5%87%BB%E8%BE%83%E5%A4%A7</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/14/%E7%89%B9%E6%96%AF%E6%8B%89%E8%BF%98%E4%BC%9A%E7%BB%A7%E7%BB%AD%E9%99%8D%E4%BB%B7-10-20%E4%B8%87%E8%BD%A6%E5%9E%8B%E5%8F%97%E5%86%B2%E5%87%BB%E8%BE%83%E5%A4%A7.html">&lt;h2 id=&quot;券商观点特斯拉还会继续降价-造车新势力10-20万车型受冲击较大&quot;&gt;券商观点：特斯拉还会继续降价 造车新势力10-20万车型受冲击较大&lt;/h2&gt;
+&lt;p&gt;CTO &lt;em&gt;Dmitri Dolgov&lt;/em&gt; (2009年加入) 和 COO &lt;em&gt;Tekedra Mawakana&lt;/em&gt; (2017年加入) 作为联席 CEO 接任。&lt;/p&gt;
 
-&lt;p&gt;汽车行业的竞争力更多要看一个公司的&lt;strong&gt;管理机制&lt;/strong&gt;：一是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;管理团队的相互配合&lt;/code&gt;，二是关于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;新团队的塑造&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;waymo&quot;&gt;Waymo&lt;/h2&gt;
 
-&lt;p&gt;新能源车在中国、包括全球的占比是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5%&lt;/code&gt;左右，未来目标在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2025年&lt;/code&gt;提到&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;15-20%&lt;/code&gt;，未来几年整个赛道的&lt;strong&gt;确定性&lt;/strong&gt;非常强。&lt;/p&gt;
+&lt;p&gt;谷歌自 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2008年&lt;/code&gt; 开始自动驾驶研发。&lt;/p&gt;
 
-&lt;p&gt;在全球新能源车&lt;strong&gt;产业链&lt;/strong&gt;中，中国企业会扮演更多的角色，未来的&lt;strong&gt;市场重心&lt;/strong&gt;一定是在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;中国&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;美国&lt;/code&gt;。所以从长期看题，新能源车的估值并不贵。&lt;/p&gt;
+&lt;p&gt;在美国 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;25 个城市&lt;/code&gt;的 &lt;em&gt;公共道路&lt;/em&gt; 上自动驾驶&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;数千万英里&lt;/code&gt;，并积累了超过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;200 亿公里&lt;/code&gt; 的 &lt;em&gt;模拟测试&lt;/em&gt; 里程；&lt;/p&gt;
 
-&lt;p&gt;高端和低端的电动车卖的很好，但中端市场（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10-20万&lt;/code&gt;）仍然是传统车消费的主力。&lt;em&gt;新能源车对传统车&lt;strong&gt;最核心的替代需求还没有形成&lt;/strong&gt;&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;在凤凰城部署了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;600 辆&lt;/code&gt; 左右 Waymo One &lt;em&gt;自动驾驶打车服务&lt;/em&gt;；&lt;/p&gt;
 
-&lt;p&gt;特斯拉以智能电动车为主，创造了一种&lt;strong&gt;新增的需求&lt;/strong&gt;。到大家对电动车的&lt;strong&gt;自发需求&lt;/strong&gt;形成越来越强烈的时候，会对传统车及电动车市场带来比较大的冲击。&lt;/p&gt;
+&lt;p&gt;与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;菲亚特·克莱斯勒&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;捷豹&lt;/code&gt; 达成了 &lt;em&gt;车辆采购&lt;/em&gt; 合作；&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;软件定义汽车&lt;/strong&gt;是一个趋势，伴随&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;自动驾驶&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;智能座舱&lt;/code&gt;的快速推进，需要&lt;em&gt;整个产业链一起来协同&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;沃尔沃&lt;/code&gt; 达成 &lt;em&gt;L4 级自动驾驶出租车量产&lt;/em&gt; 合作；&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;零部件&lt;/strong&gt;领域，包括&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;热管理&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;汽车电池&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;车灯&lt;/code&gt;，行业空间足够大，龙头公司的竞争优势会不断凸显。&lt;/p&gt;
+&lt;p&gt;与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;戴姆勒集团&lt;/code&gt; 合作打造 &lt;em&gt;L4 级自动驾驶卡车&lt;/em&gt;；&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0214.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;筹集 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;32.5 亿&lt;/code&gt; 美金的外部投资，估值 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1050 亿&lt;/code&gt; 美金。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://m.cnbeta.com/view/1090485.htm&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="经济" /><category term="电动车" /><summary type="html">券商观点：特斯拉还会继续降价 造车新势力10-20万车型受冲击较大</summary></entry><entry><title type="html">“中国制造”并非想象中那么强大</title><link href="https://zzmfish.github.io/DailyRead/2021/02/08/%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0-%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E4%B8%AD%E9%82%A3%E4%B9%88%E5%BC%BA%E5%A4%A7.html" rel="alternate" type="text/html" title="“中国制造”并非想象中那么强大" /><published>2021-02-08T00:00:00+08:00</published><updated>2021-02-08T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/08/%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E2%80%9D%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E4%B8%AD%E9%82%A3%E4%B9%88%E5%BC%BA%E5%A4%A7</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/08/%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0-%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E4%B8%AD%E9%82%A3%E4%B9%88%E5%BC%BA%E5%A4%A7.html">&lt;h2 id=&quot;中国制造并非想象中那么强大再继续下去会出大问题&quot;&gt;“中国制造”并非想象中那么强大，再继续下去会出大问题！&lt;/h2&gt;
+&lt;h2 id=&quot;john-krafcik&quot;&gt;John Krafcik&lt;/h2&gt;
 
-&lt;p&gt;原工信部部&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;长苗圩&lt;/code&gt;：&lt;/p&gt;
+&lt;p&gt;毕业于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;斯坦福大学&lt;/code&gt; 机械工程，毕业后进入了汽车制造公司 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NUMMI&lt;/code&gt; （通用和丰田成立的合资企业）担任 &lt;em&gt;质量制造工程师&lt;/em&gt;；&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“中国制造”不像我们想象那么强大，西方工业也没有衰退到依赖中国。&lt;strong&gt;我们的制造业还没有升级，但制造业者却已开始撤离。&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;麻省理工学院&lt;/code&gt; 深造，从事 &lt;em&gt;汽车行业研究&lt;/em&gt;；&lt;/p&gt;
 
-&lt;p&gt;全球制造业格局：&lt;/p&gt;
+&lt;p&gt;1990 年进入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;福特汽车&lt;/code&gt;，从 &lt;em&gt;卡车部门主管&lt;/em&gt; 做到 &lt;em&gt;总工程师&lt;/em&gt;；&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;第一梯队是以&lt;em&gt;美国&lt;/em&gt;为主导的&lt;strong&gt;全球科技创新中心&lt;/strong&gt;；&lt;/p&gt;
+&lt;p&gt;2004 年成为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;现代汽车&lt;/code&gt; 北美分部的 &lt;em&gt;产品开发与战略规划副总裁&lt;/em&gt;；&lt;/p&gt;
 
-  &lt;p&gt;第二梯队是&lt;strong&gt;高端制造领域&lt;/strong&gt;，包括&lt;em&gt;欧盟、日本&lt;/em&gt;；&lt;/p&gt;
+&lt;p&gt;2013 年加入选车/购车网站 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TrueCar&lt;/code&gt;；&lt;/p&gt;
 
-  &lt;p&gt;第三梯队是&lt;strong&gt;中低端制造领域&lt;/strong&gt;，主要是一些&lt;em&gt;新兴国家，包括中国&lt;/em&gt;；&lt;/p&gt;
+&lt;p&gt;2015 年担任 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;谷歌&lt;/code&gt; 无人车项目 CEO。&lt;/p&gt;
 
-  &lt;p&gt;第四梯队主要是&lt;strong&gt;资源输出国&lt;/strong&gt;，包括&lt;em&gt;OPEC(石油输出国组织)、非洲、拉美&lt;/em&gt;等国。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/images/%E7%BE%8E%E5%9B%BE/2021-04-05.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;全球科技实力排名：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/yBQFRw4qwltSN627Sc_gOw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="自动驾驶" /><summary type="html">Waymo CEO John Krafcik 宣布离职。</summary></entry><entry><title type="html">小马智卡来了！中国估值最高的自动驾驶独角兽首曝卡车战略</title><link href="https://zzmfish.github.io/DailyRead/2021/04/05/%E5%B0%8F%E9%A9%AC%E6%99%BA%E5%8D%A1%E6%9D%A5%E4%BA%86-%E4%B8%AD%E5%9B%BD%E4%BC%B0%E5%80%BC%E6%9C%80%E9%AB%98%E7%9A%84%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E7%8B%AC%E8%A7%92%E5%85%BD%E9%A6%96%E6%9B%9D%E5%8D%A1%E8%BD%A6%E6%88%98%E7%95%A5.html" rel="alternate" type="text/html" title="小马智卡来了！中国估值最高的自动驾驶独角兽首曝卡车战略" /><published>2021-04-05T00:00:00+08:00</published><updated>2021-04-05T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/04/05/%E5%B0%8F%E9%A9%AC%E6%99%BA%E5%8D%A1%E6%9D%A5%E4%BA%86!%E4%B8%AD%E5%9B%BD%E4%BC%B0%E5%80%BC%E6%9C%80%E9%AB%98%E7%9A%84%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E7%8B%AC%E8%A7%92%E5%85%BD%E9%A6%96%E6%9B%9D%E5%8D%A1%E8%BD%A6%E6%88%98%E7%95%A5</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/04/05/%E5%B0%8F%E9%A9%AC%E6%99%BA%E5%8D%A1%E6%9D%A5%E4%BA%86-%E4%B8%AD%E5%9B%BD%E4%BC%B0%E5%80%BC%E6%9C%80%E9%AB%98%E7%9A%84%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E7%8B%AC%E8%A7%92%E5%85%BD%E9%A6%96%E6%9B%9D%E5%8D%A1%E8%BD%A6%E6%88%98%E7%95%A5.html">&lt;p&gt;小马智行累计测试里程已经超 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;500 万&lt;/code&gt; 公里，公司估值超 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;53 亿&lt;/code&gt; 美元，累计融资超 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11 亿&lt;/code&gt; 美元。&lt;/p&gt;
 
-&lt;h4 id=&quot;美国&quot;&gt;美国&lt;/h4&gt;
+&lt;p&gt;卡车业务探索始于 2018 年 8 月，正式的名称：&lt;strong&gt;小马智卡&lt;/strong&gt; PonyTron。&lt;/p&gt;
 
-&lt;p&gt;美国大学汇集了全球&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;70%&lt;/code&gt;以上的诺贝尔奖获得者。&lt;/p&gt;
-
-&lt;p&gt;全球最顶尖的20所大学中美国占了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17所&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;全球十大科技顶尖公司美国占据了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8家&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;全球最&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;顶尖的实验室&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;军工、航空航天、医学技术、信息科学&lt;/code&gt;领域居世界之首。&lt;/p&gt;
-
-&lt;h4 id=&quot;英国&quot;&gt;英国&lt;/h4&gt;
-
-&lt;p&gt;机器设备最核心的部分大多使用了由英国&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ARM公司&lt;/code&gt;设计的芯片。&lt;/p&gt;
-
-&lt;p&gt;诺奖获得人数，英国居世界第二。&lt;/p&gt;
-
-&lt;p&gt;在世界最好的200所大学中，美国占据了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;75所&lt;/code&gt;，英国占据了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;32所&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;世界顶尖的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;航空发动机&lt;/code&gt;企业。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;钢铁、制药、生物育种、航空航天、机械、微电子、军工、环境科学&lt;/code&gt;处于世界一流之列。&lt;/p&gt;
-
-&lt;h4 id=&quot;日本&quot;&gt;日本&lt;/h4&gt;
-
-&lt;p&gt;美国国家专利局的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;专利申请&lt;/code&gt;数中，日本是第二大国。&lt;/p&gt;
-
-&lt;p&gt;在全球大学的排行榜和对世界科技贡献度上面，日本的大学仅次美英。&lt;/p&gt;
-
-&lt;p&gt;日本拥有很多大集团和大公司，如&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;东芝&lt;/code&gt;，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;三菱&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;材料科学、尖端机器人&lt;/code&gt;拥有巨大科研实力。&lt;/p&gt;
-
-&lt;h4 id=&quot;法国&quot;&gt;法国&lt;/h4&gt;
-
-&lt;p&gt;法国大学一般分为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;高等商学院&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;工程师学院&lt;/code&gt;，是典型的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;精英教育&lt;/code&gt;模式。&lt;/p&gt;
-
-&lt;p&gt;法国拥有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;五十多名&lt;/code&gt;诺奖获得者，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;十多名&lt;/code&gt;菲尔兹奖获得者。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;航天、能源、材料科学、空间技术&lt;/code&gt;的优势比较明显。&lt;/p&gt;
-
-&lt;h4 id=&quot;德国&quot;&gt;德国&lt;/h4&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;机床，精密机械&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;七十多位&lt;/code&gt;获得诺贝尔奖。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0208-4.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/EktOyfAezkLLeQ-sDH2LSw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="经济" /><summary type="html">“中国制造”并非想象中那么强大，再继续下去会出大问题！</summary></entry><entry><title type="html">如何高效测评自动驾驶感知系统性能表现？</title><link href="https://zzmfish.github.io/DailyRead/2021/02/08/%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%B5%8B%E8%AF%84%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%84%9F%E7%9F%A5%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%A1%A8%E7%8E%B0.html" rel="alternate" type="text/html" title="如何高效测评自动驾驶感知系统性能表现？" /><published>2021-02-08T00:00:00+08:00</published><updated>2021-02-08T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/08/%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%B5%8B%E8%AF%84%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%84%9F%E7%9F%A5%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%A1%A8%E7%8E%B0%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/08/%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E6%B5%8B%E8%AF%84%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%84%9F%E7%9F%A5%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E8%A1%A8%E7%8E%B0.html">&lt;h2 id=&quot;高级自动驾驶感知系统前装量产爆发如何高效测评系统性能表现&quot;&gt;高级自动驾驶感知系统前装量产爆发，如何高效测评系统性能表现？&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;RS-Reference&lt;/strong&gt; 是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RoboSense（速腾聚创）&lt;/code&gt;的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;真值系统+测评&lt;/code&gt;工具链，推向市场&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3年&lt;/code&gt;以来，已服务于多家国际顶级OEM和Tier1。&lt;/p&gt;
-
-&lt;h4 id=&quot;什么是真值数据&quot;&gt;什么是真值数据&lt;/h4&gt;
+&lt;h2 id=&quot;传感器&quot;&gt;传感器&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;要比&lt;em&gt;待测系统(DuT)&lt;/em&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;更准确&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;囊括&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;感知系统&lt;/code&gt;的众多信息&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PB级&lt;/code&gt;的数据量&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;生成效率&lt;/code&gt;要跟上开发需求&lt;/li&gt;
+  &lt;li&gt;2 个 &lt;strong&gt;禾赛科技&lt;/strong&gt; 64 线激光雷达&lt;/li&gt;
+  &lt;li&gt;6 个摄像头&lt;/li&gt;
+  &lt;li&gt;3 个毫米波雷达&lt;/li&gt;
+  &lt;li&gt;2 根GNSS 天线&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;如何获取&quot;&gt;如何获取&lt;/h4&gt;
-
-&lt;h6 id=&quot;1数据收集&quot;&gt;1、数据收集&lt;/h6&gt;
+&lt;h2 id=&quot;物流业&quot;&gt;物流业&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;128线激光雷达 &lt;em&gt;RS-Ruby&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;近场补盲激光雷达 &lt;em&gt;RS-Bpearl&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Leopard&lt;/em&gt; 摄像头&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;大陆408&lt;/em&gt; 毫米波雷达&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;GI-6695&lt;/em&gt; RTK&lt;/li&gt;
+  &lt;li&gt;体量巨大&lt;/li&gt;
+  &lt;li&gt;事故率偏高&lt;/li&gt;
+  &lt;li&gt;成本高&lt;/li&gt;
+  &lt;li&gt;规模小&lt;/li&gt;
+  &lt;li&gt;货运司机缺口巨大&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0208-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;商业化&quot;&gt;商业化&lt;/h2&gt;
 
-&lt;h6 id=&quot;2分体式的顶装部署&quot;&gt;2、分体式的顶装部署&lt;/h6&gt;
+&lt;p&gt;在未来 3 年内，将整套自动驾驶的成本降到司机一年的收入&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0208-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/DailyRead/assets/images/2021-04-05-%E5%B0%8F%E9%A9%AC%E6%99%BA%E5%8D%A11.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h6 id=&quot;3感知算法离线处理&quot;&gt;3、感知算法+离线处理&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/1PK7Mrtxe4hYFBOI5aiTIw&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="自动驾驶" /><summary type="html">小马智行累计测试里程已经超 500 万 公里，公司估值超 53 亿 美元，累计融资超 11 亿 美元。</summary></entry><entry><title type="html">海外物价飞涨，多国加息！对我们有何影响？如何看待当下市场？</title><link href="https://zzmfish.github.io/DailyRead/2021/04/05/%E6%B5%B7%E5%A4%96%E7%89%A9%E4%BB%B7%E9%A3%9E%E6%B6%A8-%E5%A4%9A%E5%9B%BD%E5%8A%A0%E6%81%AF-%E5%AF%B9%E6%88%91%E4%BB%AC%E6%9C%89%E4%BD%95%E5%BD%B1%E5%93%8D-%E5%A6%82%E4%BD%95%E7%9C%8B%E5%BE%85%E5%BD%93%E4%B8%8B%E5%B8%82%E5%9C%BA.html" rel="alternate" type="text/html" title="海外物价飞涨，多国加息！对我们有何影响？如何看待当下市场？" /><published>2021-04-05T00:00:00+08:00</published><updated>2021-04-05T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/04/05/%E6%B5%B7%E5%A4%96%E7%89%A9%E4%BB%B7%E9%A3%9E%E6%B6%A8,%E5%A4%9A%E5%9B%BD%E5%8A%A0%E6%81%AF!%E5%AF%B9%E6%88%91%E4%BB%AC%E6%9C%89%E4%BD%95%E5%BD%B1%E5%93%8D%3F%E5%A6%82%E4%BD%95%E7%9C%8B%E5%BE%85%E5%BD%93%E4%B8%8B%E5%B8%82%E5%9C%BA%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/04/05/%E6%B5%B7%E5%A4%96%E7%89%A9%E4%BB%B7%E9%A3%9E%E6%B6%A8-%E5%A4%9A%E5%9B%BD%E5%8A%A0%E6%81%AF-%E5%AF%B9%E6%88%91%E4%BB%AC%E6%9C%89%E4%BD%95%E5%BD%B1%E5%93%8D-%E5%A6%82%E4%BD%95%E7%9C%8B%E5%BE%85%E5%BD%93%E4%B8%8B%E5%B8%82%E5%9C%BA.html">&lt;h2 id=&quot;多国加息&quot;&gt;多国加息&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;苏伊士运河&lt;/strong&gt; 堵了很久，大宗商品一直运不出去，供给跟不上，导致原材料涨价。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;疫苗&lt;/strong&gt; 推进在全球加速，经济需求恢复，但是原材料供给跟不上，就出现涨价和通胀。&lt;/p&gt;
+
+&lt;p&gt;物价上涨可能会导致 &lt;strong&gt;加息&lt;/strong&gt;，资产价格（楼市、股市）就会有波动。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;土耳其&lt;/em&gt;、&lt;em&gt;巴西&lt;/em&gt;、&lt;em&gt;俄罗斯&lt;/em&gt; 物价涨得太快，于是引发了加息。&lt;/p&gt;
+
+&lt;h2 id=&quot;原因&quot;&gt;原因&lt;/h2&gt;
+
+&lt;h4 id=&quot;资源型经济体&quot;&gt;资源型经济体&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;高质量真值数据&lt;/li&gt;
-  &lt;li&gt;13年算法技术积累&lt;/li&gt;
-  &lt;li&gt;离线感知算法&lt;/li&gt;
-  &lt;li&gt;充足的计算资源&lt;/li&gt;
+  &lt;li&gt;特别多的自然资源&lt;/li&gt;
+  &lt;li&gt;较难发展出现代工业、制造业和服务业（资源的诅咒）&lt;/li&gt;
+  &lt;li&gt;周期性大&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0208-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;资本项目完全开放&quot;&gt;资本项目完全开放&lt;/h4&gt;
 
-&lt;h4 id=&quot;全栈式测评工具链&quot;&gt;全栈式测评工具链&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/images/%E7%BE%8E%E5%9B%BE/2021-04-06-%E6%98%9F%E7%A9%BA2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/kFA4Y4V76Rqz6TNjja8nVg&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="经济" /><summary type="html">多国加息</summary></entry><entry><title type="html">造车新势力车载摄像头都装在哪？</title><link href="https://zzmfish.github.io/DailyRead/2021/03/28/%E9%80%A0%E8%BD%A6%E6%96%B0%E5%8A%BF%E5%8A%9B%E8%BD%A6%E8%BD%BD%E6%91%84%E5%83%8F%E5%A4%B4%E9%83%BD%E8%A3%85%E5%9C%A8%E5%93%AA.html" rel="alternate" type="text/html" title="造车新势力车载摄像头都装在哪？" /><published>2021-03-28T00:00:00+08:00</published><updated>2021-03-28T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/03/28/%E9%80%A0%E8%BD%A6%E6%96%B0%E5%8A%BF%E5%8A%9B%E8%BD%A6%E8%BD%BD%E6%91%84%E5%83%8F%E5%A4%B4%E9%83%BD%E8%A3%85%E5%9C%A8%E5%93%AA%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/03/28/%E9%80%A0%E8%BD%A6%E6%96%B0%E5%8A%BF%E5%8A%9B%E8%BD%A6%E8%BD%BD%E6%91%84%E5%83%8F%E5%A4%B4%E9%83%BD%E8%A3%85%E5%9C%A8%E5%93%AA.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;厂商与车型&lt;/th&gt;
+      &lt;th&gt;毫米波雷达&lt;/th&gt;
+      &lt;th&gt;车载摄像头&lt;/th&gt;
+      &lt;th&gt;激光雷达&lt;/th&gt;
+      &lt;th&gt;超声波雷达&lt;/th&gt;
+      &lt;th&gt;芯片&lt;/th&gt;
+      &lt;th&gt;算力&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;小鹏 P7&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;英伟达 Xavier&lt;/td&gt;
+      &lt;td&gt;30 TOPS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;小鹏 G3&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;5 (1前视，4环视)&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;Mobileye Eye Q4&lt;/td&gt;
+      &lt;td&gt;2.5 TOPS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;蔚来 ET7&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;英伟达 Drive Orin * 4&lt;/td&gt;
+      &lt;td&gt;1016 TOPS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;蔚来 ES8/ES6&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;5 (1三目，4环视)&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;Mobileye Eye Q4&lt;/td&gt;
+      &lt;td&gt;2.5 TOPS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;理想 One&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;Mobileye Eye Q4&lt;/td&gt;
+      &lt;td&gt;2.5 TOPS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;特斯拉 Model 3&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/images/%E7%BE%8E%E5%9B%BE/2021-04-05.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/xuG18Y9kChGSpt6fjkSr4A&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="电动车" /><category term="自动驾驶" /><summary type="html">厂商与车型 毫米波雷达 车载摄像头 激光雷达 超声波雷达 芯片 算力 小鹏 P7 5 13   12 英伟达 Xavier 30 TOPS 小鹏 G3 3 5 (1前视，4环视)   12 Mobileye Eye Q4 2.5 TOPS 蔚来 ET7 5 11 1 12 英伟达 Drive Orin * 4 1016 TOPS 蔚来 ES8/ES6 5 5 (1三目，4环视)   12 Mobileye Eye Q4 2.5 TOPS 理想 One 1 5   12 Mobileye Eye Q4 2.5 TOPS 特斯拉 Model 3 1 8   12    </summary></entry><entry><title type="html">大丹田球体的形成臆解</title><link href="https://zzmfish.github.io/DailyRead/2021/03/20/%E5%A4%A7%E4%B8%B9%E7%94%B0%E7%90%83%E4%BD%93%E7%9A%84%E5%BD%A2%E6%88%90%E8%87%86%E8%A7%A3.html" rel="alternate" type="text/html" title="大丹田球体的形成臆解" /><published>2021-03-20T00:00:00+08:00</published><updated>2021-03-20T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/03/20/%E5%A4%A7%E4%B8%B9%E7%94%B0%E7%90%83%E4%BD%93%E7%9A%84%E5%BD%A2%E6%88%90%E8%87%86%E8%A7%A3</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/03/20/%E5%A4%A7%E4%B8%B9%E7%94%B0%E7%90%83%E4%BD%93%E7%9A%84%E5%BD%A2%E6%88%90%E8%87%86%E8%A7%A3.html">&lt;h2 id=&quot;呼吸&quot;&gt;呼吸&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;吸气&lt;/strong&gt; 时，&lt;em&gt;肺叶&lt;/em&gt; 主要向下扩张，催动 &lt;em&gt;横膈肌&lt;/em&gt; 下降，到达两肾，谓“肺气纳入肾”。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;呼气&lt;/strong&gt; 时，&lt;em&gt;肺叶&lt;/em&gt; 继续向下伸张，催动 &lt;em&gt;横膈肌&lt;/em&gt; 继续下降，气意顺着 &lt;em&gt;背腰肌&lt;/em&gt; 向下蔓延流动，一直到达臀部，渗入 &lt;em&gt;臀肌&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;用功时久，气息渐微，慢慢渗入肌肤，渐至遍布全身。&lt;/p&gt;
+
+&lt;p&gt;继续用功，呼吸渐细，入后背脊骨。&lt;/p&gt;
+
+&lt;h2 id=&quot;三尖相照&quot;&gt;三尖相照&lt;/h2&gt;
+
+&lt;p&gt;两脚 &lt;strong&gt;大拇趾趾节&lt;/strong&gt; 和两手 &lt;strong&gt;大拇指指节分&lt;/strong&gt; 别贯通，其意劲分别从指脚（趾）尖顺骨节（ &lt;em&gt;掌骨&lt;/em&gt; 至 &lt;em&gt;桡骨&lt;/em&gt; 至 &lt;em&gt;肱骨&lt;/em&gt; 至 &lt;em&gt;肩胛骨&lt;/em&gt; 再入 &lt;em&gt;脊骨&lt;/em&gt;，&lt;em&gt;跖骨&lt;/em&gt;、&lt;em&gt;舟骨&lt;/em&gt;、&lt;em&gt;距骨&lt;/em&gt; 至 &lt;em&gt;胫骨&lt;/em&gt; 至 &lt;em&gt;大腿股骨&lt;/em&gt; 至 &lt;em&gt;胯骨再&lt;/em&gt; 入 &lt;em&gt;尾骨&lt;/em&gt;）向身内走。&lt;/p&gt;
+
+&lt;p&gt;再与 &lt;strong&gt;鼻子&lt;/strong&gt; 相联络。再运用五行运行法则。行拳时感觉格外不同。四个大拇指（趾）骨节加上 &lt;em&gt;鼻梁骨&lt;/em&gt; 灵动了，整个身躯就灵动了。&lt;/p&gt;
+
+&lt;h2 id=&quot;小指用功&quot;&gt;小指用功&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/DailyRead/assets/images/0327-%E5%B0%91%E5%BA%9C%E7%A9%B4.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;手掌心内小指与无名指根节连接处有一个 &lt;strong&gt;少府穴&lt;/strong&gt;，属 &lt;em&gt;心经&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;小指指节抻开以后，再听从心意的指挥，随着其余指节愈曲愈紧实（握拳，小指与无名指尖正好抵在少府穴处），对打通小指与胳膊上的经络和肌筋很有帮助。&lt;/p&gt;
+
+&lt;p&gt;经络和相关肌筋打通了，意劲也就自然畅通了。&lt;/p&gt;
+
+&lt;p&gt;其实，从腕关节至手指骨节，抻开以后，再节节攒紧。骨节的松是在紧实的基础上产生的。&lt;/p&gt;
+
+&lt;p&gt;腕关节内零碎小骨节和手指骨节在抻开的基础上又都能攒紧实了，其各掌骨骨节就更加有劲道了。这个时候就能“直腕”了。（其练功次序跟足是一样的，先得把脚掌底肌筋抻开，而后才能攒动脚背面骨节。手掌亦是，先把掌心内各掌骨肌筋抻开而后再来攒动紧实骨节。&lt;/p&gt;
+
+&lt;p&gt;全身的骨节在抻开的基础上，再攒紧实了，而后心意再引导每个骨节连接处微微松开，就是“紧中有松”了。&lt;/p&gt;
+
+&lt;p&gt;其实练这一切都还不是目的，最终还是要归结到“神经敏感”上来。欲得“神经敏感”，首要是得先理出连接骨节两头的 &lt;strong&gt;肌筋&lt;/strong&gt; 和 &lt;strong&gt;肌腱点&lt;/strong&gt;，用意指挥肌腱来牵动骨骼。人体活动的敏感点就在连接骨节两头的肌腱点处，这里松活一点点，大脑神经元就能迅速感知。&lt;/p&gt;
+
+&lt;h2 id=&quot;大丹田球体&quot;&gt;大丹田球体&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/DailyRead/assets/images/0327-%E4%B8%B9%E7%94%B0.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;设想以 &lt;strong&gt;胸口窝&lt;/strong&gt; 为球体最高点，而后依八卦图方位向身体侧后面弧形切入，切成圆球状侧面体，深度分别到达 &lt;em&gt;盆腔底部&lt;/em&gt;、两侧腹股沟深处、两侧腰隙深处、上腹与肋骨交接处深处 &lt;strong&gt;横膈肌&lt;/strong&gt;。这是腹前球状面。&lt;/p&gt;
+
+&lt;p&gt;心意继续向体后背面切入，透过后胯、后背肋脊骨缝，切成后半面圆球状体，交接点在 &lt;strong&gt;命门脊骨&lt;/strong&gt; 处。如此，则形成一个完整的圆球状体（此时，腹横肌就好似球的内胆）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/DailyRead/assets/images/0327-%E4%B8%B9%E7%94%B02.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;运功时，整个身躯骨节都在这个圆球状体的侧后面运行。这个圆球状体在体前（腹部的前半部分）始终保持 &lt;em&gt;弹性张力&lt;/em&gt;（其松紧转换点在肚脐深处与命门脊骨之间的缝隙处），意劲只是在后背面作 &lt;em&gt;拧裹缠旋&lt;/em&gt;（其拧旋运转意劲上达胸腔至肩窝胳膊手、下到胯腿足）。&lt;/p&gt;
+
+&lt;p&gt;运功时久，肚脐深处与命门脊骨之间的核心点形成；外层球状体则是以腹横肌包裹着的 &lt;em&gt;腹腔&lt;/em&gt; 为主，这是丹田的主要部分；再外侧则是从丹田逐渐剥离开来的两侧 &lt;em&gt;胯窝&lt;/em&gt; 和胸腔 &lt;em&gt;肩窝&lt;/em&gt;，是小圆球状体，指挥四肢围绕丹田运转。&lt;/p&gt;
+
+&lt;h2 id=&quot;丹田运化&quot;&gt;丹田运化&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/DailyRead/assets/images/0327-%E4%B8%B9%E7%94%B03.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;按照中医理论学说，丹田主要位于 &lt;strong&gt;中焦&lt;/strong&gt; 和 &lt;strong&gt;下焦&lt;/strong&gt;，包含除上焦的心肺以外的其它所有内脏器官，肝胆脾胃、两肾及胰脏、大小肠、膀胱。上有 &lt;em&gt;横膈膜&lt;/em&gt; 保护，中间有 &lt;em&gt;腹横肌&lt;/em&gt; 包裹，后有 &lt;em&gt;脊骨腰背肌筋膜&lt;/em&gt; 护着，下有 &lt;em&gt;盆底肌&lt;/em&gt; 兜着；次外层则还有 &lt;em&gt;腹直肌&lt;/em&gt;、&lt;em&gt;腹内外斜肌&lt;/em&gt;、&lt;em&gt;腰方肌&lt;/em&gt;、&lt;em&gt;髂腰肌&lt;/em&gt; 等护佑着；而它们相互之间又有如网状结构的筋膜联系着，在肢体运动时保持协同运转并相对稳定。&lt;/p&gt;
+
+&lt;p&gt;丹田可以随着心意的变化而变化，它们的位置可以互换，比方讲，下丹田可以上升至中丹田，中丹田可以下降入下丹田，它们之间的一次互换就是身躯上的一个 &lt;strong&gt;折叠涌动&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/NWV7ZKfhqggv6I7SYJKFtA&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="太极拳" /><summary type="html">呼吸</summary></entry><entry><title type="html">人生最大的幸运，是撬开“认知枷锁”！</title><link href="https://zzmfish.github.io/DailyRead/2021/03/17/%E4%BA%BA%E7%94%9F%E6%9C%80%E5%A4%A7%E7%9A%84%E5%B9%B8%E8%BF%90-%E6%98%AF%E6%92%AC%E5%BC%80-%E8%AE%A4%E7%9F%A5%E6%9E%B7%E9%94%81.html" rel="alternate" type="text/html" title="人生最大的幸运，是撬开“认知枷锁”！" /><published>2021-03-17T00:00:00+08:00</published><updated>2021-03-17T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/03/17/%E4%BA%BA%E7%94%9F%E6%9C%80%E5%A4%A7%E7%9A%84%E5%B9%B8%E8%BF%90,%E6%98%AF%E6%92%AC%E5%BC%80%E2%80%9C%E8%AE%A4%E7%9F%A5%E6%9E%B7%E9%94%81%E2%80%9D!</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/03/17/%E4%BA%BA%E7%94%9F%E6%9C%80%E5%A4%A7%E7%9A%84%E5%B9%B8%E8%BF%90-%E6%98%AF%E6%92%AC%E5%BC%80-%E8%AE%A4%E7%9F%A5%E6%9E%B7%E9%94%81.html">&lt;h2 id=&quot;认知闭环&quot;&gt;认知闭环&lt;/h2&gt;
+
+&lt;p&gt;人生最大的悲哀，由于教育的先入为主，使我们过早的形成了 &lt;strong&gt;小认知闭环&lt;/strong&gt;，并且 &lt;em&gt;被紧紧的禁锢其中，无法看到更大的世界&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;人生破局的关键，就在于不断的构建 &lt;strong&gt;大认知闭环&lt;/strong&gt;，从而 &lt;em&gt;提升自己的格局，领略人间更多风景&lt;/em&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;认知差距&quot;&gt;认知差距&lt;/h2&gt;
+
+&lt;p&gt;一个社会发达， 科技水平越高，&lt;strong&gt;贫富差距&lt;/strong&gt; 就会越大，&lt;strong&gt;智商差距&lt;/strong&gt; 也越大，&lt;strong&gt;认知差距&lt;/strong&gt; 也越大。&lt;/p&gt;
+
+&lt;p&gt;因为社会的发展水平越高，&lt;strong&gt;财富和信息的流行性&lt;/strong&gt; 就会越好。此时财富会加剧流向更有钱的人，而信息会被高认知水平的人 &lt;strong&gt;掌控&lt;/strong&gt;，从而去 &lt;strong&gt;操控&lt;/strong&gt; 那些认知水平低的人&lt;/p&gt;
+
+&lt;p&gt;未来的世界，将被分割成一个个的小单元格，相同的人被放在同样的单元格，单元格的墙壁十分坚实，每个人都活在自己的 &lt;strong&gt;信息茧房&lt;/strong&gt;（认知监狱）里。这些人之间 &lt;em&gt;互相肯定和认可&lt;/em&gt;，拥有共同的一片天，然后利用 &lt;em&gt;短视频/直播/游戏/网购&lt;/em&gt; 等等，让他们玩的不亦乐乎，最后再把他们 &lt;strong&gt;折叠&lt;/strong&gt; 起来。&lt;/p&gt;
+
+&lt;h2 id=&quot;99的人是谁&quot;&gt;99%的人是谁？&lt;/h2&gt;
+
+&lt;p&gt;这99%的人都将被沦陷，它们需要的不是成长/被唤醒，或者价值。而是 &lt;strong&gt;情绪安慰&lt;/strong&gt;，是 &lt;em&gt;麻醉和幻象&lt;/em&gt;，是 &lt;em&gt;短平快的各种刺激&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;所以互联网上最容易传播的从来就是各种 &lt;strong&gt;情绪和偏见&lt;/strong&gt;，而不是真正的价值，这99%的人自以为掌握了各种真理和见识，其实他们只是 &lt;em&gt;把情绪当理性，把信息当知识，把偏见当思想&lt;/em&gt;。&lt;/p&gt;
+
+&lt;p&gt;这99%的人都将越来越 &lt;strong&gt;野蛮化&lt;/strong&gt;，&lt;em&gt;生物本性&lt;/em&gt; 将越来越凸显，因为这种情况会导致人们越来越 &lt;em&gt;依靠本能、情绪、应激反应去处理各种事情&lt;/em&gt;。人的动物本能如果不加控制并且驯化，其 &lt;strong&gt;群体效应&lt;/strong&gt; 就会越来越明显，走向 &lt;em&gt;群体的非理性&lt;/em&gt;，成为一群 &lt;em&gt;乌合之众&lt;/em&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;1的人是谁&quot;&gt;1%的人是谁？&lt;/h2&gt;
+
+&lt;p&gt;这1%的人能通过 &lt;em&gt;自律/学习/精进&lt;/em&gt; 等等成功的进行 &lt;strong&gt;延迟满足&lt;/strong&gt;，面对着大千世界，他们练就了一颗 &lt;em&gt;如如不动之心&lt;/em&gt;，保持“精进”。&lt;/p&gt;
+
+&lt;p&gt;因为当一个人有高认知水平的时候，更容易寻找 &lt;strong&gt;人生的意义&lt;/strong&gt; 和树立 &lt;strong&gt;生活目标&lt;/strong&gt;，而这些 &lt;em&gt;遥远、坚定、又有价值&lt;/em&gt; 的东西，会抵消掉我们当下的很多痛苦。&lt;/p&gt;
+
+&lt;p&gt;俗话说：人无远虑，必有近忧。同样的逻辑：&lt;strong&gt;人一旦有了远虑，就没有了近忧&lt;/strong&gt;。成了一个 &lt;strong&gt;长期主义者&lt;/strong&gt;，可以延时满足。&lt;/p&gt;
+
+&lt;p&gt;而当一个人认知水平低下的时候，是看不到长远价值的，也没办法树立长期的路线和目标，就只能 &lt;em&gt;专注于当下的效果&lt;/em&gt;，每一分付出都需要回报，甚至是斤斤计较，睚眦必报。只能是一个 &lt;strong&gt;短期主义者&lt;/strong&gt;，需要 &lt;strong&gt;即时满足&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/images/%E7%BE%8E%E5%9B%BE/2021-03-17-%E4%B8%8B%E9%9B%A8.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/es6IOgL8352p_fwgcM-hFg&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">认知闭环</summary></entry><entry><title type="html">有关安全，蔚来的知其所以然</title><link href="https://zzmfish.github.io/DailyRead/2021/03/12/%E6%9C%89%E5%85%B3%E5%AE%89%E5%85%A8-%E8%94%9A%E6%9D%A5%E7%9A%84%E7%9F%A5%E5%85%B6%E6%89%80%E4%BB%A5%E7%84%B6.html" rel="alternate" type="text/html" title="有关安全，蔚来的知其所以然" /><published>2021-03-12T00:00:00+08:00</published><updated>2021-03-12T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/03/12/%E6%9C%89%E5%85%B3%E5%AE%89%E5%85%A8,%E8%94%9A%E6%9D%A5%E7%9A%84%E7%9F%A5%E5%85%B6%E6%89%80%E4%BB%A5%E7%84%B6</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/03/12/%E6%9C%89%E5%85%B3%E5%AE%89%E5%85%A8-%E8%94%9A%E6%9D%A5%E7%9A%84%E7%9F%A5%E5%85%B6%E6%89%80%E4%BB%A5%E7%84%B6.html">&lt;h2 id=&quot;实验中心&quot;&gt;实验中心&lt;/h2&gt;
+
+&lt;h4 id=&quot;全铝车身材料实验室&quot;&gt;全铝车身材料实验室&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;包括&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;采集工具&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;传感器标定工具&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;可视化工具&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;人工校验工具&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;测评工具&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;对&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;感知融合结果&lt;/code&gt;进行测评&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;激光雷达&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;毫米波雷达&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;摄像头&lt;/code&gt;测评工具模块&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;路牌&amp;amp;路面标识&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;车道线类别&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;场景语义识别&lt;/code&gt;测评工具模块&lt;/li&gt;
-  &lt;li&gt;按客户需求开发&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;定制化&lt;/code&gt;工具模块&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;拓展应用价值&quot;&gt;拓展应用价值&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;构建&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;仿真场景&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;并行开发&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;规划控制系统&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;测评&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;路端感知系统&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;全套解决方案&quot;&gt;全套解决方案&lt;/h4&gt;
-
-&lt;h6 id=&quot;1产品体系&quot;&gt;1、产品体系&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;MEMS与机械式激光雷达&lt;/li&gt;
-  &lt;li&gt;AI感知算法&lt;/li&gt;
-  &lt;li&gt;硬件融合&lt;/li&gt;
-  &lt;li&gt;芯片&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;2解决方案&quot;&gt;2、解决方案&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;车规级固态激光雷达&lt;/li&gt;
-  &lt;li&gt;Reference测评系统&lt;/li&gt;
-  &lt;li&gt;OTA升级服务&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/2CJO6tatIPcIObxU4MCdgg&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="自动驾驶" /><summary type="html">高级自动驾驶感知系统前装量产爆发，如何高效测评系统性能表现？</summary></entry><entry><title type="html">蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？</title><link href="https://zzmfish.github.io/DailyRead/2021/02/04/%E8%94%9A%E6%9D%A5ES8%E5%BC%80L2%E6%92%9E%E4%BA%BA%E5%8F%88%E6%92%9E%E8%BD%A6-%E4%B8%BA%E5%95%A5%E8%A3%8524%E4%B8%AA%E4%BC%A0%E6%84%9F%E5%99%A8%E9%83%BD%E8%BA%B2%E4%B8%8D%E5%BC%80.html" rel="alternate" type="text/html" title="蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？" /><published>2021-02-04T00:00:00+08:00</published><updated>2021-02-04T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/04/%E8%94%9A%E6%9D%A5ES8%E5%BC%80L2%E6%92%9E%E4%BA%BA%E5%8F%88%E6%92%9E%E8%BD%A6,%E4%B8%BA%E5%95%A5%E8%A3%8524%E4%B8%AA%E4%BC%A0%E6%84%9F%E5%99%A8%E9%83%BD%E8%BA%B2%E4%B8%8D%E5%BC%80%3F</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/04/%E8%94%9A%E6%9D%A5ES8%E5%BC%80L2%E6%92%9E%E4%BA%BA%E5%8F%88%E6%92%9E%E8%BD%A6-%E4%B8%BA%E5%95%A5%E8%A3%8524%E4%B8%AA%E4%BC%A0%E6%84%9F%E5%99%A8%E9%83%BD%E8%BA%B2%E4%B8%8D%E5%BC%80.html">&lt;h2 id=&quot;蔚来es8开l2撞人又撞车为啥装24个传感器都躲不开&quot;&gt;蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？&lt;/h2&gt;
-
-&lt;h4 id=&quot;事故原因&quot;&gt;事故原因&lt;/h4&gt;
-
-&lt;p&gt;如果车速低于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8km/h&lt;/code&gt;或大于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;85km/h&lt;/code&gt;，&lt;strong&gt;自动紧急制动（AEB）&lt;/strong&gt;不会启动。&lt;/p&gt;
-
-&lt;p&gt;搭载Brembo高性能刹车系统，从100km/h到0的刹车距离只有&lt;strong&gt;33.8米&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;根本原因是&lt;strong&gt;感知系统&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h4 id=&quot;es8传感器&quot;&gt;ES8传感器&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1个前向3目摄像头
-    &lt;ul&gt;
-      &lt;li&gt;感知算法内嵌在&lt;strong&gt;Mobileye EyeQ4&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;单目摄像头算法&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;身材料性能、车身连接工艺&lt;/em&gt; 的研究和判定&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;5个毫米波雷达
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;博世第四代毫米波雷达&lt;/strong&gt;中距离产品&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MMR&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;感知算法内嵌在博世&lt;strong&gt;的主控芯片&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;ES8小改款改成&lt;strong&gt;德尔福&lt;/strong&gt;的雷达&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5000&lt;/code&gt; 多个关键数据&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;4个环视摄像头&lt;/li&gt;
-  &lt;li&gt;12个超声波雷达&lt;/li&gt;
-  &lt;li&gt;一个驾驶员监测摄像头&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;摄像头数据 ─➔ 感知算法(EyeQ4)─➔ EyeQ4──➔蔚来自主研发的融合算法──➔驾驶决策
-                              ▲
-                              | 
-雷达数据 ─➔ 感知算法(博世)───────┘
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h4 id=&quot;光学实验室&quot;&gt;光学实验室&lt;/h4&gt;
 
-&lt;h4 id=&quot;博世雷达两种模式&quot;&gt;博世雷达两种模式&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;摄像头&lt;/em&gt; 的光学测试、图像评估以及感知算法验证&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;挡风玻璃&lt;/em&gt; 的光学参数制定和研发&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;激光雷达&lt;/em&gt; 的光学零部件和仪器性能评估&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;1、提供&lt;strong&gt;32个原始目标&lt;/strong&gt;，车企自行结合视觉算法来判断。&lt;/p&gt;
+&lt;h4 id=&quot;驾驶体验仿真模拟平台&quot;&gt;驾驶体验仿真模拟平台&lt;/h4&gt;
 
-&lt;p&gt;2、雷达从32个原始目标中筛选出&lt;strong&gt;功能安全目标&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;亚洲首个、国内唯一&lt;/em&gt; 的 &lt;em&gt;九自由度&lt;/em&gt; 驾驶模拟器&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;响应时间 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;18ms&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在整车开发前期阶段，进行 &lt;em&gt;驾乘性能&lt;/em&gt; 的主观评价&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ADAS系统算法的早期验证&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4 id=&quot;毫米波雷达为什么怕静止车辆&quot;&gt;毫米波雷达为什么怕静止车辆？&lt;/h4&gt;
+&lt;h4 id=&quot;三电实验室&quot;&gt;三电实验室&lt;/h4&gt;
 
-&lt;p&gt;毫米波雷达依靠&lt;strong&gt;多普勒效应&lt;/strong&gt;来感知目标。静止车辆容易和&lt;strong&gt;地杂波&lt;/strong&gt;等掺杂在一起。&lt;/p&gt;
+&lt;h4 id=&quot;储能技术实验室&quot;&gt;储能技术实验室&lt;/h4&gt;
 
-&lt;p&gt;一般的毫米波雷达没有&lt;strong&gt;高度信息&lt;/strong&gt;，同时&lt;strong&gt;空间分辨率&lt;/strong&gt;不足。&lt;/p&gt;
+&lt;p&gt;研究换电、移动、充电等&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;博世第五代毫米波雷达&lt;/strong&gt;极大地增加了点云密度。&lt;/p&gt;
+&lt;h4 id=&quot;电磁实验室&quot;&gt;电磁实验室&lt;/h4&gt;
 
-&lt;h4 id=&quot;结语&quot;&gt;结语&lt;/h4&gt;
+&lt;p&gt;国内新能源车车企 &lt;em&gt;唯一自建&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;一线车企必须走全栈自研之路&lt;/p&gt;
+&lt;h4 id=&quot;软件相关的实验室&quot;&gt;软件相关的实验室&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/UIY534AQ79JNmhZRAhlKKA&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="自动驾驶" /><category term="电动车" /><summary type="html">蔚来ES8开L2撞人又撞车，为啥装24个传感器都躲不开？</summary></entry><entry><title type="html">四年烧掉百亿，威马上市难上岸</title><link href="https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF-%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8.html" rel="alternate" type="text/html" title="四年烧掉百亿，威马上市难上岸" /><published>2021-02-02T00:00:00+08:00</published><updated>2021-02-02T00:00:00+08:00</updated><id>https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF,%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8</id><content type="html" xml:base="https://zzmfish.github.io/DailyRead/2021/02/02/%E5%9B%9B%E5%B9%B4%E7%83%A7%E6%8E%89%E7%99%BE%E4%BA%BF-%E5%A8%81%E9%A9%AC%E4%B8%8A%E5%B8%82%E9%9A%BE%E4%B8%8A%E5%B2%B8.html">&lt;h2 id=&quot;四年烧掉百亿威马上市难上岸&quot;&gt;四年烧掉百亿，威马上市难上岸&lt;/h2&gt;
+&lt;p&gt;网络、整车电子集成、子系统、FOTA 、车辆数据监控、信息娱乐&lt;/p&gt;
 
-&lt;p&gt;1月29日，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;上海证监局&lt;/code&gt;网站上披露了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;中信建投&lt;/code&gt;关于威马汽车辅导工作的总结报告。威马距离&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;科创板&lt;/code&gt;上市只有几步之遥了。&lt;/p&gt;
+&lt;h2 id=&quot;五星秘密&quot;&gt;五星秘密&lt;/h2&gt;
 
-&lt;p&gt;2020年，威马全年交付量为&lt;strong&gt;22495台&lt;/strong&gt;，EX5销量在12月份甚至开始下滑。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;正面25%偏置碰撞&lt;/em&gt; 完整避开了车辆的 &lt;em&gt;前防撞梁&lt;/em&gt; 和 &lt;em&gt;纵梁&lt;/em&gt;，发生的几率只有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6%&lt;/code&gt;，但死亡率却高达 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;30%&lt;/code&gt;。&lt;/p&gt;
 
-&lt;p&gt;2020年5推出EX6，售价23.99万-28.88万，5月到9月销量分别为82台、38台、52台、15台和72台。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;从用户出发&lt;/em&gt; 的安全设计，去研发一款 &lt;em&gt;让用户安心&lt;/em&gt; 的产品，而不是去做 &lt;em&gt;「应试考试」&lt;/em&gt;。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0202-Weima-1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://zhouzm.cn/images/%E7%BE%8E%E5%9B%BE/2021-04-05_2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;营收体量是四家中最小&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0202-Weima-2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;亏损逐年扩大，四年亏损&lt;strong&gt;114.09亿元&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://8.134.51.249/DailyRead/assets/images/0202-Weima-3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2020年威马一个月内连发至少四起自燃事件，随后召回共计&lt;strong&gt;1282辆&lt;/strong&gt;汽车。&lt;/p&gt;
-
-&lt;p&gt;2019年蔚来接连发生起火事件，召回搭载共计&lt;strong&gt;4803辆ES8&lt;/strong&gt;，召回成本高达&lt;strong&gt;3.39亿元&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;威马的&lt;strong&gt;经营性现金流常年为负&lt;/strong&gt;，且目前手头的&lt;strong&gt;现金及现金等价物还剩42亿元&lt;/strong&gt;。&lt;strong&gt;年均亏损额接近30亿&lt;/strong&gt;的威马，能否找到金主融资上市登陆二级市场，成了生死存亡的关键。&lt;/p&gt;
-
-&lt;p&gt;多位业内人士对威马评价是&lt;strong&gt;产品定位不清，没有核心竞争力&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;百度&lt;/strong&gt;数轮战略投资了威马，威马的智能技术很多时候需要靠百度赋能。过程中不但会遇到匹配难题，难以实现用软件训练硬件，最大的问题是，&lt;strong&gt;如果技术不掌握在自己手里，是没有未来的&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.toutiao.com/i6924480299095081484/&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="电动车" /><summary type="html">四年烧掉百亿，威马上市难上岸</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/Fbfm4-bmIseuepdtplkPdQ&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="电动车" /><category term="蔚来" /><summary type="html">实验中心</summary></entry></feed>

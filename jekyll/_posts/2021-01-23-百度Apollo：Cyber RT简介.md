@@ -1,11 +1,8 @@
 ---
 layout: posts
-title: 百度Apollo：Cyber RT简介
 tags: 开发
 ---
 
-
-## 百度 Apollo Cyber RT简介
 
 #### ROS 应用于自动驾驶的不足
 

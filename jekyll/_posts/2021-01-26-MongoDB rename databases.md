@@ -1,6 +1,5 @@
 ---
 layout: posts
-title: MongoDB rename databases
 tags: 开发
 ---
 
