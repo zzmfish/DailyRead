@@ -1,5 +1,5 @@
 ---
-tags: 开发
+tags: 软件开发
 ---
 
 > > The "copydb" command is deprecated, please use these two commands instead:

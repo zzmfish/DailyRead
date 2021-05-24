@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>百度apollo：cyber rt简介 - 每日阅读</title>
+<!-- begin _includes/seo.html --><title>百度Apollo：Cyber RT简介 - 每日阅读</title>
 <meta name="description" content="ROS 应用于自动驾驶的不足">
 
 
@@ -17,7 +17,7 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="每日阅读">
-<meta property="og:title" content="百度apollo：cyber rt简介">
+<meta property="og:title" content="百度Apollo：Cyber RT简介">
 <meta property="og:url" content="https://zzmfish.github.io/DailyRead/2021/01/23/%E7%99%BE%E5%BA%A6Apollo-Cyber-RT%E7%AE%80%E4%BB%8B.html">
 
 
@@ -128,6 +128,8 @@
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/DailyRead/tags.html">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="javascript:location.reload()">🌀</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -158,7 +160,7 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">百度apollo：cyber rt简介</h1>
+      <h1 id="page-title" class="page__title">百度Apollo：Cyber RT简介</h1>
     
     <small>
   <i class="far fa-calendar-alt" aria-hidden="true"></i>
@@ -166,21 +168,35 @@
 </small>
 
 <div style="position: relative;">
-  <h4 id="ros-应用于自动驾驶的不足">ROS 应用于自动驾驶的不足</h4>
 
-<p>独立进程的节点的运行顺序无法确定；</p>
+  <div>
+    <small>
+    
+      <a href='/DailyRead/tags.html#自动驾驶'>🔖自动驾驶</a>&nbsp;
+    
+    </small>
+  </div>
 
-<p>分布式系统存在通信开销。</p>
+  <h2 id="ros-应用于自动驾驶的不足">ROS 应用于自动驾驶的不足</h2>
 
-<h4 id="cyber-rt-框架">Cyber RT 框架</h4>
+<ul>
+  <li>
+    <p>独立进程的节点的运行顺序无法确定</p>
+  </li>
+  <li>
+    <p>分布式系统存在通信开销</p>
+  </li>
+</ul>
 
-<h6 id="基础库">基础库</h6>
+<h2 id="cyber-rt-框架">Cyber RT 框架</h2>
+
+<h4 id="基础库">基础库</h4>
 <ul>
   <li>高性能</li>
   <li>无锁队列</li>
 </ul>
 
-<h6 id="通信层">通信层</h6>
+<h4 id="通信层">通信层</h4>
 <ul>
   <li>Publish/Subscribe机制</li>
   <li>Service/Client机制</li>
@@ -188,101 +204,94 @@
   <li>自适应的通信机制（共享内存、Socket、进程内）</li>
 </ul>
 
-<h6 id="数据层">数据层</h6>
+<h4 id="数据层">数据层</h4>
 <ul>
   <li>数据缓存与融合</li>
 </ul>
 
-<h6 id="计算层">计算层</h6>
+<h4 id="计算层">计算层</h4>
 <ul>
   <li>计算模型</li>
   <li>任务以及任务调度</li>
 </ul>
 
-<h4 id="运行流程">运行流程</h4>
+<h2 id="运行流程">运行流程</h2>
 
-<h6 id="算法模块">算法模块</h6>
+<h4 id="算法模块">算法模块</h4>
 <p>通过<code class="language-plaintext highlighter-rouge">有向无环图（DAG）</code>配置任务间的逻辑关系；</p>
 
 <p>每个算法可以进行<code class="language-plaintext highlighter-rouge">优先级、运行时间、使用资源</code>等方面的配置。</p>
 
-<h6 id="创建任务">创建任务</h6>
+<h4 id="创建任务">创建任务</h4>
 <p>结合DAG、调度配置创建任务；</p>
 
 <p>内部<code class="language-plaintext highlighter-rouge">协程（coroutine）</code></p>
 
-<h6 id="调度器">调度器</h6>
+<h4 id="调度器">调度器</h4>
 <p>把任务放到各个 <code class="language-plaintext highlighter-rouge">Processor队列</code></p>
 
-<h6 id="数据输入">数据输入</h6>
+<h4 id="数据输入">数据输入</h4>
 
 <p><code class="language-plaintext highlighter-rouge">Sensor</code> 输入数据驱动系统运转</p>
 
-<h4 id="基本概念">基本概念</h4>
+<h2 id="基本概念">基本概念</h2>
 
-<h6 id="component">Component</h6>
+<h4 id="component">Component</h4>
 
 <p>组件之间通过 Cyber channel 通信</p>
 
-<h6 id="channel">Channel</h6>
+<h4 id="channel">Channel</h4>
 
 <p>管理数据通信</p>
 
-<h6 id="node">Node</h6>
+<h4 id="node">Node</h4>
 
 <p>每一个模块包含 Node 并通过 Node 来通信</p>
 
-<h6 id="readerwriter">Reader/Writer</h6>
+<h4 id="readerwriter">Reader/Writer</h4>
 
 <p><code class="language-plaintext highlighter-rouge">订阅者模式</code>，往 channel 读写消息的类</p>
 
-<h6 id="serviceclient">Service/Client</h6>
+<h4 id="serviceclient">Service/Client</h4>
 
 <p><code class="language-plaintext highlighter-rouge">请求/响应模式</code></p>
 
-<h6 id="message">Message</h6>
+<h4 id="message">Message</h4>
 
 <p>模块间通信的数据单元；基于<code class="language-plaintext highlighter-rouge">protobuf</code></p>
 
-<h6 id="parameter">Parameter</h6>
+<h4 id="parameter">Parameter</h4>
 
 <p>全局参数</p>
 
-<h6 id="record-file">Record file</h6>
+<h4 id="record-file">Record file</h4>
 
 <p><code class="language-plaintext highlighter-rouge">记录</code>从 channel 发送或接收的消息；</p>
 
 <p><code class="language-plaintext highlighter-rouge">回放</code> record file 可以重现之前的操作行为</p>
 
-<h6 id="launch-file">Launch file</h6>
+<h4 id="launch-file">Launch file</h4>
 
 <p>提供一种启动模块的便利途径。通过在 launch file 中定义一个或多个 dag 文件，可以同时启动多个 modules。</p>
 
-<h6 id="task">Task</h6>
+<h4 id="task">Task</h4>
 
 <p>异步计算任务</p>
 
-<h6 id="croutine">CRoutine</h6>
+<h4 id="croutine">CRoutine</h4>
 
 <p>协程</p>
 
-<h6 id="scheduler">Scheduler</h6>
+<h4 id="scheduler">Scheduler</h4>
 
 <p>用户空间任务调度器</p>
 
-<h6 id="dag-file">Dag file</h6>
+<h4 id="dag-file">Dag file</h4>
 
 <p>定义模块拓扑结构的配置文件</p>
 
 <p><a href="https://blog.csdn.net/kesalin/article/details/88914029">阅读原文</a></p>
 
-  <div>
-    <small>
-    
-      <a href='/tags.html#开发'>🔖开发</a>&nbsp;
-    
-    </small>
-  </div>
 
   <aside class="sidebar__right ">
     <nav class="toc">
@@ -295,15 +304,15 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#太极拳'>太极拳 <small style="font-weight: normal;">(2)</small></a></li>
+          <li><a href='/DailyRead/tags.html#自我提升'>自我提升 <small style="font-weight: normal;">(5)</small></a></li>
         
           
           
-          <li><a href='/DailyRead/tags.html#管理'>管理 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#自动驾驶'>自动驾驶 <small style="font-weight: normal;">(17)</small></a></li>
         
           
           
-          <li><a href='/DailyRead/tags.html#电动车'>电动车 <small style="font-weight: normal;">(9)</small></a></li>
+          <li><a href='/DailyRead/tags.html#电动车'>电动车 <small style="font-weight: normal;">(11)</small></a></li>
         
           
           
@@ -311,7 +320,7 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#互联网'>互联网 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#互联网'>互联网 <small style="font-weight: normal;">(2)</small></a></li>
         
           
           
@@ -319,11 +328,7 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#国际'>国际 <small style="font-weight: normal;">(3)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#自动驾驶'>自动驾驶 <small style="font-weight: normal;">(10)</small></a></li>
+          <li><a href='/DailyRead/tags.html#国际'>国际 <small style="font-weight: normal;">(5)</small></a></li>
         
           
           
@@ -335,7 +340,7 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#算法'>算法 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#软件开发'>软件开发 <small style="font-weight: normal;">(6)</small></a></li>
         
           
           
@@ -343,30 +348,11 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#开发'>开发 <small style="font-weight: normal;">(3)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#心灵'>心灵 <small style="font-weight: normal;">(2)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#思维导图'>思维导图 <small style="font-weight: normal;">(2)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#中间件'>中间件 <small style="font-weight: normal;">(1)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#蔚来'>蔚来 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#思维导图'>思维导图 <small style="font-weight: normal;">(1)</small></a></li>
         
       </ul>
     </nav>
   </aside>
-
-
-
 </div>
 
 

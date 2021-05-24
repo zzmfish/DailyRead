@@ -21,16 +21,16 @@ for root, dirs, files in os.walk('.'):
     for file_name in files:
         if file_name.endswith('.md'):
             file_path = os.path.join(root, file_name)
-            # match_obj = re.search('(\d\d)(\d\d)-(.*md)', file_name)
-            # if not match_obj:
-            #     print('File name not match: ', file_name)
-            #     continue
+            match_obj = re.search('(\d\d\d\d-\d\d-\d\d)-(.*)\.md', file_name)
+            if not match_obj:
+                print('File name not match: ', file_name)
+                continue
             # month = int(match_obj.group(1))
             # date = int(match_obj.group(2))
-            # title = match_obj.group(3)
+            title = match_obj.group(2)
             # try:
             #     file_date = datetime.datetime(year, month, date).strftime('%Y-%m-%d')
-            # except ValueError:
+            #  except ValueError:
             #     print('date not match: ', file_name)
             #     continue
             new_path = 'jekyll/_posts/%s' % (file_name)
@@ -42,7 +42,7 @@ for root, dirs, files in os.walk('.'):
                     file_content = open(file_path).read()
                     matter_dict = {
                         'layout': 'posts',
-                        # 'title': file_name[: file_name.rfind('.')]
+                        'title': title,
                     }
                     if file_content.startswith('---'):
                         matter_splits = file_content.split('---', 2)

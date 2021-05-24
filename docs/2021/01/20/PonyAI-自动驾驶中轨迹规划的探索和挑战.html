@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Ponyai：自动驾驶中轨迹规划的探索和挑战 - 每日阅读</title>
+<!-- begin _includes/seo.html --><title>PonyAI：自动驾驶中轨迹规划的探索和挑战 - 每日阅读</title>
 <meta name="description" content="轨迹规划基本介绍">
 
 
@@ -17,13 +17,15 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="每日阅读">
-<meta property="og:title" content="Ponyai：自动驾驶中轨迹规划的探索和挑战">
+<meta property="og:title" content="PonyAI：自动驾驶中轨迹规划的探索和挑战">
 <meta property="og:url" content="https://zzmfish.github.io/DailyRead/2021/01/20/PonyAI-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%B8%AD%E8%BD%A8%E8%BF%B9%E8%A7%84%E5%88%92%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%8C%91%E6%88%98.html">
 
 
   <meta property="og:description" content="轨迹规划基本介绍">
 
 
+
+  <meta property="og:image" content="http://zhouzm.cn/images/%E7%BE%8E%E5%9B%BE/210513%E5%9F%8E%E5%B8%823.jpg">
 
 
 
@@ -128,6 +130,8 @@
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/DailyRead/tags.html">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="javascript:location.reload()">🌀</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -150,6 +154,24 @@
 
     <div class="initial-content">
       
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="http://zhouzm.cn/images/%E7%BE%8E%E5%9B%BE/210513%E5%9F%8E%E5%B8%823.jpg" alt="PonyAI：自动驾驶中轨迹规划的探索和挑战" class="page__hero-image">
+  
+  
+</div>
+
+
 
 
 
@@ -158,7 +180,7 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Ponyai：自动驾驶中轨迹规划的探索和挑战</h1>
+      <h1 id="page-title" class="page__title">PonyAI：自动驾驶中轨迹规划的探索和挑战</h1>
     
     <small>
   <i class="far fa-calendar-alt" aria-hidden="true"></i>
@@ -166,6 +188,15 @@
 </small>
 
 <div style="position: relative;">
+
+  <div>
+    <small>
+    
+      <a href='/DailyRead/tags.html#自动驾驶'>🔖自动驾驶</a>&nbsp;
+    
+    </small>
+  </div>
+
   <h4 id="轨迹规划基本介绍">轨迹规划基本介绍</h4>
 
 <h6 id="轨迹规划的概念">轨迹规划的概念</h6>
@@ -184,7 +215,7 @@
   <li>车辆状态</li>
 </ul>
 
-<p>输出是一个<strong>轨迹</strong>，是<code class="language-plaintext highlighter-rouge">时间到位置的函数 t→(x,y,z)</code></p>
+<p>输出是一个 <strong>轨迹</strong>，是时间到位置的函数 <code class="language-plaintext highlighter-rouge">t→(x,y,z)</code></p>
 
 <h4 id="为什么需要决策模块">为什么需要决策模块</h4>
 <h6 id="决策">决策</h6>
@@ -210,9 +241,9 @@
 <h6 id="纵向规划决策求解动态规划">纵向规划决策求解：动态规划</h6>
 
 <ul>
-  <li>将t - s 图进行<strong>离散化</strong></li>
-  <li>通过前边两步近似求出加速度，写出一个<strong>状态转移方程</strong></li>
-  <li>只能一个<strong>大概的决策</strong>方法，即到底让或者不让，不能保证舒适</li>
+  <li>将t - s 图进行 <strong>离散化</strong></li>
+  <li>通过前边两步近似求出加速度，写出一个 <strong>状态转移方程</strong></li>
+  <li>只能一个 <strong>大概的决策</strong> 方法，即到底让或者不让，不能保证舒适</li>
 </ul>
 
 <p><img src="http://8.134.51.249/DailyRead/assets/images/0120-PonyPlanning-2.webp" alt="" /></p>
@@ -221,9 +252,9 @@
 
 <p>1、<strong>NP-hard问题</strong>，不易直接求解</p>
 
-<p>2、很难<strong>用规则去拟合人的经验</strong></p>
+<p>2、<strong>很难用规则去拟合人的经验</strong></p>
 
-<p>3、场景多变而复杂</p>
+<p>3、<strong>场景多变而复杂</strong></p>
 
 <h4 id="横向规划">横向规划</h4>
 
@@ -234,9 +265,9 @@
 <p>有车道的情况：</p>
 
 <ul>
-  <li>离线生成<strong>参考线</strong></li>
-  <li>将求解<code class="language-plaintext highlighter-rouge">s→(x,y)</code>的问题变为求解<code class="language-plaintext highlighter-rouge">s→l</code>的问题</li>
-  <li>l是指车辆在这个参考线上的<strong>横向偏移量</strong></li>
+  <li>离线生成 <strong>参考线</strong></li>
+  <li>将求解 <code class="language-plaintext highlighter-rouge">s→(x,y)</code> 的问题变为求解 <code class="language-plaintext highlighter-rouge">s→l</code> 的问题</li>
+  <li><code class="language-plaintext highlighter-rouge">l</code> 是指车辆在这个参考线上的 <strong>横向偏移量</strong></li>
 </ul>
 
 <p><img src="http://8.134.51.249/DailyRead/assets/images/0120-PonyPlanning-3.webp" alt="" /></p>
@@ -244,7 +275,7 @@
 <p>参考线的生成</p>
 
 <ul>
-  <li>可以利用<strong>高精地图</strong>离线计算</li>
+  <li>可以利用 <strong>高精地图</strong> 离线计算</li>
   <li>约束
     <ul>
       <li>需要在车道线内</li>
@@ -255,9 +286,9 @@
     <ul>
       <li>离参考线近</li>
       <li>离障碍物远</li>
-      <li><strong>曲率</strong>不大</li>
-      <li><strong>曲率变化率</strong>不大</li>
-      <li>可以使用<strong>二次规划</strong>来解决</li>
+      <li><strong>曲率</strong> 不大</li>
+      <li><strong>曲率变化率</strong> 不大</li>
+      <li>可以使用 <strong>二次规划</strong> 来解决</li>
     </ul>
   </li>
 </ul>
@@ -287,10 +318,10 @@
 <p>优化目标</p>
 
 <ul>
-  <li>乘坐<strong>舒适</strong></li>
-  <li><strong>速度变化率</strong>不大</li>
-  <li><strong>加速度变化率</strong>不大</li>
-  <li>行驶速度尽量<strong>快</strong>一点</li>
+  <li>乘坐 <strong>舒适</strong></li>
+  <li><strong>速度变化率</strong> 不大</li>
+  <li><strong>加速度变化率</strong> 不大</li>
+  <li>行驶速度 <strong>尽量快一点</strong></li>
 </ul>
 
 <p><img src="http://8.134.51.249/DailyRead/assets/images/0120-PonyPlanning-4.webp" alt="" /></p>
@@ -299,21 +330,14 @@
 
 <p>1、<strong>博弈</strong></p>
 
-<p>2、<strong>激进和保守之间的平衡点</strong></p>
+<p>2、<strong>激进和保守</strong> 之间的平衡点</p>
 
-<p>3、<strong>感知和预测的困难</strong></p>
+<p>3、<strong>感知和预测</strong> 的困难</p>
 
 <p>4、<strong>横纵向协调配合</strong></p>
 
-<p><a href="https://mp.weixin.qq.com/s/cJNQNDrNyttV9a8UK2SkfQ">阅读原文➡</a></p>
+<p><a href="https://mp.weixin.qq.com/s/cJNQNDrNyttV9a8UK2SkfQ">阅读原文</a></p>
 
-  <div>
-    <small>
-    
-      <a href='/tags.html#自动驾驶'>🔖自动驾驶</a>&nbsp;
-    
-    </small>
-  </div>
 
   <aside class="sidebar__right ">
     <nav class="toc">
@@ -326,15 +350,15 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#太极拳'>太极拳 <small style="font-weight: normal;">(2)</small></a></li>
+          <li><a href='/DailyRead/tags.html#自我提升'>自我提升 <small style="font-weight: normal;">(5)</small></a></li>
         
           
           
-          <li><a href='/DailyRead/tags.html#管理'>管理 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#自动驾驶'>自动驾驶 <small style="font-weight: normal;">(17)</small></a></li>
         
           
           
-          <li><a href='/DailyRead/tags.html#电动车'>电动车 <small style="font-weight: normal;">(9)</small></a></li>
+          <li><a href='/DailyRead/tags.html#电动车'>电动车 <small style="font-weight: normal;">(11)</small></a></li>
         
           
           
@@ -342,7 +366,7 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#互联网'>互联网 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#互联网'>互联网 <small style="font-weight: normal;">(2)</small></a></li>
         
           
           
@@ -350,11 +374,7 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#国际'>国际 <small style="font-weight: normal;">(3)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#自动驾驶'>自动驾驶 <small style="font-weight: normal;">(10)</small></a></li>
+          <li><a href='/DailyRead/tags.html#国际'>国际 <small style="font-weight: normal;">(5)</small></a></li>
         
           
           
@@ -366,7 +386,7 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#算法'>算法 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#软件开发'>软件开发 <small style="font-weight: normal;">(6)</small></a></li>
         
           
           
@@ -374,30 +394,11 @@
         
           
           
-          <li><a href='/DailyRead/tags.html#开发'>开发 <small style="font-weight: normal;">(3)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#心灵'>心灵 <small style="font-weight: normal;">(2)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#思维导图'>思维导图 <small style="font-weight: normal;">(2)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#中间件'>中间件 <small style="font-weight: normal;">(1)</small></a></li>
-        
-          
-          
-          <li><a href='/DailyRead/tags.html#蔚来'>蔚来 <small style="font-weight: normal;">(1)</small></a></li>
+          <li><a href='/DailyRead/tags.html#思维导图'>思维导图 <small style="font-weight: normal;">(1)</small></a></li>
         
       </ul>
     </nav>
   </aside>
-
-
-
 </div>
 
 

@@ -1,5 +1,6 @@
 ---
 layout: posts
+title: Statically configure a Firewall to let OMG DDS Traffic through
 ---
 
 
