@@ -2,12 +2,12 @@
 import re
 import os
 import os.path
-import datetime
-import shutil
 
-jekyll_dir = os.path.dirname(__file__)
+jekyll_dir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 os.chdir(jekyll_dir)
-os.system('rm -rvf _posts/*')
+os.system('rm -rvf _posts/* _site/')
+os.makedirs('_posts', exist_ok=True)
+os.makedirs('_site', exist_ok=True)
 
 # 列出markdown文件
 file_list = []
@@ -43,6 +43,7 @@ for root, dirs, files in os.walk('.'):
                     matter_dict = {
                         'layout': 'posts',
                         'title': title,
+                        'tags': '未分类',
                     }
                     if file_content.startswith('---'):
                         matter_splits = file_content.split('---', 2)
@@ -56,7 +57,7 @@ for root, dirs, files in os.walk('.'):
                     new_file.write('---\n')
                     for matter_name in matter_dict.keys():
                         matter_value = matter_dict[matter_name]
-                        new_file.write('%s: %s\n' % (matter_name, matter_value))
+                        new_file.write('%s: %s\n' % (matter_name, matter_value.replace("__", "/")))
                     new_file.write('---\n')
                     new_file.write(file_content)
 # TODO: 删除旧文件
@@ -64,5 +65,4 @@ for root, dirs, files in os.walk('.'):
 # 编译网站
 os.chdir(jekyll_dir)
 os.system('bundle exec jekyll build')
-os.system('ln -svf ../../images _site/assets/')
-
+os.system('ln -svf ../../../images _site/assets/')

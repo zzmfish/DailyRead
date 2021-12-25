@@ -14,7 +14,23 @@
     {% include head/custom.html %}
   </head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  <body style="text-align: center; display: block;">
+  <style>
+  .archive {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .sidebar__right {
+    position: relative !important;
+  }
+  .archive table {
+    display: table !important;
+  }
+  </style>
+  <div
+    class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" 
+    style="width: 900px; max-width: 100%; display: inline-block; text-align: left;">
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
@@ -37,6 +53,7 @@
     </div>
 
     {% include scripts.html %}
+    </div>
 
   </body>
 </html>
