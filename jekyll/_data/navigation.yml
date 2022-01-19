@@ -2,10 +2,10 @@
 main:
 #  - title: "Quick-Start Guide"
 #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-- title: "Tags"
+- title: "🔖"
   url: /tags.html
-- title: "🌀"
-  url: "javascript:location.reload()"
+# - title: "🌀"
+#   url: "javascript:location.reload()"
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

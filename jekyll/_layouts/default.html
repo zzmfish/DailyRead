@@ -27,6 +27,20 @@
   .archive table {
     display: table !important;
   }
+  .archive ol li {
+    counter-increment: my-awesome-counter;
+  }
+  .archive ol li::marker {
+    content: counter(my-awesome-counter) ". ";
+    color: orange;
+    font-weight: 700;
+  }
+  /* .layout--posts .archive ul li {
+    list-style-type: '• '
+  } */
+  .layout--posts .archive ul li::marker {
+    color: orange;
+  }
   </style>
   <div
     class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" 
